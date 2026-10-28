@@ -1,0 +1,16 @@
+{
+  "rehearsal": {
+    "passed": true,
+    "missing_attachment_ids": [],
+    "changed_attachment_ids": [],
+    "unreferenced_files_preserved": [],
+    "files_deleted": 0
+  },
+  "primary": {
+    "passed": true,
+    "missing_attachment_ids": [],
+    "changed_attachment_ids": [],
+    "unreferenced_files_preserved": [],
+    "files_deleted": 0
+  }
+}

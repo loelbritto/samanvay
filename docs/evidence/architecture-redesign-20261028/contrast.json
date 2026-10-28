@@ -1,0 +1,118 @@
+{
+  "method": "Static CSS colour-pair calculation, not computed styles or accessibility certification",
+  "passed": true,
+  "pairs": [
+    {
+      "label": "Body on canvas",
+      "foreground": "#12283f",
+      "background": "#f4f7fa",
+      "ratio": 13.941,
+      "meets_4_5": true
+    },
+    {
+      "label": "Body on white",
+      "foreground": "#12283f",
+      "background": "#ffffff",
+      "ratio": 14.989,
+      "meets_4_5": true
+    },
+    {
+      "label": "Muted and placeholder",
+      "foreground": "#536579",
+      "background": "#ffffff",
+      "ratio": 5.991,
+      "meets_4_5": true
+    },
+    {
+      "label": "Muted on canvas",
+      "foreground": "#536579",
+      "background": "#f4f7fa",
+      "ratio": 5.572,
+      "meets_4_5": true
+    },
+    {
+      "label": "Primary control",
+      "foreground": "#ffffff",
+      "background": "#205a9c",
+      "ratio": 6.991,
+      "meets_4_5": true
+    },
+    {
+      "label": "Blue status",
+      "foreground": "#205a9c",
+      "background": "#edf4fc",
+      "ratio": 6.307,
+      "meets_4_5": true
+    },
+    {
+      "label": "Amber status",
+      "foreground": "#80500b",
+      "background": "#fff5df",
+      "ratio": 6.312,
+      "meets_4_5": true
+    },
+    {
+      "label": "Error",
+      "foreground": "#9b2936",
+      "background": "#fff0f1",
+      "ratio": 6.869,
+      "meets_4_5": true
+    },
+    {
+      "label": "Green status",
+      "foreground": "#256344",
+      "background": "#edf7f0",
+      "ratio": 6.503,
+      "meets_4_5": true
+    },
+    {
+      "label": "Navigation",
+      "foreground": "#e1eaf3",
+      "background": "#12283f",
+      "ratio": 12.323,
+      "meets_4_5": true
+    },
+    {
+      "label": "Active navigation",
+      "foreground": "#ffffff",
+      "background": "#2c4c6e",
+      "ratio": 8.876,
+      "meets_4_5": true
+    },
+    {
+      "label": "Navigation hover",
+      "foreground": "#e1eaf3",
+      "background": "#203d58",
+      "ratio": 9.233,
+      "meets_4_5": true
+    },
+    {
+      "label": "Rail subtitle",
+      "foreground": "#c0d0df",
+      "background": "#12283f",
+      "ratio": 9.514,
+      "meets_4_5": true
+    },
+    {
+      "label": "Rail note",
+      "foreground": "#bdcede",
+      "background": "#12283f",
+      "ratio": 9.313,
+      "meets_4_5": true
+    },
+    {
+      "label": "Prototype strip",
+      "foreground": "#40536a",
+      "background": "#e8eef4",
+      "ratio": 6.746,
+      "meets_4_5": true
+    },
+    {
+      "label": "Count label",
+      "foreground": "#536579",
+      "background": "#eaf0f5",
+      "ratio": 5.215,
+      "meets_4_5": true
+    }
+  ]
+}

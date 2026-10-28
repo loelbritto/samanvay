@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "observed_at_utc": "2026-10-27T16:51:33.180077+00:00",
+  "repeat_method": "FastAPI TestClient plus new application/engine instance; actual service restart is separately evidenced",
+  "human_review": "Automated exercise of fictional authorised controls, not a human study",
+  "repeat_context": "demo-f264029bd546328cc6677803",
+  "repeat_case_count": 7,
+  "created_case_ids": [
+    "DEMO-A1E9830A6B46",
+    "DEMO-2A2CE358FF43",
+    "DEMO-2DCAF1162D2F"
+  ],
+  "metadata_csv_count": 6,
+  "source_context": "demo-5f5a439bfd2ea5ede367507b",
+  "source_case_count": 8,
+  "backup_id": "backup-ad79d704a15f43f980ab2e4c5078bfab",
+  "restored_context": "demo-30691bac975725b4bf3ef891",
+  "all_source_records_unchanged": true,
+  "restored_rows_originals_history_identical": true,
+  "restored_private_files_verified": true,
+  "files_or_complaints_deleted": 0
+}

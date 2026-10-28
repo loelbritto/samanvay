@@ -1,0 +1,590 @@
+[
+  {
+    "id": "IDENTITY-000",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-000",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-001",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-000",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-002",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-003",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-001",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-004",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-001",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-005",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-006",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-002",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-007",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-002",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-008",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-009",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-003",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-010",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-003",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-011",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-012",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-004",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-013",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-004",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-014",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-015",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-005",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-016",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-005",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-017",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-018",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-006",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-019",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-006",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-020",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-021",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-007",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-022",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-007",
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-023",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "validation"
+  },
+  {
+    "id": "IDENTITY-024",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-008",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-025",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-008",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-026",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-027",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-009",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-028",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-009",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-029",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-030",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-010",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-031",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-010",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-032",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-033",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-011",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-034",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-011",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-035",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-036",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-012",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-037",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-012",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-038",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-039",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-013",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-040",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-013",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-041",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-042",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-014",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-043",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-014",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-044",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-045",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-015",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-046",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-015",
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-047",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-048",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-016",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-049",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-016",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-050",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-051",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-017",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-052",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-017",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-053",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-054",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-018",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-055",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-018",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-056",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-057",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-019",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-058",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-019",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-059",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-060",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-020",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-061",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-020",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-062",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-063",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-021",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-064",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-021",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-065",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-066",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-022",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-067",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-022",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-068",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-069",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-023",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-070",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-023",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-071",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-072",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-024",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-073",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-024",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-074",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-075",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-025",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-076",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-025",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-077",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-078",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-026",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-079",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-026",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-080",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-081",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-027",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-082",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-027",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-083",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-084",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-028",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-085",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-028",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-086",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-087",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-029",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-088",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-029",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-089",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-090",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-030",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-091",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-030",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-092",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-093",
+    "expected_status": "EXACT_ID",
+    "expected_id": "DEMO-EVAL-INST-031",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-094",
+    "expected_status": "REVIEW_REQUIRED",
+    "expected_id": "DEMO-EVAL-INST-031",
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-095",
+    "expected_status": "UNRESOLVED",
+    "expected_id": null,
+    "split": "heldout-unseen"
+  },
+  {
+    "id": "IDENTITY-096",
+    "expected_status": "AMBIGUOUS",
+    "expected_id": null,
+    "split": "heldout-known"
+  },
+  {
+    "id": "IDENTITY-097",
+    "expected_status": "AMBIGUOUS",
+    "expected_id": null,
+    "split": "heldout-known"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "screen": "overview",
+    "viewport": "desktop",
+    "clientWidth": 1425,
+    "documentWidth": 1425,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "cases",
+    "viewport": "desktop",
+    "clientWidth": 1440,
+    "documentWidth": 1440,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "intake",
+    "viewport": "desktop",
+    "clientWidth": 1425,
+    "documentWidth": 1425,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "detail",
+    "viewport": "desktop",
+    "clientWidth": 1425,
+    "documentWidth": 1425,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "timeline",
+    "viewport": "desktop",
+    "clientWidth": 1425,
+    "documentWidth": 1425,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "institutions",
+    "viewport": "desktop",
+    "clientWidth": 1440,
+    "documentWidth": 1440,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "pune",
+    "viewport": "desktop",
+    "clientWidth": 1425,
+    "documentWidth": 1425,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "reports",
+    "viewport": "desktop",
+    "clientWidth": 1440,
+    "documentWidth": 1440,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "notifications",
+    "viewport": "desktop",
+    "clientWidth": 1440,
+    "documentWidth": 1440,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "settings",
+    "viewport": "desktop",
+    "clientWidth": 1440,
+    "documentWidth": 1440,
+    "height": 900,
+    "unlabelled": [],
+    "width": 1440,
+    "passed": true
+  },
+  {
+    "screen": "overview",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "cases",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "intake",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "detail",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "timeline",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "institutions",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "pune",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "reports",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "notifications",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  },
+  {
+    "screen": "settings",
+    "viewport": "mobile",
+    "clientWidth": 375,
+    "documentWidth": 375,
+    "height": 844,
+    "unlabelled": [],
+    "width": 390,
+    "passed": true
+  }
+]

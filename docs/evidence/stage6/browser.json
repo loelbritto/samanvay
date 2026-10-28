@@ -1,0 +1,25 @@
+{
+  "reportBrowser": {
+    "client": 1265,
+    "exports": [
+      {
+        "href": "/api/reports/csv?",
+        "text": "Export scoped CSV"
+      },
+      {
+        "href": "/api/reports/print?",
+        "text": "Open printable scoped report"
+      }
+    ],
+    "rowsHeading": "Report rows · 5",
+    "scroll": 1265,
+    "title": "Reports"
+  },
+  "acknowledgementObserved": true,
+  "settingsBrowser": {
+    "client": 1265,
+    "guardVisible": true,
+    "scroll": 1265,
+    "title": "Settings"
+  }
+}

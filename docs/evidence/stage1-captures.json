@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-27",
+  "capture_count": 30,
+  "captures": [
+    {
+      "file": "docs/evidence/stage1/cases-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 118225,
+      "sha256": "58949cb75a92cc4c8b0ca137a696a25b6004de816b97549f5e793c168acbe448"
+    },
+    {
+      "file": "docs/evidence/stage1/cases-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 74279,
+      "sha256": "523a958fb1ec32069032838f5d9d54f0841cfc492c3b35a2b6a121f6a6de9c09"
+    },
+    {
+      "file": "docs/evidence/stage1/comparison-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 204662,
+      "sha256": "0586eaace48466b45acc473259ecba843bca951cc89195126f8a2d47443e9d29"
+    },
+    {
+      "file": "docs/evidence/stage1/comparison-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 174638,
+      "sha256": "70f78a5f6398b52caf71d72ad891f3258bf215af6e9722ea258413431219fdaa"
+    },
+    {
+      "file": "docs/evidence/stage1/coordination-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 85275,
+      "sha256": "a07ad3ae1b7438346e2476a0226e47f6db83a82fb66b1066ea6493bf0cb906f9"
+    },
+    {
+      "file": "docs/evidence/stage1/coordination-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 66571,
+      "sha256": "009331fc0a0768ec7cd2a659208a2366d710944d4a5c978b5db74edde46fe5cb"
+    },
+    {
+      "file": "docs/evidence/stage1/detail-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 119217,
+      "sha256": "ba7a2e2118ccf0cf7e0ef26606ec462ce2b82158d4e9b9b645d4074a9a8508ac"
+    },
+    {
+      "file": "docs/evidence/stage1/detail-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 99763,
+      "sha256": "f1972cd31cf8782d2792da913ef0e2071a246c871c882138229c64bc7b32c12d"
+    },
+    {
+      "file": "docs/evidence/stage1/institution-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 169457,
+      "sha256": "701dc8da0a99ac01f42ca6599beffc9603a49caf21ada51f14eab74530e54e57"
+    },
+    {
+      "file": "docs/evidence/stage1/institution-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 116065,
+      "sha256": "1d456c866294c7e67505348aa94a092a2108fd1b30027e290171f64119e2abf4"
+    },
+    {
+      "file": "docs/evidence/stage1/institutions-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 75652,
+      "sha256": "87924b08ac91615a5a2fe5b2c707497ac855a2bb79c12359783d5925d20ec823"
+    },
+    {
+      "file": "docs/evidence/stage1/institutions-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 60040,
+      "sha256": "1ab12b8332d6e857dcf867eb33e8fcba767ba78be8b0982f9dcbd392b8139e69"
+    },
+    {
+      "file": "docs/evidence/stage1/intake-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 106841,
+      "sha256": "15556340213258aa2ca25d44cca8ae63abef61589a41971622592841bd96ed11"
+    },
+    {
+      "file": "docs/evidence/stage1/intake-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 83158,
+      "sha256": "49af2b72df79c5ebef28868a92262a6a13e796eade82c878050cc49d1c696858"
+    },
+    {
+      "file": "docs/evidence/stage1/intake-validation-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 125286,
+      "sha256": "d9a82fea021c7c72505e529558ff17487d558f8fbddf549cc86a67b07e8b7106"
+    },
+    {
+      "file": "docs/evidence/stage1/nagpur-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 111514,
+      "sha256": "1e9e31cbb5b3fd850c6a711ba9d7cfc2c844ebc5497abaf5c9d53765dfef3339"
+    },
+    {
+      "file": "docs/evidence/stage1/nagpur-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 78205,
+      "sha256": "a9832e5b549152c1577d185f4ff4f204c42b5d0b345398dcd5311ab70f8c86d0"
+    },
+    {
+      "file": "docs/evidence/stage1/notifications-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 80208,
+      "sha256": "03c9f6ec61a6782cf251340371cf845ff192b429dcc3716eff399b47cdc422ba"
+    },
+    {
+      "file": "docs/evidence/stage1/notifications-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 70097,
+      "sha256": "b6f20ff83d081523f65c04cf5e71afddd1fae42f73f9250742a8b17dace7115d"
+    },
+    {
+      "file": "docs/evidence/stage1/overview-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 156735,
+      "sha256": "416bf269e9a22adc9faaa3393fa53284eeea2268f516fe8ba72120ce442f9624"
+    },
+    {
+      "file": "docs/evidence/stage1/overview-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 108281,
+      "sha256": "cc0921c676d6f8a449b76097202202d77bd78eceb67bb096c48fab37f77b0077"
+    },
+    {
+      "file": "docs/evidence/stage1/reports-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 141638,
+      "sha256": "8621fffa61c56062d9536ad1ba9c79340e236e6f8a965ccc9ac1d90ab8469a5a"
+    },
+    {
+      "file": "docs/evidence/stage1/reports-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 89983,
+      "sha256": "b9a82cd1d026a0d365b9f79e66701cd3da66e13f797a2024446ff0732bf8dd93"
+    },
+    {
+      "file": "docs/evidence/stage1/settings-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 87723,
+      "sha256": "b16a28e153a7ca9591b0fcdf0ec4579fe526730979f381b363bcdd3bd43990a4"
+    },
+    {
+      "file": "docs/evidence/stage1/settings-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 68740,
+      "sha256": "1951b7613a26307ec7551a7b276795e090d1eb209fdd9031122792612e8c1bd7"
+    },
+    {
+      "file": "docs/evidence/stage1/stale-state-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 75938,
+      "sha256": "0aa5a5505e999699ff205d222ef24537ff0e91db296384cf3cdba06bc42a1a4a"
+    },
+    {
+      "file": "docs/evidence/stage1/states-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 68881,
+      "sha256": "7dbe1c99ac6515f545b13d90798a0bbd4c6efa47e5492f4e304084276c440459"
+    },
+    {
+      "file": "docs/evidence/stage1/states-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 48836,
+      "sha256": "56176f96e983aa057a861ec6417a29e0b8051d5a9c5ede8fb12d4a4cd2243818"
+    },
+    {
+      "file": "docs/evidence/stage1/timeline-desktop.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 103843,
+      "sha256": "15b4178b5b70542c50147f4dbe2f19e4da932476433b06e0626f46b9dbc337e3"
+    },
+    {
+      "file": "docs/evidence/stage1/timeline-mobile.png",
+      "width": 65536,
+      "height": 4292542531,
+      "bytes": 79122,
+      "sha256": "7a326a65da0aa9e0cbd6eff5bd7f694fd1a68dffd71c993283e69cbe4d16752e"
+    }
+  ],
+  "note": "Actual captured browser images; file dimensions do not themselves establish viewport, zoom, persistence or accessibility."
+}

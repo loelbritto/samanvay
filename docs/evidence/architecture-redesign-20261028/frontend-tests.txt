@@ -1,0 +1,25 @@
+
+> samanvay-ui-preview@0.1.0 test
+> node --test tests/*.test.ts
+
+✔ cancelled navigation is not reported as a server outage (1.9236ms)
+✔ network failures do not imply a successful write (0.2659ms)
+✔ deep links preserve case history and filtered list navigation (1.8567ms)
+✔ an officer sees tasks appropriate to the current state (1.5486ms)
+✔ metadata-only supervision does not expose narrative commands (0.1415ms)
+✔ viewing another officer case does not grant actions (0.1117ms)
+✔ pending transfer suppresses closure and closed cases expose reopening only when delegated (0.1936ms)
+✔ requesting information includes both the question and the next step (0.1635ms)
+✔ closure requires a resolution and no irrelevant deadline or next-step fields (0.103ms)
+✔ deadline and reopening forms request different inputs (0.1007ms)
+✔ attention uses the supplied demo date, retains input, excludes closed cases, orders by deadline (2.225ms)
+✔ intake availability respects account role, not broad administration (0.2467ms)
+✔ India dates preserve date-only inputs and cross-midnight timestamps (50.0463ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 234.5553

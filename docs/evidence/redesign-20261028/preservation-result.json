@@ -1,0 +1,15 @@
+{
+  "records_and_private_bytes_unchanged": true,
+  "changed_sources": [
+    "frontend/src/LiveApp.tsx",
+    "frontend/src/presentation.ts",
+    "frontend/src/redesign.css",
+    "frontend/src/ui.tsx",
+    "frontend/src/screens/CoordinationScreens.tsx",
+    "frontend/src/screens/LiveScreens.tsx",
+    "frontend/src/screens/MatchingScreens.tsx",
+    "frontend/src/screens/OperationsScreens.tsx",
+    "frontend/src/screens/WorkflowScreens.tsx"
+  ],
+  "removed_sources": []
+}

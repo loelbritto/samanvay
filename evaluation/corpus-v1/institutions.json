@@ -1,0 +1,322 @@
+[
+  {
+    "id": "DEMO-EVAL-INST-000",
+    "name": "Demo Suryavan Institute",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-00"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-001",
+    "name": "Demo Suryavan Institute",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-01"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-002",
+    "name": "Demo Fictional Learning Campus 02",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-02"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-003",
+    "name": "Demo Fictional Learning Campus 03",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-03"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-004",
+    "name": "Demo Fictional Learning Campus 04",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-04"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-005",
+    "name": "Demo Fictional Learning Campus 05",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-05"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-006",
+    "name": "Demo Fictional Learning Campus 06",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-06"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-007",
+    "name": "Demo Fictional Learning Campus 07",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-07"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-008",
+    "name": "Demo Fictional Learning Campus 08",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-08"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-009",
+    "name": "Demo Fictional Learning Campus 09",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-09"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-010",
+    "name": "Demo Fictional Learning Campus 10",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-10"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-011",
+    "name": "Demo Fictional Learning Campus 11",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-11"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-012",
+    "name": "Demo Fictional Learning Campus 12",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-12"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-013",
+    "name": "Demo Fictional Learning Campus 13",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-13"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-014",
+    "name": "Demo Fictional Learning Campus 14",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-14"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-015",
+    "name": "Demo Fictional Learning Campus 15",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-15"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-016",
+    "name": "Demo Fictional Learning Campus 16",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-16"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-017",
+    "name": "Demo Fictional Learning Campus 17",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-17"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-018",
+    "name": "Demo Fictional Learning Campus 18",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-18"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-019",
+    "name": "Demo Fictional Learning Campus 19",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-19"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-020",
+    "name": "Demo Fictional Learning Campus 20",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-20"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-021",
+    "name": "Demo Fictional Learning Campus 21",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-21"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-022",
+    "name": "Demo Fictional Learning Campus 22",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-22"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-023",
+    "name": "Demo Fictional Learning Campus 23",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-23"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-024",
+    "name": "Demo Fictional Learning Campus 24",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-24"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-025",
+    "name": "Demo Fictional Learning Campus 25",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-25"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-026",
+    "name": "Demo Fictional Learning Campus 26",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-26"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-027",
+    "name": "Demo Fictional Learning Campus 27",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-27"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-028",
+    "name": "Demo Fictional Learning Campus 28",
+    "city": "Pune",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-28"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-029",
+    "name": "Demo Fictional Learning Campus 29",
+    "city": "Nagpur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-29"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-030",
+    "name": "Demo Fictional Learning Campus 30",
+    "city": "Bhopal",
+    "region": "DEMO-WEST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-30"
+    ],
+    "synthetic": true
+  },
+  {
+    "id": "DEMO-EVAL-INST-031",
+    "name": "Demo Fictional Learning Campus 31",
+    "city": "Jaipur",
+    "region": "DEMO-EAST",
+    "aliases": [
+      "DSI DEMO-CAMPUS-31"
+    ],
+    "synthetic": true
+  }
+]

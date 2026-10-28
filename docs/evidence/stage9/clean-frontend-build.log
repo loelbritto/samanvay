@@ -1,0 +1,14 @@
+
+> samanvay-ui-preview@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 31 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.61 kB │ gzip:  0.37 kB
+dist/assets/index-ZLMntcQx.css   22.49 kB │ gzip:  5.64 kB
+dist/assets/index-CxP2ZXBP.js   339.19 kB │ gzip: 96.07 kB
+
+✓ built in 363ms

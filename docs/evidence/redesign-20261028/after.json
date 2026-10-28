@@ -1,0 +1,159 @@
+{
+  "contexts": {
+    ".local-data": {
+      "tables": {
+        "cases": {
+          "count": 5,
+          "sha256": "b4dfe364f7fb55fa408002e2026f6a7ef9d57b9f12fe1b03696d7916bf42e2c9"
+        },
+        "original_submissions": {
+          "count": 5,
+          "sha256": "0bb499ce40e06192ca7f2b73077e20864eb499f5defe104b3a6e684df8d6bac8"
+        },
+        "assignment_history": {
+          "count": 7,
+          "sha256": "9c8e69a2680ffd6f8529bff3b9b87a25988a699042d57f635658f45eb1220dbe"
+        },
+        "workflow_events": {
+          "count": 10,
+          "sha256": "53751875d72e5a1acd027b4c4bfa3b0e63d4602ab6ae99a836160d8c30baeefe"
+        },
+        "case_actions": {
+          "count": 1,
+          "sha256": "2100741d5b44e79854eba79cbdc7cfb82b5f75fee8816a503103728d06d698b3"
+        },
+        "resolutions": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "transfers": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "identity_decisions": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "coordination_groups": {
+          "count": 1,
+          "sha256": "c945fcf0e7468a42b59bec02d21fb690365a9559757ba5bd75305e477aaef2c4"
+        },
+        "coordination_reviews": {
+          "count": 1,
+          "sha256": "fccc1876891060fd5e3027d68f292da1648260dbad6954b923393d393fd5218f"
+        },
+        "relationship_suggestions": {
+          "count": 2,
+          "sha256": "ac6e4e09db5031acc5278b6546492abcd1b2584e45dc73de16ff570b33e04899"
+        },
+        "relationship_decisions": {
+          "count": 1,
+          "sha256": "fa857f3b096553484cf3a0d87e6888ed0cfcadbb180ac9cd354bc74dcf1c62de"
+        }
+      },
+      "evidence": {
+        "private-evidence/dba2134c913eb76b7737b7b9b850b2d444f4ab8bd517ada4.bin": "d2403f506e0bb0c5342f1b3eae55d70965d680bca827f3cfa993b8d13fae4832"
+      }
+    },
+    ".demo-contexts/demo-5f5a439bfd2ea5ede367507b": {
+      "tables": {
+        "cases": {
+          "count": 8,
+          "sha256": "3cf4008403d77b60b209f88d42b5728449d9cd65e31b5c151646faf308d56d81"
+        },
+        "original_submissions": {
+          "count": 8,
+          "sha256": "5325aecdaa2afcff0372d7f9980e9fd2b67c5a17d1abdd93d3b019ff46d1f6aa"
+        },
+        "assignment_history": {
+          "count": 9,
+          "sha256": "d6d08cbdc339eda0487280f82e7c39c661d18118042a79f65be670a923e0d95f"
+        },
+        "workflow_events": {
+          "count": 28,
+          "sha256": "4eff78613c326398ba346add6bd743b2d2cf3fd538a6cc91ac4bde4486399d25"
+        },
+        "case_actions": {
+          "count": 3,
+          "sha256": "b99641b22c2e98e102f60131c8fbde0f740f370bec951fc4a08a6861276ca112"
+        },
+        "resolutions": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "transfers": {
+          "count": 1,
+          "sha256": "ac439f180bc03ba1de9f7d2b11c1000d70ae7ea70b9a3bae4d6fba15b59a6596"
+        },
+        "identity_decisions": {
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "coordination_groups": {
+          "count": 1,
+          "sha256": "b5babac4e7e9beeb2a24e6aac8a1c9292371890602fc5a453ba85742125c17ab"
+        },
+        "coordination_reviews": {
+          "count": 11,
+          "sha256": "44a7a65ca3fbf68f0bbc9471774d36882614344ac8de1211ab329ca8513cfe55"
+        },
+        "relationship_suggestions": {
+          "count": 6,
+          "sha256": "639e567c318b078251a32cc7b6f9add7b00c0fbc528e0c4a7b6723f788c7bc68"
+        },
+        "relationship_decisions": {
+          "count": 2,
+          "sha256": "41e53226dbe9d385e7886aa5d29bab1bc0845b68a69689bbd3ae0fbfd411119d"
+        }
+      },
+      "evidence": {
+        "private-evidence/5017dee3c65973a995932f235b6ac93b5d3333b855e98fda.bin": "aafcedc87ca1f6d6b9c11fc51a6234b736bde8beb4d7db27242ed92cadf1dae2",
+        "private-evidence/b2b2904dee06e52d5b7a3343fd9e432722be3023763926a3.bin": "b3e1328b056fe6fa0e76e61ec7bd00d1829359d81c293c06e69d3990328619ec"
+      }
+    }
+  },
+  "sources": {
+    "frontend/src/api.ts": "283fbb2588edbe9b8daedbf05135614d9672b77bc9dacd5276f6c1e086099d45",
+    "frontend/src/App.tsx": "6b02742327f8851926d472f19ec793d7473d98a51e30f46ef9de5b0c77af32bb",
+    "frontend/src/components.tsx": "9a8a206351503cca675f07b6e5abd852f89d8736fe41f9019a7b72c65f9f77bf",
+    "frontend/src/fixtures.ts": "d42452069ac10b3839bef1b6437262238184ad30b53851491ea8bddb694e2de7",
+    "frontend/src/LiveApp.tsx": "997a3913c15f6f101ee6855f10a83f21e9039413d1cf54715c534a681fd34034",
+    "frontend/src/main.tsx": "e0a12b080d820a7519f87d494dadd6af075385a2fc9275283222267e2bad2ef0",
+    "frontend/src/presentation.ts": "6b02737cfd9d820b672256a1a2543b2082a7319eb72d10ceaf51550fbfbfd983",
+    "frontend/src/PreviewApp.tsx": "00b7a207017197a15ec975394569bf8339398e05b7db84a04a984e703eb031e9",
+    "frontend/src/redesign.css": "fe1b882e1376bd7f6d17cca9ce08b920fcbe028cd5cbb2e87d3f5c3e6ff253ff",
+    "frontend/src/styles.css": "74c7d4608f0177b0fc3d1d114b087843435254b3ecc3dba8ee0cdb10d72c3fcd",
+    "frontend/src/ui.tsx": "d5b6b226f3d867c9aaa5eba55f5dff461cc5468571ede0528fc75499fea6c1e1",
+    "frontend/src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "frontend/src/screens/Cases.tsx": "8e73d8f0d6ea431c713a62060fe61579c73bc9f3fa37396a040e31d52c712f22",
+    "frontend/src/screens/Coordination.tsx": "2950033c80f14522608ac4fc1937930e97e4856545a89c227b1de21ab37df866",
+    "frontend/src/screens/CoordinationScreens.tsx": "53f9a88e7a8d1b0f08cdb5a5e0adf9115d5ab6c4d107d4ef7062b25f3f24f9a7",
+    "frontend/src/screens/Institutions.tsx": "ab862d804b2c8f6152410cb5a48866be0251818fc4c1a9a42b18c14fd47f4156",
+    "frontend/src/screens/LiveScreens.tsx": "1c340dd7c254db0ec1b66cdce7a058ea654ab59cbe360a9dc11be276557fb2aa",
+    "frontend/src/screens/MatchingScreens.tsx": "8ce75c3ed3366b2f29f5f26d50f0a11d9ac5bcb62225d9e37a4c1c9d71b0eafb",
+    "frontend/src/screens/OperationsScreens.tsx": "09a4b6a4c5fde7c5091885e3e00d2af1b7dd422dfd3f65bb3e264d730b994d49",
+    "frontend/src/screens/Overview.tsx": "3e741445a2537f64515fc60d711acdbabbfff08e4bfa9813b2b4dd2e9d7f64e9",
+    "frontend/src/screens/Support.tsx": "8748f5895d190fa43209694c09b96d9f3f6644dd34d3e7a201e2c0101195557e",
+    "frontend/src/screens/WorkflowScreens.tsx": "b3821e8443036b86880466b17f7a7f02d70b31b7cf67f883647a8d1bc4498e29",
+    "backend/app/api.py": "0902b5e903459a3b66557c5c762147aa7eecf36d22322f2603b6d4c4135a32ea",
+    "backend/app/auth.py": "a88e0073cefde7d9bc8a24b78879d68384479c29fc7887947291777b97fbdaca",
+    "backend/app/config.py": "a894ccb22373986892498e996d43f7772e85b1f9bfbb027dcfb0129d03e3a189",
+    "backend/app/coordination.py": "7c5744a3fd5e587c3f318096482a1025f3c6fcf803a8041d1f47e7150ef96927",
+    "backend/app/database.py": "7dbb58e3f7a0829c4d67bedb38f2ddd153c1cfdf295fd708a97b171e147c70ca",
+    "backend/app/demo.py": "c43b76cb5311816dcd3778ee2c88728d7ac95dba40df502be5d4c04ad619ff11",
+    "backend/app/main.py": "6ba990daae938e590f91eca13b4bbc18a2b4ba2794c150582928080b73bea46a",
+    "backend/app/matching.py": "a9bf1244bf3fb5d2384dc936756c7e5b7f3348ab02abfd9b75b97e1a7bb88743",
+    "backend/app/models.py": "61943497eb39ec475fc8c62ad83b60bf62fe19cd090b26957cbde4baa1c7cad9",
+    "backend/app/policies.py": "66e117721aab4515be49efb6d7e05b2019087e57bb3524bd2cb0dee4b1168af6",
+    "backend/app/reporting.py": "41f51c72471ea5a3c992157ae3dd590e684a38093da98e61e3ca2e705a67f4a9",
+    "backend/app/request_limits.py": "df34d0457013a353627eb92b8bd8add239e3c944bb2c86db0c929f8132d3f5d0",
+    "backend/app/scheduling.py": "5d6394affba431f9d9c93be800d3ec2c79082781b7401217e28396ac75bc7002",
+    "backend/app/schemas.py": "c36c879513c40f58a574447cd5ab33511b8eb32311a42eb475ad22b79938bb1c",
+    "backend/app/security_audit.py": "b280d986a21df25c89c1761879fbd7f3f520064027ac61bc16ced990b8cb79c1",
+    "backend/app/seed.py": "2eea1e33a02954f6b3ff436e3c1441c86d040bea38522e54f8a12c6655bf78fd",
+    "backend/app/storage.py": "7bc78327660edfca39d9751e0337956b0a58971858af587752dd520d75747396",
+    "backend/app/worker.py": "18de2d7cad6582a35246267430c9215c8b29f0fbf763f519c7e27faebb8a32c6",
+    "backend/app/workflows.py": "85017727ef2c19cdc39326c13ed92393821dca5a0e06f71269ca3a811944a9e6",
+    "backend/app/__init__.py": "b3525e8fd3778cf4a2da34c6ef9d4f606a2208711dbb7333632af46c0ea00811"
+  }
+}

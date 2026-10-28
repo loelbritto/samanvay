@@ -1,0 +1,69 @@
+{
+  "font": "Manrope",
+  "weight": 700,
+  "package": "@fontsource/manrope 5.3.0",
+  "source": "frontend/node_modules/@fontsource/manrope/files/manrope-latin-700-normal.woff",
+  "source_sha256": "e5d35fda4759b0d63ebcc6cca0627d98d9208254ce851c85df29e4d12aeafb61",
+  "units_per_em": 2000,
+  "method": "WOFF decompression and direct simple TrueType contour extraction with Python stdlib; no redrawn glyph approximation or OS font installation",
+  "wordmark": "samanvay.",
+  "font_size_in_viewbox": 64,
+  "tracking_in_viewbox": -1.5,
+  "viewBox": "0 0 441 100",
+  "glyphs": [
+    {
+      "character": "s",
+      "glyph_id": 105,
+      "advance_font_units": 1083,
+      "x": 108
+    },
+    {
+      "character": "a",
+      "glyph_id": 59,
+      "advance_font_units": 1152,
+      "x": 141.156
+    },
+    {
+      "character": "m",
+      "glyph_id": 90,
+      "advance_font_units": 1798,
+      "x": 176.52
+    },
+    {
+      "character": "a",
+      "glyph_id": 59,
+      "advance_font_units": 1152,
+      "x": 232.556
+    },
+    {
+      "character": "n",
+      "glyph_id": 91,
+      "advance_font_units": 1251,
+      "x": 267.92
+    },
+    {
+      "character": "v",
+      "glyph_id": 113,
+      "advance_font_units": 1106,
+      "x": 306.452
+    },
+    {
+      "character": "a",
+      "glyph_id": 59,
+      "advance_font_units": 1152,
+      "x": 340.344
+    },
+    {
+      "character": "y",
+      "glyph_id": 116,
+      "advance_font_units": 1119,
+      "x": 375.708
+    },
+    {
+      "character": ".",
+      "glyph_id": 175,
+      "advance_font_units": 607,
+      "x": 410.016
+    }
+  ]
+}

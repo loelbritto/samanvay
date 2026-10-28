@@ -1,0 +1,303 @@
+{
+  "observed_at_utc": "2026-10-27T17:10:40.436Z",
+  "release": "samanvay-local-20261027",
+  "passed": true,
+  "checks": [
+    {
+      "client": 375,
+      "heading": "Coordination",
+      "route": "#/coordination",
+      "scroll": 375,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-institution-timeline",
+      "client": 375,
+      "errors": [],
+      "heading": "Demo Suryavan Institute, Pune",
+      "height": 844,
+      "route": "#/institutions/DEMO-INST-017",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-cases",
+      "client": 375,
+      "errors": [],
+      "heading": "Cases",
+      "height": 844,
+      "route": "#/cases",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-transfers",
+      "client": 390,
+      "errors": [],
+      "heading": "Transfers",
+      "height": 844,
+      "route": "#/transfers",
+      "scroll": 390,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-reports",
+      "client": 375,
+      "errors": [],
+      "heading": "Reports",
+      "height": 844,
+      "route": "#/reports",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-notifications",
+      "client": 375,
+      "errors": [],
+      "heading": "Notifications",
+      "height": 844,
+      "route": "#/notifications",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-settings",
+      "client": 375,
+      "errors": [],
+      "heading": "Settings",
+      "height": 844,
+      "route": "#/settings",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "desktop-coordination",
+      "client": 1425,
+      "errors": [],
+      "heading": "Coordination",
+      "height": 900,
+      "route": "#/coordination",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-comparison-final-decision",
+      "client": 1425,
+      "errors": [],
+      "heading": "Coordination",
+      "height": 900,
+      "route": "#/coordination",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-source-timeline-keyboard",
+      "client": 1425,
+      "errors": [],
+      "heading": "Case timeline",
+      "height": 900,
+      "route": "#/cases/DEMO-E80508228652/timeline",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-overview",
+      "client": 1425,
+      "errors": [],
+      "heading": "Overview",
+      "height": 900,
+      "route": "#/overview",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-cases",
+      "client": 1425,
+      "errors": [],
+      "heading": "Cases",
+      "height": 900,
+      "route": "#/cases",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-transfers",
+      "client": 1440,
+      "errors": [],
+      "heading": "Transfers",
+      "height": 900,
+      "route": "#/transfers",
+      "scroll": 1440,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-institutions",
+      "client": 1425,
+      "errors": [],
+      "heading": "Institutions",
+      "height": 900,
+      "route": "#/institutions",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-reports",
+      "client": 1425,
+      "errors": [],
+      "heading": "Reports",
+      "height": 900,
+      "route": "#/reports",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-notifications",
+      "client": 1425,
+      "errors": [],
+      "heading": "Notifications",
+      "height": 900,
+      "route": "#/notifications",
+      "scroll": 1425,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "desktop-settings",
+      "client": 1440,
+      "errors": [],
+      "heading": "Settings",
+      "height": 900,
+      "route": "#/settings",
+      "scroll": 1440,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 1440
+    },
+    {
+      "label": "mobile-overview",
+      "client": 375,
+      "errors": [],
+      "heading": "Overview",
+      "height": 844,
+      "route": "#/overview",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-owner-intake",
+      "client": 375,
+      "errors": [],
+      "heading": "New complaint",
+      "height": 844,
+      "route": "#/cases/new",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-expanded-incident-fields",
+      "client": 375,
+      "errors": [],
+      "heading": "New complaint",
+      "height": 844,
+      "route": "#/cases/new",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-owner-detail",
+      "client": 375,
+      "errors": [],
+      "heading": "Synthetic Pune tuition repayment request",
+      "height": 844,
+      "route": "#/cases/DEMO-E80508228652",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    },
+    {
+      "label": "mobile-comparison-final",
+      "client": 375,
+      "errors": [],
+      "heading": "Coordination",
+      "height": 844,
+      "route": "#/coordination",
+      "scroll": 375,
+      "synthetic": true,
+      "unlabelled": [],
+      "width": 390
+    }
+  ],
+  "keyboard": {
+    "table_keys": [
+      {
+        "key": "Authorized database cases",
+        "scroll": 0
+      },
+      {
+        "key": "Authorized database cases",
+        "scroll": 80
+      },
+      {
+        "key": "Authorized database cases",
+        "scroll": 512.7999877929688
+      },
+      {
+        "key": "Authorized database cases",
+        "scroll": 0
+      }
+    ],
+    "skip_link": {
+      "id": "main-content",
+      "tag": "MAIN"
+    },
+    "next_tab": {
+      "focusVisible": true,
+      "href": "#/cases",
+      "tag": "A",
+      "text": "← Authorized cases"
+    },
+    "path": "Navigation links and review buttons activated with Enter; source timeline reached; skip/main and Tab visible focus observed"
+  },
+  "actual_200_percent_evidence": "docs/evidence/stage1-zoom/results.json",
+  "zoom_note": "Native Chrome 200% was actually observed in Stage1. These Stage9 viewport dimensions are responsive checks, not a claim of new native zoom.",
+  "print_return_link_worked": true,
+  "final_decision_clarity_repair_observed": true,
+  "formal_wcag_certification": false
+}

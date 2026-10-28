@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "surface": "/api/cases",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "surface": "/api/reports/csv",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "surface": "/api/notifications",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "surface": "/api/relationships",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "surface": "/api/transfers",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "surface": "Vite private-path HEAD .local-data/samanvay.sqlite3",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "surface": "Vite private-path HEAD backend/app/config.py",
+      "status": 403,
+      "passed": true
+    }
+  ],
+  "wrong_origin_login_status": 403,
+  "preserved_case_count": 5,
+  "attachment_checksum_verified": true,
+  "significant_access_records_present": true,
+  "external_integration": "none"
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Asia/Kolkata",
+  "stage": 1,
+  "ready_to_close": false,
+  "remaining_gate": "Actual 200% browser zoom",
+  "supporting_review": "Completed desktop/narrow visual review of ten supporting screens; narrow loading/empty/error/denied/stale examples inspected",
+  "layout_observations": 28,
+  "layout_observations_passed": 28,
+  "keyboard_table": {
+    "arrowPosition": 80,
+    "endPosition": 512.7999877929688,
+    "homePosition": 0,
+    "passed": true
+  },
+  "limited_console_log": {
+    "warnings_errors_observed": [],
+    "scope": "One captured Chrome log request; not exhaustive"
+  },
+  "zoom_attempt": {
+    "status": "unverified",
+    "normal_viewport": [
+      1536,
+      639
+    ],
+    "device_pixel_ratio": 1.25,
+    "tab_shortcuts_changed_zoom": false,
+    "native_control_status": "Tab search opened; physical Escape stopped Computer Use during selection; no browser zoom changed",
+    "temporary_viewport_override_reset": true
+  },
+  "fixes": [
+    "Mobile notification text and action wrapping",
+    "Explicit Arrow/Home/End scrolling and accessible table hint",
+    "Singular/plural institution record/bureau wording",
+    "Adjacent notice spacing and short-sidebar scrolling support"
+  ],
+  "captures": 33,
+  "no_backend_or_workflow_changes": true
+}

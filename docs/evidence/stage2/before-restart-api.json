@@ -1,0 +1,29 @@
+{
+  "phase": "before",
+  "observed_at_utc": "2026-10-27T13:11:25.235412+00:00",
+  "case_id": "DEMO-20BF09829C05",
+  "subject": "Stage 2 restart proof 2026-10-27T13:08:59.037Z",
+  "owner": {
+    "id": "36275006-feec-4301-89d1-0031ca6f92d3",
+    "name": "Demo Kabir Sen",
+    "bureau": "RB"
+  },
+  "version": 1,
+  "history_ids": [
+    "41e2fc08-b36a-4bc1-ac12-bf3acf8bf023",
+    "f94fdd7c-3133-4f92-9a69-68856e73f198",
+    "439e74a0-9975-4586-88eb-1f9937b5812a"
+  ],
+  "history_count": 3,
+  "sha256": "d2403f506e0bb0c5342f1b3eae55d70965d680bca827f3cfa993b8d13fae4832",
+  "attachment_bytes": 117,
+  "authorized_count": 2,
+  "database_row_found": true,
+  "original_submissions": 1,
+  "assignment_rows": 1,
+  "unauthenticated_status": 401,
+  "cross_scope_case_status": 404,
+  "cross_scope_attachment_status": 404,
+  "administrator_case_count": 0,
+  "passed": true
+}

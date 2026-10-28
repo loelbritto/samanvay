@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+dist/
+coverage/
+.pytest_cache/
+.local-data/
+
+.demo-contexts/

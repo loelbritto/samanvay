@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Next step — two independent routes moving forward</title>
+  <g fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 75V39a15 15 0 0 1 15-15h38M60 12l12 12-12 12"/>
+    <path d="M81 47v14a15 15 0 0 1-15 15H42M54 64 42 76l12 12"/>
+  </g>
+</svg>

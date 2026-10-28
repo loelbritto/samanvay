@@ -1,0 +1,1597 @@
+{
+  "phase": "before-restart",
+  "observed_at_utc": "2026-10-27T16:34:37.932300+00:00",
+  "passed": true,
+  "context_id": "demo-5f5a439bfd2ea5ede367507b",
+  "case_count": 8,
+  "cases": [
+    {
+      "id": "DEMO-436C0703134C",
+      "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "username": "pgrc@demo.test",
+      "bureau": "PGRC",
+      "version": 4,
+      "lifecycle": "AWAITING_INFORMATION",
+      "due_at": "2026-10-30 18:30:00.000000",
+      "original_sha256": "0311304c1f59c228d9bbf8b6a0bf45d4cbcdc1b760c1da4edaffe1b29db5404a",
+      "history": [
+        {
+          "id": "dcda1cad-3b94-4cdb-90c2-b4d5c10611fa",
+          "event_type": "RECEIVED",
+          "before_version": 0,
+          "after_version": 1
+        },
+        {
+          "id": "d3d17078-5f0c-47fc-807e-2941d423aceb",
+          "event_type": "OWNER_ASSIGNED",
+          "before_version": 1,
+          "after_version": 1
+        },
+        {
+          "id": "8f624585-abea-47f9-bd5f-506ec2bc3f6c",
+          "event_type": "REVIEW",
+          "before_version": 1,
+          "after_version": 2
+        },
+        {
+          "id": "1ec5f721-ad4b-41a9-9781-11ec4ed9fb11",
+          "event_type": "EVIDENCE_INTEGRITY_CHECKED",
+          "before_version": 2,
+          "after_version": 2
+        },
+        {
+          "id": "daf27e33-eaa7-4946-80d9-00746a92d788",
+          "event_type": "REQUEST_INFORMATION",
+          "before_version": 2,
+          "after_version": 3
+        },
+        {
+          "id": "626ded63-39d7-4ad2-a182-c0b5f21f620a",
+          "event_type": "POLICY_ESCALATION",
+          "before_version": 3,
+          "after_version": 4
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+          "bureau_id": "PGRC",
+          "effective_from": "2026-10-27 16:01:42.653168",
+          "effective_to": null,
+          "reason": "Initial accountable intake owner"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "DEMO-79D983D2A10B",
+      "owner_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "username": "rb@demo.test",
+      "bureau": "RB",
+      "version": 2,
+      "lifecycle": "RECEIVED",
+      "due_at": "2026-10-30 18:30:00.000000",
+      "original_sha256": "411d8d1edd38573fc335ae42a5ebe3f1986287089648e15e0f22314b5da2abf9",
+      "history": [
+        {
+          "id": "900d7df6-6eb1-4a53-a1dd-be3d5c1ab80c",
+          "event_type": "RECEIVED",
+          "before_version": 0,
+          "after_version": 1
+        },
+        {
+          "id": "0d670ec9-695c-4662-ab99-261eef30a537",
+          "event_type": "OWNER_ASSIGNED",
+          "before_version": 1,
+          "after_version": 1
+        },
+        {
+          "id": "dcea1976-75c7-4297-8ee1-aaf42f96fe2f",
+          "event_type": "EVIDENCE_INTEGRITY_CHECKED",
+          "before_version": 1,
+          "after_version": 1
+        },
+        {
+          "id": "492c9bfa-b06d-405d-ae93-3f1c0a27f17f",
+          "event_type": "POLICY_ESCALATION",
+          "before_version": 1,
+          "after_version": 2
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+          "bureau_id": "RB",
+          "effective_from": "2026-10-27 15:58:18.603308",
+          "effective_to": null,
+          "reason": "Initial accountable intake owner"
+        }
+      ],
+      "attachments": [
+        {
+          "id": "b3b1479e-abae-4270-8adb-29441aa6a5d1",
+          "sha256": "b3e1328b056fe6fa0e76e61ec7bd00d1829359d81c293c06e69d3990328619ec"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-80AE1D9C9F27",
+      "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "username": "pgrc@demo.test",
+      "bureau": "PGRC",
+      "version": 4,
+      "lifecycle": "RECEIVED",
+      "due_at": "2026-10-30 18:30:00.000000",
+      "original_sha256": "326bc2e0673b3bbcff6621bf6b6567741ab14ab3833abcc9460afa8be982996a",
+      "history": [
+        {
+          "id": "d9315610-901e-48b5-b17a-19aa8e8076c8",
+          "event_type": "RECEIVED",
+          "before_version": 0,
+          "after_version": 1
+        },
+        {
+          "id": "7a495b00-aed3-47c9-80a0-5047100ff3d2",
+          "event_type": "OWNER_ASSIGNED",
+          "before_version": 1,
+          "after_version": 1
+        },
+        {
+          "id": "d139180d-9794-422f-8460-18f9b02cf14e",
+          "event_type": "EVIDENCE_INTEGRITY_CHECKED",
+          "before_version": 1,
+          "after_version": 1
+        },
+        {
+          "id": "ca6da374-93d7-4da7-8e83-f0af00404a6c",
+          "event_type": "TRANSFER_REQUESTED",
+          "before_version": 1,
+          "after_version": 2
+        },
+        {
+          "id": "508f328e-3c93-42df-84fb-5d4f1a7cc493",
+          "event_type": "TRANSFER_ACCEPTED",
+          "before_version": 2,
+          "after_version": 3
+        },
+        {
+          "id": "2ac09779-cd85-4dfc-bf02-b4520449101c",
+          "event_type": "POLICY_ESCALATION",
+          "before_version": 3,
+          "after_version": 4
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+          "bureau_id": "RB",
+          "effective_from": "2026-10-27 15:58:22.848124",
+          "effective_to": "2026-10-27 16:01:22.488766",
+          "reason": "Initial accountable intake owner"
+        },
+        {
+          "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+          "bureau_id": "PGRC",
+          "effective_from": "2026-10-27 16:01:22.488766",
+          "effective_to": null,
+          "reason": "Synthetic named PGRC recipient accepts; retain the original identity and disposal deadline"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "DEMO-E80508228652",
+      "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "username": "pgrc@demo.test",
+      "bureau": "PGRC",
+      "version": 3,
+      "lifecycle": "UNDER_REVIEW",
+      "due_at": "2026-10-30 18:30:00.000000",
+      "original_sha256": "ba89f48309e7e7589a14667d5e4885769e9aab69534024849d3ab4ce0d3cea0e",
+      "history": [
+        {
+          "id": "8b1f7642-7a44-428d-9202-0143602f81f1",
+          "event_type": "RECEIVED",
+          "before_version": 0,
+          "after_version": 1
+        },
+        {
+          "id": "2f54bb41-1d36-4dea-b687-a53a18d4c763",
+          "event_type": "OWNER_ASSIGNED",
+          "before_version": 1,
+          "after_version": 1
+        },
+        {
+          "id": "419fa3a5-2939-4000-8076-fa45a5ebf68b",
+          "event_type": "REVIEW",
+          "before_version": 1,
+          "after_version": 2
+        },
+        {
+          "id": "ca016032-5b9b-4663-ac97-1a4bda24aca1",
+          "event_type": "EVIDENCE_INTEGRITY_CHECKED",
+          "before_version": 2,
+          "after_version": 2
+        },
+        {
+          "id": "f36f1c81-10cf-4dcd-98a8-91b966e8b61f",
+          "event_type": "POLICY_ESCALATION",
+          "before_version": 2,
+          "after_version": 3
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+          "bureau_id": "PGRC",
+          "effective_from": "2026-10-27 15:43:52.709282",
+          "effective_to": null,
+          "reason": "Initial accountable intake owner"
+        }
+      ],
+      "attachments": [
+        {
+          "id": "f6654b89-c027-4ce4-8e04-0efdeaddad52",
+          "sha256": "aafcedc87ca1f6d6b9c11fc51a6234b736bde8beb4d7db27242ed92cadf1dae2"
+        }
+      ]
+    },
+    {
+      "id": "PGRC-014",
+      "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "username": "pgrc@demo.test",
+      "bureau": "PGRC",
+      "version": 2,
+      "lifecycle": "UNDER_REVIEW",
+      "due_at": "2026-10-29 18:30:00.000000",
+      "original_sha256": "a90430b3d49eb422588b2add7cf7a411c24b6b032d2f1955ffdb4afd065273ec",
+      "history": [
+        {
+          "id": "12ce754a-8b90-4abf-894e-b0da2750fb82",
+          "event_type": "SYNTHETIC_SEED",
+          "before_version": 0,
+          "after_version": 1
+        },
+        {
+          "id": "dfa1d713-2c8e-46b6-b0fc-29c8d399c0de",
+          "event_type": "POLICY_ESCALATION",
+          "before_version": 1,
+          "after_version": 2
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+          "bureau_id": "PGRC",
+          "effective_from": "2026-10-27 15:38:19.308877",
+          "effective_to": null,
+          "reason": "Authored synthetic seed assignment"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "PGRC-019",
+      "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "username": "pgrc@demo.test",
+      "bureau": "PGRC",
+      "version": 2,
+      "lifecycle": "AWAITING_INFORMATION",
+      "due_at": "2026-10-28 18:30:00.000000",
+      "original_sha256": "0a91f0e8a6c211697418f38219f85634454bd35759ca5b55052ba71ef020fe76",
+      "history": [
+        {
+          "id": "1854d4c5-1428-4b04-a120-dfa5529b66a5",
+          "event_type": "SYNTHETIC_SEED",
+          "before_version": 0,
+          "after_version": 1
+        },
+        {
+          "id": "e6e5f8a0-61d2-4b07-b270-726590e9b6ce",
+          "event_type": "POLICY_ESCALATION",
+          "before_version": 1,
+          "after_version": 2
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+          "bureau_id": "PGRC",
+          "effective_from": "2026-10-27 15:38:19.320406",
+          "effective_to": null,
+          "reason": "Authored synthetic seed assignment"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "RB-023",
+      "owner_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "username": "rb@demo.test",
+      "bureau": "RB",
+      "version": 2,
+      "lifecycle": "UNDER_REVIEW",
+      "due_at": "2026-10-30 18:30:00.000000",
+      "original_sha256": "2b6f4662c3bad1bebbe002ac7b45f090eda2504fc0778a06a96785837920788f",
+      "history": [
+        {
+          "id": "f23e811f-39b7-4178-a0f2-d4fa15fe08bf",
+          "event_type": "SYNTHETIC_SEED",
+          "before_version": 0,
+          "after_version": 1
+        },
+        {
+          "id": "d46dcd94-68e5-44c4-9d70-35c983924c62",
+          "event_type": "POLICY_ESCALATION",
+          "before_version": 1,
+          "after_version": 2
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+          "bureau_id": "RB",
+          "effective_from": "2026-10-27 15:38:19.317402",
+          "effective_to": null,
+          "reason": "Authored synthetic seed assignment"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "RB-031",
+      "owner_id": "1c1aa22a-7593-480a-a259-1931f31e1f5b",
+      "username": "rb.backup@demo.test",
+      "bureau": "RB",
+      "version": 1,
+      "lifecycle": "ASSIGNED",
+      "due_at": "2026-11-02 18:30:00.000000",
+      "original_sha256": "139010bca5c69da802e16963c6cc28e7041cfa627529b36fd751c0f658c35b7c",
+      "history": [
+        {
+          "id": "da3fda3d-7b68-4ff6-bd86-892168380a0d",
+          "event_type": "SYNTHETIC_SEED",
+          "before_version": 0,
+          "after_version": 1
+        }
+      ],
+      "assignments": [
+        {
+          "owner_id": "1c1aa22a-7593-480a-a259-1931f31e1f5b",
+          "bureau_id": "RB",
+          "effective_from": "2026-10-27 15:38:19.322922",
+          "effective_to": null,
+          "reason": "Authored synthetic seed assignment"
+        }
+      ],
+      "attachments": []
+    }
+  ],
+  "groups": [
+    {
+      "id": "4ba98c83-4002-4fcd-91b0-f9a6eb8b6ac9",
+      "institution_id": "DEMO-INST-017",
+      "condition_active": 1,
+      "state": "PLANNED",
+      "lead_id": "1c1aa22a-7593-480a-a259-1931f31e1f5b",
+      "lead_bureau_id": "RB",
+      "next_action": "Coordinate separate student and faculty responses; Ananya and Kabir keep responsibility for their own complaints",
+      "version": 11
+    }
+  ],
+  "decisions": [
+    {
+      "id": "4b879878-e078-49d3-a374-e4c5b93dea62",
+      "suggestion_id": "fef9bb83-9502-44bd-90f1-4d71b5d9afec",
+      "action": "CONFIRM",
+      "label": "RELATED",
+      "reason": "Synthetic rehearsal review: same incident but different students and receipts require separate RELATED complaints; no merge or disposal"
+    },
+    {
+      "id": "7bd2301c-0065-4709-bd6f-ea4f05f5d82a",
+      "suggestion_id": "0ca124fa-a07d-4d22-b743-88d17e757ad9",
+      "action": "CONFIRM",
+      "label": "INDEPENDENT",
+      "reason": "Synthetic rehearsal review: faculty salary statement is a separate issue, incident and period; retain INDEPENDENT complaints and institution coordination"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "028bcbed-8a49-41e4-b9a1-67f8e849bad3",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "038bfdd0-19d6-478d-9974-d3330419c2d9",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "03da6f93-1da3-453c-b6a0-589912ae97a4",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "03f73cd7-0b74-4def-bf80-4e8575ca5632",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "0570ca8a-97d7-4329-9ba3-7999c129123b",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "0658e260-5c27-45d7-a036-52ccdb986d89",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "10b78432-1f4b-4341-baf2-dfb37864ffcd",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "1117c8b2-a657-4e0c-8f43-2d2dbce7b301",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "158139ea-5514-49d1-b078-33ebf03478a0",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "15e9ec36-67e4-4117-ad10-e47afbd32f24",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "16b572dd-2e12-44ff-b293-2dae3a05771a",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "1740de18-5e2a-43de-a46c-7ab8ffcf25c2",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "193ef7df-e5d5-4803-bf7b-5b59df899c5c",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "19455e50-77da-4ced-95bf-b2f371ff5c49",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "1a1141db-6817-4da6-8cb8-203f11d2fb75",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "203c35f5-6e43-472d-82fa-bafe21ca741a",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "20494570-f1e9-490e-9735-cf7635aae6d6",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "20d4ee11-bae5-446c-94cb-3a55b456269f",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "287c6211-da6a-4740-bf12-f7360a08f01e",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "287eeb9a-eaee-4e12-bc4e-da1d13085c29",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "305848e4-df4a-48bb-8967-67d698192ec6",
+      "user_id": "1c1aa22a-7593-480a-a259-1931f31e1f5b",
+      "kind": "APPROACHING_DEADLINE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "3208f6a2-da58-41a6-acad-ef1713810b23",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "32eb9343-2cc6-49f6-bf9a-eeee07f12106",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "33cd89d9-d64b-410d-a0bc-6baa961f4e7e",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "3517332e-b109-4354-8af9-e88b04eaef55",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "37357db5-622c-4efe-8dc6-82efd6dc0a6f",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "APPROACHING_DEADLINE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "38d70a71-eef4-4e24-91b3-0e4eea37ba96",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "3c1ba26b-5068-46e7-a749-832b60f82af7",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "40413e4a-5dc8-4af4-9571-0dda0c8b3818",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "41643170-6f37-4eb9-bfd5-2a23daa749a6",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "41c5e91c-1311-4270-bfde-9b22ad439f68",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "41f49210-7ddc-4d4a-bd8a-9593f005c4c2",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "42b1e9b0-ef18-4093-8121-9114b3e4b8be",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "43519bac-2d5f-48ba-971a-8e7fd5c6f1ce",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "45270a81-0a74-435f-896b-b00a0edb01c0",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "458a767b-7eeb-412e-8462-c89c1eae74a6",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "45a02613-5d1b-41fa-80c8-b8b1c521f3d8",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "RELATIONSHIP_REVIEW",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "45fa7b33-561c-4820-a020-772fd325dbcb",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "48801f09-3af4-4f58-9ee9-2e8d399257b9",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "48d14337-911c-42e1-8fe0-77050bbbf355",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "4e4af488-0641-4b57-a04a-1a6b1e9043eb",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "502ac263-4313-4f22-8f0c-3e8740394e64",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "50d8994d-2d45-46e9-b1ba-50b12ea861b2",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "50e2294a-c252-4b16-8e40-d8aa03a91cb9",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "51754194-d48c-4034-be80-4d480f868d74",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "51b00432-4945-4b83-8ed0-0f511ca56100",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "533fdba2-93b1-4fe2-8e9c-4a210dff85ad",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "5500c8d3-3190-4d53-8093-9c59270eccc4",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "56e8c12b-c401-4a3d-8ca5-e79c6926d952",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "578025c7-e4e3-4381-a4f5-5b34cfcbb2ff",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "5966857f-8a7e-4c34-8940-75754820fe8b",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "5c43978b-1969-417d-a63f-4890a7e908bc",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "5c5501ee-352b-4b0e-839e-cda7cc6f93fa",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "5f7f05f2-7e61-4af0-aab8-d1f2aabf571c",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "5fed42e6-63cb-40e1-be22-0b467218c8c9",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "612bf1c3-aa08-4756-95cf-ee5be0e34b6f",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "616a57af-cdb9-4217-bd17-7584983945c0",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "6420ea08-52d0-44bb-bdd6-c2eff1b77288",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "644c22e5-6ca5-4649-88d4-bd3ee4e8b046",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "APPROACHING_DEADLINE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "65ce0fc5-ad7c-48fc-a2bb-8c74b88d6b54",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "67a2dfd3-3152-49f9-b43f-0fb4bc4ff749",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "67e59431-967f-48cf-adb7-70576abc16c1",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "685f8adc-7e09-4c1f-b09b-f3582c05620c",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "69e6e09a-9fd2-4d1a-a7f2-3a457820e406",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "6ba81fd9-0cd9-4476-bd87-f4064acd8ec1",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "6df52b24-8ed0-4370-81df-f47995330329",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "7190aa0e-25a6-4d4d-a27c-669a67afdc5f",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "RELATIONSHIP_REVIEW",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "71984e18-8ba4-4ed8-98b7-088d33c0297e",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "736337d1-d5e5-4b63-bc78-f6431ee5b804",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "74b439c6-2bce-45f9-9576-737bd36739a4",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "77c85376-eee4-4de4-b559-d3169cc42746",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "7982d66f-5023-4949-b100-3d5fcf01da94",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "RELATIONSHIP_REVIEW",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "79945e09-8e98-4720-8d21-e6885d4be683",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "APPROACHING_DEADLINE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "7a209cc1-f2d5-49f3-bb15-f7ab25275c93",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "7d0e8082-df5d-415e-b5b0-d8c10cd2f3bf",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "7eccc82c-e814-4b23-9ee6-0e4e2aef8168",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "APPROACHING_DEADLINE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "80928436-b30f-4998-9bab-7f2274c35b50",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "819df267-e26d-4e48-a72c-e7579d9c304d",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "874c76a8-6d8c-458c-b635-375d3cca43cb",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "87df7366-61a8-42d2-b525-709706783ae8",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "8bf6a41b-b597-4bfb-af64-b45e2ef51124",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "8f2f1037-5599-421a-84c5-050dad15108a",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "8f67eec7-c7c5-4cfd-bfe1-7ec53aae5a51",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "8fa4540d-befa-4f57-a463-e7aebc3f19eb",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "8fe4d5d1-dd3e-46e0-816a-fc42d5147679",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "906ff433-6f95-41bf-93c6-9c00b7cb80ad",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "9105a265-cc38-4b81-a985-60ca2ae579f4",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "RELATIONSHIP_REVIEW",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "9162c40f-c018-4c86-869f-a6562c6d7ea4",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "92250fa7-6438-49ad-b04d-2d9d61824cd7",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "9242c1f9-5cfb-4a9b-aa67-102195676f4d",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "945a5819-d485-42b3-905f-ae67a478eff5",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "948137e7-a8f5-4c27-9102-d3daf937ab5c",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "94d9f94a-62f0-4dbe-b69f-c1b92b637e16",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "966d9641-d900-4b26-8e94-d91700ea2bb2",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "99159a58-26e4-426e-8390-18929e911f72",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "99a2b531-6de1-458d-8541-6e4b2210bae2",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "99b729fb-1f00-4cfd-98ac-c3405c85a1aa",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "9aa69c45-beef-4ad7-8279-cebd32093cae",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "9bc43990-be9c-4feb-be7f-e4ae3795a1cc",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "9d57d94f-c152-49d0-9c36-62242b86cd1b",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "9efec2b2-e68b-44ad-abb6-79b0488d5102",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a1bd3831-6bc1-4544-b793-8486b94255d7",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a1e06184-7848-40fb-b39a-767cd61240d8",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "RELATIONSHIP_REVIEW",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a2520ef7-b945-489a-bad4-a75d8d84fe72",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a2ff377e-fe1c-4186-ba2b-0f0ad4248dec",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a4578eee-6c8b-45f5-b45b-7b0cec83ce4c",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a6fcf9ef-675c-43af-8117-59b8cc214bd9",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a75958d7-007b-468f-a449-f9801ccca4b4",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "APPROACHING_DEADLINE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a869cf28-69fb-442b-9d0a-971cdd04e335",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a8a23cb8-f453-4ed6-94ed-05133de6e897",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "a9a3b993-350f-4789-9ea9-b7062d25e8cd",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ab999576-f635-4544-afe5-93e0f2ebf7ca",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ac8d8acd-c37a-4242-b1c4-c97ce6627d06",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "acc12b55-bfa8-47b0-9d04-1e5c60be6d72",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ad32f7fe-7231-4e78-9e3a-64a5a5dda641",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ad346c91-f938-4fcb-bf2f-6e39e5a728ac",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b0f6b397-1139-4b97-87e2-c3cb3355fda5",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "APPROACHING_DEADLINE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b223a891-fb32-4742-b124-3031e84bbd20",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b61db180-e0a6-4510-86e3-29f6ca3fe2f2",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b644d6a0-ca5b-4bb1-88fe-1b99cd0df073",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b6862d95-452f-4d22-8b18-209ba9e6fe17",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b6e930e3-e269-44b5-a6c9-995031313887",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b72139dc-443c-4a22-ab4d-af2bb5a93e16",
+      "user_id": "1c1aa22a-7593-480a-a259-1931f31e1f5b",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "b76011d0-c9eb-4b09-a2ff-fb05e1f15d77",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "OVERDUE",
+      "state": "ACKNOWLEDGED",
+      "acknowledged_at": "2026-11-01 16:24:18.357784"
+    },
+    {
+      "id": "b8b7854c-3fb9-427e-85ff-7df276ad7749",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ba052488-52cb-45fd-ac03-b8fe44bb03fc",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "bf60389a-fcd8-41f8-9d00-acbb3f56a337",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "c0f559eb-2ea7-49f8-b06b-8febb69ccc91",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "c27c46e9-fa15-4c4e-8f2b-9ca85c2bc48b",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "c4839921-c92a-4ac0-97c5-ad35670420a6",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "c6b79249-4afa-48d7-a5aa-d7c8a0c82d84",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "c822aab7-4eef-4400-ae61-1e2a6986615b",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "c83d59a6-f259-4f64-8360-4414223cb420",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ca630791-3128-4825-a98a-52ed200919be",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "cb00cf5b-a28a-4a1c-9250-600e5cf8b6ff",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "cccbd220-1843-4e83-ad3c-00b806293914",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ccf6f57e-d7b2-4d46-a2a3-92259f9f106d",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "cd021bd1-f3f8-46e2-ba77-a8af7f02a687",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ce69d11d-21df-44ad-9376-e23285b770ea",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ce9c1c94-508b-44ff-bdba-5e6905f440cc",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "cf401416-2981-461e-aef2-f1fb7f68c32a",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "d1278de8-6bb5-4665-abd0-2845a81ac3a3",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "d2be8176-36fd-4669-9b7d-d6e9b5190b77",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "d389ae73-353c-449f-9796-ab19783b60ad",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "d4947517-ef1c-4a05-803f-9e109194ecb8",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "d98a8315-4b0a-4258-b6c1-e25855a06579",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "dac3d018-f36e-4cc0-a479-7b6bcefb1712",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "RELATIONSHIP_REVIEW",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "dedbe641-1c7d-4d3d-8b4a-758354eca3c5",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "df52371e-ea5e-4b27-b955-a29058fe2b1e",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "e0667c27-8b85-4d0e-8579-a179d0f28983",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "e067d176-ff2b-4466-979a-3b7d051b2985",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "e1dcdb0c-55f2-42cc-b851-662fd884115a",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "e34493cf-2337-4fa1-856c-90b91b990de9",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "e7e71321-df21-40d3-afa8-d56b91eca452",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "e8787c1f-4749-46e6-847b-d2e40e7ce967",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "eb1ca05d-ea59-4f7a-b499-9824b72c8faa",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ed801e9f-c42f-4e90-ae55-0f1875f988a7",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "ee793582-0b20-46fe-9b19-0466a7d17262",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "f3d9cd8c-da77-42b7-8dc3-f9ccb24fd96a",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "f50d0eb6-37be-4070-b296-c4ca9c78e83d",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "f518696c-d79e-454d-a23c-bded800e6ca1",
+      "user_id": "958093ad-2548-4106-88d2-a1f63f63e30a",
+      "kind": "ESCALATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "f82a2690-b80d-4ea4-b5f0-8fbcc0256698",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "f8814fdc-747a-4037-9b3d-597a2ca21ad9",
+      "user_id": "82d47565-12bf-4d24-9912-8d8b5d5863be",
+      "kind": "TRANSFER",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "f8bb8153-714b-44cf-99a5-d4515430bcf3",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "fb2232ff-e732-4c0d-9f52-b11d44158994",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "fd2c8e48-4766-4879-a81b-57f70371d2aa",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "fd525bdc-7562-492c-be41-c4e248d4eca5",
+      "user_id": "396a6652-494b-46b6-87a1-b23168fad5dc",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "fd6eb807-ac92-4e9b-bb66-3af4ac546bbb",
+      "user_id": "34e69045-49eb-46d2-b33c-41e5af334759",
+      "kind": "COORDINATION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "fd79ac68-e9d0-48fd-92a0-54426c0eea21",
+      "user_id": "aba0b140-0c45-4291-bb08-fa0339188d59",
+      "kind": "PENDING_ACTION",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    },
+    {
+      "id": "fd82ebbd-cc45-4a7a-a93f-d8e8096e803e",
+      "user_id": "8c223ed3-8cff-4f6b-9c3c-2372281d4165",
+      "kind": "OVERDUE",
+      "state": "DELIVERED",
+      "acknowledged_at": null
+    }
+  ],
+  "clock_offset_seconds": 432000,
+  "original_context_case_count": 5,
+  "original_context_clock_offset": 0,
+  "management_csv_count": 7,
+  "private_bytes_verified": true,
+  "stored_deadlines_owners_originals_unchanged": true,
+  "wall_elapsed_seconds_since_before_clock": 943.48392
+}

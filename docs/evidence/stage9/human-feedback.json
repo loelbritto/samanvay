@@ -1,0 +1,9 @@
+{
+  "requested": true,
+  "response_source": "Direct user reply in this chat",
+  "response_verbatim": "do whatever sounds vest fit",
+  "interpretation": "User delegated remaining choices. No ownership/next-action comprehension answer or independent relationship label judgement was provided.",
+  "human_clarity_check_performed": false,
+  "independent_corpus_label_review_performed": false,
+  "representative_usability_study": false
+}

@@ -1,0 +1,303 @@
+{
+  "run_id": "20261027T164828Z-1236c289",
+  "observed_at_utc": "2026-10-27T16:48:29.667374+00:00",
+  "synthetic_only": true,
+  "corpus_freeze": {
+    "version": "corpus-v1",
+    "synthetic": true,
+    "seed": 26264,
+    "institutions": 32,
+    "cases": 240,
+    "labelled_pairs": 528,
+    "identity_queries": 98,
+    "sha256": {
+      "institutions.json": "9c5e47bcc47979d79507bc3bcc85d0f7d85a2aaaa1d96ea292122b7d6752e036",
+      "cases.json": "8a884cfc6743c72a0daf1cbcc7f7f0136f5d70afaa8ee040e243fd96a63d516e",
+      "labels.json": "ba5bc4642bb50b000660c76796ccd06be5db422b10b95c681ae4ef83085966ea",
+      "splits.json": "be2e3360473e83a752d90d359cae5da29fc2090e9c67ac07d717452ac8742df7",
+      "identity-queries.json": "93c3b52b65860cc50e64bfac55feb09d20d3a247de3d275d5f36e2804732d120",
+      "identity-labels.json": "0c9a7316a0e197102984a1532ddf8605bf9b01d953a44182b4998f1e66a4b5ba"
+    },
+    "human_annotation": "Generated from explicit synthetic policy; no independent human label review yet",
+    "leakage_boundary": "cases.json contains no gold relationship/split/template fields. Labels and split groups are separate evaluator-only files."
+  },
+  "split_audit": {
+    "passed": true,
+    "case_count": 240,
+    "family_template_disjoint": true,
+    "labels_isolated": true,
+    "unseen_institutions": 16
+  },
+  "classification": {
+    "n": 168,
+    "per_class": {
+      "DUPLICATE": {
+        "support": 12,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "RELATED": {
+        "support": 20,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "INDEPENDENT": {
+        "support": 44,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "UNKNOWN": {
+        "support": 92,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "macro_f1": 1.0,
+    "confusion_matrix": {
+      "DUPLICATE": {
+        "DUPLICATE": 12,
+        "RELATED": 0,
+        "INDEPENDENT": 0,
+        "UNKNOWN": 0
+      },
+      "RELATED": {
+        "DUPLICATE": 0,
+        "RELATED": 20,
+        "INDEPENDENT": 0,
+        "UNKNOWN": 0
+      },
+      "INDEPENDENT": {
+        "DUPLICATE": 0,
+        "RELATED": 0,
+        "INDEPENDENT": 44,
+        "UNKNOWN": 0
+      },
+      "UNKNOWN": {
+        "DUPLICATE": 0,
+        "RELATED": 0,
+        "INDEPENDENT": 0,
+        "UNKNOWN": 92
+      }
+    },
+    "unknown_coverage": 0.5476190476190477,
+    "errors": 0
+  },
+  "classification_by_split": {
+    "heldout-known": {
+      "n": 120,
+      "per_class": {
+        "DUPLICATE": {
+          "support": 8,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RELATED": {
+          "support": 16,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "INDEPENDENT": {
+          "support": 32,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "UNKNOWN": {
+          "support": 64,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "macro_f1": 1.0,
+      "confusion_matrix": {
+        "DUPLICATE": {
+          "DUPLICATE": 8,
+          "RELATED": 0,
+          "INDEPENDENT": 0,
+          "UNKNOWN": 0
+        },
+        "RELATED": {
+          "DUPLICATE": 0,
+          "RELATED": 16,
+          "INDEPENDENT": 0,
+          "UNKNOWN": 0
+        },
+        "INDEPENDENT": {
+          "DUPLICATE": 0,
+          "RELATED": 0,
+          "INDEPENDENT": 32,
+          "UNKNOWN": 0
+        },
+        "UNKNOWN": {
+          "DUPLICATE": 0,
+          "RELATED": 0,
+          "INDEPENDENT": 0,
+          "UNKNOWN": 64
+        }
+      },
+      "unknown_coverage": 0.5333333333333333,
+      "errors": 0
+    },
+    "heldout-unseen": {
+      "n": 48,
+      "per_class": {
+        "DUPLICATE": {
+          "support": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RELATED": {
+          "support": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "INDEPENDENT": {
+          "support": 12,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "UNKNOWN": {
+          "support": 28,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "macro_f1": 1.0,
+      "confusion_matrix": {
+        "DUPLICATE": {
+          "DUPLICATE": 4,
+          "RELATED": 0,
+          "INDEPENDENT": 0,
+          "UNKNOWN": 0
+        },
+        "RELATED": {
+          "DUPLICATE": 0,
+          "RELATED": 4,
+          "INDEPENDENT": 0,
+          "UNKNOWN": 0
+        },
+        "INDEPENDENT": {
+          "DUPLICATE": 0,
+          "RELATED": 0,
+          "INDEPENDENT": 12,
+          "UNKNOWN": 0
+        },
+        "UNKNOWN": {
+          "DUPLICATE": 0,
+          "RELATED": 0,
+          "INDEPENDENT": 0,
+          "UNKNOWN": 28
+        }
+      },
+      "unknown_coverage": 0.5833333333333334,
+      "errors": 0
+    }
+  },
+  "classification_latency": {
+    "n": 168,
+    "median_ms": 0.1135,
+    "p95_ms": 0.1897,
+    "total_ms": 24.7675
+  },
+  "retrieval": {
+    "baseline": {
+      "first-pass": {
+        "latency": {
+          "n": 40,
+          "median_ms": 0.3785,
+          "p95_ms": 0.5169,
+          "total_ms": 12.5525
+        },
+        "recall_at_1": 0.6,
+        "recall_at_3": 1.0,
+        "queries_without_retrieved_counterpart": 0,
+        "cache_rows_before": 0,
+        "cache_rows_after": 0
+      },
+      "warm-repeat": {
+        "latency": {
+          "n": 40,
+          "median_ms": 0.3759,
+          "p95_ms": 0.5681,
+          "total_ms": 12.9989
+        },
+        "recall_at_1": 0.6,
+        "recall_at_3": 1.0,
+        "queries_without_retrieved_counterpart": 0,
+        "cache_rows_before": 0,
+        "cache_rows_after": 0
+      }
+    },
+    "char-vectors": {
+      "first-pass": {
+        "latency": {
+          "n": 40,
+          "median_ms": 1.7239,
+          "p95_ms": 7.1107,
+          "total_ms": 123.3816
+        },
+        "recall_at_1": 0.6,
+        "recall_at_3": 1.0,
+        "queries_without_retrieved_counterpart": 0,
+        "cache_rows_before": 0,
+        "cache_rows_after": 47
+      },
+      "warm-repeat": {
+        "latency": {
+          "n": 40,
+          "median_ms": 1.4424,
+          "p95_ms": 2.187,
+          "total_ms": 56.1753
+        },
+        "recall_at_1": 0.6,
+        "recall_at_3": 1.0,
+        "queries_without_retrieved_counterpart": 0,
+        "cache_rows_before": 47,
+        "cache_rows_after": 47
+      }
+    }
+  },
+  "identity_matching": {
+    "n": 98,
+    "correct": 98,
+    "errors": []
+  },
+  "comparison": {
+    "classifier_shared": true,
+    "baseline": "lexical-rules-v1.1",
+    "enhanced": "lexical-rules-v1.1+hashed-character-ngrams-128-v1",
+    "retain_enhanced_as_default": false,
+    "selected_default": "baseline",
+    "rule": "Require strict recall@3 gain and no recall@1 loss; otherwise keep baseline. No improvement is inferred from equal synthetic scores."
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "machine": "AMD64",
+    "processor_identifier": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "logical_cpus": 20,
+    "python": "3.12.14"
+  },
+  "measurement_scope": "In-process classification and bounded retrieval on preloaded JSON. Optional vector timing includes SQLite cache queries/commit; excludes HTTP/UI/model startup. First pass starts with an empty vector cache but later queries can hit it; warm-repeat reuses cache.",
+  "limitations": [
+    "Explicit structured facts and small generated galleries make this an artificial benchmark; not real complaint accuracy.",
+    "Gold policy labels were generated, not independently human-reviewed. No semantic model/LLM is connected; character vectors are statistical.",
+    "This is a single-machine sample, not a national-scale or multilingual semantic performance claim."
+  ],
+  "source_sha256": {
+    "evaluation/run.py": "753cd166918e04da67e01f703f20ceed4eb19a374ce136056af19d17dbd04af6",
+    "evaluation/generate.py": "c40fd81b369f34cb03a208daceb3389322d847db55b79453918c04ee9c04e23f",
+    "backend/app/matching.py": "a9bf1244bf3fb5d2384dc936756c7e5b7f3348ab02abfd9b75b97e1a7bb88743",
+    "backend/app/coordination.py": "7c5744a3fd5e587c3f318096482a1025f3c6fcf803a8041d1f47e7150ef96927"
+  }
+}

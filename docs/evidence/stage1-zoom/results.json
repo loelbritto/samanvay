@@ -1,0 +1,268 @@
+{
+  "actual_browser_zoom_percent": 200,
+  "native_label": "189 button Zoom: 200%",
+  "baseline": {
+    "clientWidth": 770,
+    "dpr": 1.25,
+    "height": 632,
+    "scrollWidth": 770,
+    "width": 786
+  },
+  "at200": {
+    "clientWidth": 385,
+    "dpr": 2.5,
+    "height": 316,
+    "scrollWidth": 385,
+    "width": 393
+  },
+  "screenChecks": [
+    {
+      "screen": "overview",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": false,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Overview",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "cases",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Cases",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "intake",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "New complaint",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "institutions",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Institutions",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "institution",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Demo Suryavan Institute, Pune",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "nagpur",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Demo Suryavan Institute, Nagpur",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "coordination",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Coordination",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "comparison",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Connected incident. Separate complaints.",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "detail",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Admission fee refund pending",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "timeline",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Case timeline",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "reports",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Reports",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "notifications",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Notifications",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "settings",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Settings",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    },
+    {
+      "screen": "states",
+      "clientWidth": 385,
+      "dpr": 2.5,
+      "headingFocused": true,
+      "height": 316,
+      "scrollWidth": 385,
+      "title": "Preview states",
+      "unlabelled": [],
+      "width": 393,
+      "passed": true
+    }
+  ],
+  "keyboard": [
+    {
+      "label": "Overview first action",
+      "href": "#/cases/new",
+      "scrollY": 387.2000122070313,
+      "text": " Preview case intake",
+      "visible": true
+    },
+    {
+      "label": "Overview institution action",
+      "href": "#/institutions/DEMO-INST-017",
+      "scrollY": 875.2000122070312,
+      "text": "Open institution ",
+      "visible": true
+    },
+    {
+      "label": "Institution first action",
+      "href": "#/institutions/DEMO-INST-044",
+      "scrollY": 791.5999755859375,
+      "text": "Inspect the other institution",
+      "visible": true
+    },
+    {
+      "label": "Institution comparison action",
+      "href": "#/coordination/compare",
+      "scrollY": 1147.5999755859375,
+      "text": "Compare evidence ",
+      "visible": true
+    },
+    {
+      "label": "Comparison source action",
+      "href": "#/cases/PGRC-014",
+      "scrollY": 724.4000244140625,
+      "text": "PGRC-014",
+      "visible": true
+    },
+    {
+      "label": "Comparison timeline action",
+      "href": "#/cases/PGRC-014/timeline",
+      "scrollY": 1335.5999755859375,
+      "text": "View PGRC-014 timeline ",
+      "visible": true
+    },
+    {
+      "label": "Timeline reached with Enter",
+      "title": "Case timeline"
+    }
+  ],
+  "tableKeys": [
+    {
+      "key": "ArrowRight",
+      "clientWidth": 348,
+      "focused": true,
+      "scrollLeft": 80,
+      "scrollWidth": 850
+    },
+    {
+      "key": "End",
+      "clientWidth": 348,
+      "focused": true,
+      "scrollLeft": 502.3999938964844,
+      "scrollWidth": 850
+    },
+    {
+      "key": "Home",
+      "clientWidth": 348,
+      "focused": true,
+      "scrollLeft": 0,
+      "scrollWidth": 850
+    }
+  ],
+  "settings_reached_with_enter": true,
+  "scope": "Scoped reflow, labels and keyboard checks; no screen-reader or WCAG conformance claim",
+  "fullpage_capture_limitation": "Chrome fullPage screenshots clipped at zoom; replaced with viewport getScreenshot captures reviewed for all 14 screens.",
+  "restored": {
+    "dpr": 1.25,
+    "height": 632,
+    "width": 786
+  },
+  "restored_to_100_percent": true
+}

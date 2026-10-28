@@ -1,0 +1,7 @@
+{
+  "backend": "fresh venv/pinned installation/migration/seed/startup",
+  "directory": "C:\\Users\\loelb\\OneDrive\\Documents\\ChatGPT\\sih\\.demo-contexts\\dependency-check-12511fa62ba5433f97301fc577b2e94b",
+  "passed": true,
+  "existing_records_deleted": 0,
+  "frontend": "fresh npm ci and build"
+}

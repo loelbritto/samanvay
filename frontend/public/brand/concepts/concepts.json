@@ -1,0 +1,47 @@
+{
+  "recommended": "01-shared-direction",
+  "concepts": [
+    {
+      "id": "01-shared-direction",
+      "title": "Shared direction",
+      "rationale": "Two open channels form an S. The centre gap keeps each responsibility distinct while the whole mark reads as one coordinated effort.",
+      "kind": "Recommended",
+      "file": "01-shared-direction.svg"
+    },
+    {
+      "id": "02-common-ground",
+      "title": "Common ground",
+      "rationale": "Two opposing voices share a central interval. The symbol foregrounds listening and dialogue, but reads less immediately as a name monogram.",
+      "kind": "Dialogue",
+      "file": "02-common-ground.svg"
+    },
+    {
+      "id": "03-open-knot",
+      "title": "Open knot",
+      "rationale": "Paired folded shapes suggest alignment and continuity. Open corners retain the idea that records and responsibilities are never collapsed.",
+      "kind": "Connection",
+      "file": "03-open-knot.svg"
+    },
+    {
+      "id": "04-records-in-concert",
+      "title": "Records in concert",
+      "rationale": "Three distinct vertical records share one baseline. Easy to reproduce, but its resemblance to a chart makes it less distinctive as the primary identity.",
+      "kind": "Records",
+      "file": "04-records-in-concert.svg"
+    },
+    {
+      "id": "05-assembly",
+      "title": "Assembly",
+      "rationale": "Four separate participants surround a shared plan. Strong at medium sizes, with the central square acting as coordination rather than an owner.",
+      "kind": "Participation",
+      "file": "05-assembly.svg"
+    },
+    {
+      "id": "06-next-step",
+      "title": "Next step",
+      "rationale": "Two separate routes form a reciprocal journey. It expresses follow-through clearly, but arrows are more literal and less ownable than the S monogram.",
+      "kind": "Progress",
+      "file": "06-next-step.svg"
+    }
+  ]
+}

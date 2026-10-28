@@ -1,0 +1,558 @@
+/* Brand and work-desk components. Foundation controls remain in workspace.css. */
+.samanvay-app .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.samanvay-app .brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.samanvay-app .brand-mark {
+  flex-shrink: 0;
+  color: var(--text);
+}
+.samanvay-app .brand-wordmark {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+.samanvay-app .brand-period {
+  color: var(--brand-accent);
+}
+.samanvay-app .brand-wordmark small {
+  font-size: 0.59375rem;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  margin-top: 7px;
+  color: var(--text-muted);
+}
+.samanvay-app .sidebar-note-symbol {
+  display: block;
+  color: var(--action);
+  margin-bottom: 12px;
+}
+.samanvay-app .sidebar-note strong {
+  font-size: 0.8125rem;
+}
+.samanvay-app .sidebar-note a {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  color: var(--action);
+  margin-top: 8px;
+}
+.samanvay-app .workspace-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 380px;
+  flex: 1;
+  min-width: 180px;
+  color: var(--text-muted);
+}
+.samanvay-app .workspace-search input {
+  border-color: transparent;
+  background: transparent;
+  font-size: 0.8125rem;
+  padding-inline: 3px;
+}
+.samanvay-app .workspace-search button {
+  border: 0;
+  padding: 8px;
+  width: 36px;
+  min-width: 36px;
+  background: transparent;
+  color: var(--action);
+}
+.samanvay-app .workspace-viewbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--border);
+  margin: 0 0 28px;
+}
+.samanvay-app .workspace-view-switch {
+  display: flex;
+  gap: 24px;
+}
+.samanvay-app .workspace-view-switch button {
+  padding: 12px 0 16px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  color: var(--text-muted);
+  background: transparent;
+  font-size: 0.875rem;
+}
+.samanvay-app .workspace-view-switch button[aria-pressed="true"] {
+  border-bottom-color: var(--action);
+  color: var(--action);
+}
+.samanvay-app .workspace-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.samanvay-app .desk-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 28px;
+  align-items: start;
+}
+.samanvay-app .desk-layout > * {
+  min-width: 0;
+}
+.samanvay-app .desk-context {
+  display: grid;
+  gap: 32px;
+}
+.samanvay-app .desk-context .connection-heading h2 {
+  font-size: 1rem;
+}
+.samanvay-app .desk-context .connection-heading p {
+  font-size: 0.75rem;
+}
+.samanvay-app .desk-context .connection-heading {
+  margin-bottom: 18px;
+}
+.samanvay-app .desk-context .connection-heading > svg {
+  width: 18px;
+  height: 18px;
+}
+.samanvay-app .desk-review-note {
+  border-top: 1px solid var(--border);
+  padding: 24px 4px 0;
+}
+.samanvay-app .desk-review-note > svg {
+  color: var(--action);
+  margin-bottom: 12px;
+}
+.samanvay-app .desk-review-note h2 {
+  font-size: 0.9375rem;
+}
+.samanvay-app .desk-review-note p {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-top: 10px;
+}
+.samanvay-app .desk-review-note a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+.samanvay-app .focus-case {
+  background: var(--focus-surface);
+  color: var(--focus-text);
+  padding: 24px;
+  margin: 18px;
+  border-radius: 12px;
+}
+.samanvay-app .focus-case-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 20px;
+}
+.samanvay-app .focus-case-heading h2 {
+  color: var(--focus-text);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.samanvay-app .focus-order {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--focus-muted);
+  font-size: 0.6875rem;
+}
+.samanvay-app .focus-case h3 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  max-width: 38ch;
+}
+.samanvay-app .focus-case h3 a {
+  color: var(--focus-text);
+}
+.samanvay-app .focus-case :focus-visible {
+  outline-color: #d2e6a7;
+}
+.samanvay-app .focus-case-origin {
+  color: var(--focus-muted);
+  font-size: 0.8125rem;
+  margin: 8px 0 24px;
+}
+.samanvay-app .focus-case-origin > span {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.6875rem;
+}
+.samanvay-app .focus-responsibility {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  margin: 24px 0;
+}
+.samanvay-app .focus-owner {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-width: 0;
+}
+.samanvay-app .owner-initials {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 1px solid #678c7d;
+  color: #d2e6a7;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.samanvay-app .focus-owner div > span,
+.samanvay-app .focus-deadline > span,
+.samanvay-app .focus-next div > span {
+  display: block;
+  font-size: 0.6875rem;
+  color: var(--focus-muted);
+  margin-bottom: 3px;
+}
+.samanvay-app .focus-owner strong,
+.samanvay-app .focus-deadline strong {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.samanvay-app .focus-owner small {
+  font-size: 0.6875rem;
+  color: var(--focus-muted);
+  margin-top: 2px;
+}
+.samanvay-app .focus-deadline {
+  text-align: right;
+}
+.samanvay-app .focus-deadline > span {
+  color: #f5d28c;
+}
+.samanvay-app .focus-next {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding-top: 18px;
+  border-top: 1px solid #44695e;
+}
+.samanvay-app .focus-next > svg {
+  color: #d2e6a7;
+  margin-top: 3px;
+}
+.samanvay-app .focus-next p {
+  font-size: 0.875rem;
+  margin: 3px 0 0;
+}
+.samanvay-app .focus-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 22px;
+}
+.samanvay-app .focus-footer > span {
+  color: var(--focus-muted);
+  font-size: 0.6875rem;
+}
+.samanvay-app .focus-footer .button {
+  color: #173d32;
+  background: #dfedc8;
+  border-color: transparent;
+  font-size: 0.8125rem;
+}
+.samanvay-app .focus-footer .button:hover {
+  background: #d2e6a7;
+}
+.samanvay-app .queue-rest-heading {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.samanvay-app .queue-rest-heading h2 {
+  font-size: 0.875rem;
+}
+.samanvay-app .queue-rest-heading span {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+.samanvay-app .due-overdue {
+  color: var(--amber-800);
+  font-weight: 600;
+}
+.samanvay-app .desk-layout .case-row {
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) 24px;
+  gap: 14px 16px;
+}
+.samanvay-app .desk-layout .case-row-main {
+  grid-column: 1;
+  grid-row: 1;
+}
+.samanvay-app .desk-layout .case-row-owner {
+  grid-column: 2;
+  grid-row: 1;
+}
+.samanvay-app .desk-layout .case-row-status {
+  grid-column: 1;
+  grid-row: 2;
+}
+.samanvay-app .desk-layout .case-row-next {
+  grid-column: 2/4;
+  grid-row: 2;
+}
+.samanvay-app .desk-layout .case-row-next p,
+.samanvay-app .desk-layout .case-row-next .field-caption {
+  display: block;
+}
+.samanvay-app .desk-layout .case-row > .row-arrow {
+  grid-column: 3;
+  grid-row: 1;
+}
+.samanvay-app .login-story > .brand {
+  margin-bottom: 48px;
+  display: inline-flex;
+}
+.samanvay-app .login-story > h2 {
+  font-size: clamp(2rem, 3.1vw, 2.875rem);
+  letter-spacing: -0.035em;
+  line-height: 1.22;
+}
+.samanvay-app .login-story > h2 em {
+  font-style: normal;
+  color: var(--action);
+}
+.samanvay-app .login-story > p {
+  color: var(--text-muted);
+  margin: 20px 0 28px;
+  font-size: 0.9375rem;
+  max-width: 43ch;
+}
+.samanvay-app .login-connection-example {
+  max-width: 440px;
+  margin: 32px 0 28px;
+}
+.samanvay-app .example-cases {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.samanvay-app .example-cases > div {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 5px 10px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.samanvay-app .example-cases strong {
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+.samanvay-app .example-cases svg {
+  color: var(--action);
+}
+.samanvay-app .example-cases span {
+  grid-column: 2;
+  color: var(--text-muted);
+  font-size: 0.6875rem;
+}
+.samanvay-app .example-branches {
+  width: 52%;
+  height: 24px;
+  border: 1px solid #a4b9a6;
+  border-top: 0;
+  margin: 0 auto 24px;
+  border-radius: 0 0 8px 8px;
+  position: relative;
+}
+.samanvay-app .example-branches::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 24px;
+  background: #a4b9a6;
+  top: 100%;
+  left: 50%;
+}
+.samanvay-app .example-plan {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 12px;
+  background: var(--focus-surface);
+  color: var(--focus-text);
+}
+.samanvay-app .example-plan > svg:last-child {
+  color: #d2e6a7;
+  margin-left: auto;
+}
+.samanvay-app .example-plan strong {
+  display: block;
+  font-size: 0.8125rem;
+}
+.samanvay-app .example-plan span {
+  display: block;
+  font-size: 0.6875rem;
+  color: var(--focus-muted);
+  margin-top: 5px;
+}
+.samanvay-app .login-connection-example > p {
+  color: var(--text-muted);
+  font-size: 0.6875rem;
+  margin-top: 10px;
+}
+.samanvay-app .login-principles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  color: var(--text-muted);
+  font-size: 0.6875rem;
+}
+.samanvay-app .login-principles > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.samanvay-app .login-panel {
+  padding: 36px;
+}
+@media (max-width: 1180px) {
+  .samanvay-app .desk-layout {
+    grid-template-columns: 1fr;
+  }
+  .samanvay-app .desk-context {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  }
+  .samanvay-app .desk-review-note {
+    border-top: 0;
+    padding: 4px 0;
+  }
+  .samanvay-app .login-layout {
+    column-gap: 48px;
+    padding-inline: 32px;
+  }
+}
+@media (max-width: 800px) {
+  .samanvay-app .login-layout {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    gap: 32px;
+    padding-top: 32px;
+  }
+  .samanvay-app .login-story > .brand {
+    margin-bottom: 28px;
+  }
+  .samanvay-app .login-story > h2 {
+    font-size: 2rem;
+  }
+  .samanvay-app .login-connection-example,
+  .samanvay-app .login-principles {
+    display: none;
+  }
+  .samanvay-app .login-story > p {
+    margin-bottom: 0;
+  }
+  .samanvay-app .login-disclaimer {
+    margin-top: 0;
+  }
+  .samanvay-app .workspace-search {
+    order: 2;
+    max-width: none;
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 560px) {
+  .samanvay-app .desk-context {
+    grid-template-columns: 1fr;
+  }
+  .samanvay-app .focus-case {
+    margin: 12px;
+    padding: 20px 16px;
+  }
+  .samanvay-app .focus-case h3 {
+    font-size: 1.125rem;
+  }
+  .samanvay-app .focus-responsibility {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .samanvay-app .focus-deadline {
+    text-align: left;
+    padding-left: 46px;
+  }
+  .samanvay-app .workspace-date {
+    padding-bottom: 12px;
+  }
+  .samanvay-app .workspace-viewbar {
+    gap: 6px;
+  }
+  .samanvay-app .desk-layout .case-row-main {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  .samanvay-app .desk-layout .case-row-owner {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .samanvay-app .desk-layout .case-row-status {
+    grid-column: 2/4;
+    grid-row: 2;
+  }
+  .samanvay-app .desk-layout .case-row-next {
+    grid-column: 1/-1;
+    grid-row: 3;
+  }
+  .samanvay-app .login-layout {
+    padding-inline: 20px;
+  }
+  .samanvay-app .login-panel {
+    padding: 24px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .samanvay-app .focus-footer .button svg {
+    transition: transform 160ms ease-out;
+  }
+  .samanvay-app .focus-footer .button:hover svg {
+    transform: translateX(3px);
+  }
+}
+@media (max-width: 400px) {
+  .samanvay-app .app-sidebar .brand-mark {
+    width: 32px;
+    height: 32px;
+  }
+  .samanvay-app .app-sidebar .brand-wordmark {
+    font-size: 1.25rem;
+  }
+  .samanvay-app .app-sidebar .brand-wordmark small {
+    display: none;
+  }
+}

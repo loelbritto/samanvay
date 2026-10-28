@@ -1,0 +1,168 @@
+{
+  "phase": 0,
+  "scope": "Planning/source coverage audit only; no application acceptance tests",
+  "run_at_utc": "2026-10-27T17:13:44.676688+00:00",
+  "originals_rechecked": true,
+  "checks": [
+    {
+      "name": "document:README.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:PLAN.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:DECISIONS.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:PROJECT_STATE.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:REQUIREMENTS.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/DATA_MODEL.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/ACCESS_MATRIX.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/WORKFLOWS.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/ACCEPTANCE.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/evidence/phase0-commands.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "complete_prompt_coverage",
+      "passed": true,
+      "detail": {
+        "expected_clauses": 66,
+        "mapped_clauses": 66,
+        "missing": []
+      }
+    },
+    {
+      "name": "verbatim_requirement_text",
+      "passed": true,
+      "detail": "Every mapped original clause equals its source snapshot line"
+    },
+    {
+      "name": "owner_stage_location_acceptance_evidence",
+      "passed": true,
+      "detail": "Every clause/guide section has traceability fields"
+    },
+    {
+      "name": "honest_maturity_statuses",
+      "passed": true,
+      "detail": "Statuses distinguish contracts, partial scope and evidence-gated local stage passes"
+    },
+    {
+      "name": "local_stage_evidence_present",
+      "passed": true,
+      "detail": "Stage gate summary links actual zoom/layout/keyboard, JUnit, UI intake and API/DB/file restart evidence; this audit does not rerun them"
+    },
+    {
+      "name": "later_local_gate_evidence_present",
+      "passed": true,
+      "detail": "Final summary verifies bounded runtime evidence and explicitly records missing human review; this source audit does not rerun the application"
+    },
+    {
+      "name": "complete_guide_context_coverage",
+      "passed": true,
+      "detail": {
+        "body_paragraphs": 532,
+        "covered_once": 532
+      }
+    },
+    {
+      "name": "generated_markdown_current",
+      "passed": true,
+      "detail": "Readable requirement table matches machine-readable map"
+    },
+    {
+      "name": "separate_concepts_documented",
+      "passed": true,
+      "detail": "Four distinct proposed persistence concepts are documented"
+    },
+    {
+      "name": "lifecycle_and_transfer_documented",
+      "passed": true,
+      "detail": "Lifecycle and transfer states have distinct documented command tables"
+    },
+    {
+      "name": "role_matrix_documented",
+      "passed": true,
+      "detail": "All proposed roles and separate service authority are included"
+    },
+    {
+      "name": "fourteen_scenarios_documented",
+      "passed": true,
+      "detail": "Fourteen scenario definitions are present; runtime results are reported separately by scope"
+    },
+    {
+      "name": "uncertainty_and_next_slice_documented",
+      "passed": true,
+      "detail": "Official uncertainty, missing source and next UI slice are explicit"
+    },
+    {
+      "name": "original_files_available",
+      "passed": true,
+      "detail": "Original files are available for this audit"
+    },
+    {
+      "name": "original_hashes_and_extraction",
+      "passed": true,
+      "detail": "Original SHA-256 hashes and full extracted text/links equal captured snapshot"
+    },
+    {
+      "name": "reproducible_mapping",
+      "passed": true,
+      "detail": "Regenerating source classification yields identical traceability data"
+    }
+  ],
+  "passed": true,
+  "check_count": 26,
+  "failure_count": 0,
+  "prompt_clause_count": 66,
+  "guide_paragraph_count": 532,
+  "artifact_sha256": {
+    "README.md": "afb6a1d25c48558a87bb27f4d53206b0164f34de3f8090b5f10f627faca3b9cf",
+    "PLAN.md": "570f45440be6fa3edd35e742fdbdc28c2afc359aa37596ac86a8b016c2d44e84",
+    "DECISIONS.md": "00ca8f5b33aed87e2703261124b1886948f6378bb7bd935f928137c1763ea65c",
+    "PROJECT_STATE.md": "43d9df42acb01c411fbada674c3dc28ce7780045e6170d36be4b09d8b77bdc07",
+    "REQUIREMENTS.md": "d79e34a06feed2da577c032136397ecb2ecbb0f87336e07e740149eaa2c5560c",
+    "docs/DATA_MODEL.md": "82f95ac7c7ca039933599e094f8e202f46f2bd10539e98779ab85116f69d5fd3",
+    "docs/ACCESS_MATRIX.md": "7167a55986503017664e3350e9b59ab5fab2431889b2c0e0ebc205a8c96dc714",
+    "docs/WORKFLOWS.md": "d3fc07bdf5e68c48759346413ff41d96b32af429ba269d80a528a35ffd7644e3",
+    "docs/ACCEPTANCE.md": "afee4ee31e8e5454c5d274c7160523dad8206844232e055cd0d689c48751b46b",
+    "docs/evidence/phase0-commands.md": "50b1b31bb563fc2201fbcf995d9a4101ae600782399832b892490355a6064574",
+    ".gitignore": "8bcc7dc13bbb28c0713a35bc51a8f275fe9c09138fb27882c0023df92d840fe3",
+    "scripts/capture_requirements.py": "67be98ebefec103a5634999d42adbb09a5932c0301cbf57ca4d62bd34272e6e8",
+    "scripts/verify_phase0.py": "4747fbf917d1a269c8e4071eb571119facc94611d0f7000a9a73794fdf5d385d",
+    "docs/source-snapshot.json": "1c8cda7a08bdbd675e6d3d1db5e1f5adc4a5cb5335c544cc8b634ecdc0b49d1d",
+    "docs/requirement-map.json": "8a63f1c49078d071b33acab13e691534bca6f1e16e84073bcbc634f0c15725ec",
+    "docs/requirement-progress.json": "082caf94e5bd3dda3e35af610f6c55bf912b17648e927ebd6765d60691a91baf"
+  }
+}

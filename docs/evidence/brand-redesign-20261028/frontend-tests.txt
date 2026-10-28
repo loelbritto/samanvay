@@ -1,0 +1,30 @@
+
+> samanvay-ui-preview@0.1.0 test
+> node --test tests/*.test.ts
+
+✔ cancelled navigation is not reported as a server outage (2.8918ms)
+✔ network failures do not imply a successful write (0.3421ms)
+✔ current open work excludes closed and historical participation without dropping records (17.9411ms)
+✔ separate complaints keep their IDs and owners when they share a bureau and institution (0.7776ms)
+✔ an institution mismatch cannot inflate current participation even if the flag is stale (0.3582ms)
+✔ institution choices prioritise active plans without changing the authorised input (0.3507ms)
+✔ deep links preserve case history and filtered list navigation (3.9042ms)
+✔ an officer sees tasks appropriate to the current state (2.3469ms)
+✔ metadata-only supervision does not expose narrative commands (0.2441ms)
+✔ viewing another officer case does not grant actions (0.1887ms)
+✔ pending transfer suppresses closure and closed cases expose reopening only when delegated (0.5165ms)
+✔ requesting information includes both the question and the next step (1.1303ms)
+✔ closure requires a resolution and no irrelevant deadline or next-step fields (0.3659ms)
+✔ deadline and reopening forms request different inputs (0.349ms)
+✔ attention uses the supplied demo date, retains input, excludes closed cases, orders by deadline (1.5524ms)
+✔ intake availability respects account role, not broad administration (0.4431ms)
+✔ India dates preserve date-only inputs and cross-midnight timestamps (70.332ms)
+✔ overdue uses the supplied context clock and excludes retained closed records (1.2192ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 324.8649

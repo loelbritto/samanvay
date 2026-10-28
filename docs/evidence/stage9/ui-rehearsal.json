@@ -1,0 +1,117 @@
+{
+  "context_id": "demo-5f5a439bfd2ea5ede367507b",
+  "url": "http://127.0.0.1:5174/",
+  "created": [
+    {
+      "actor": "Demo Ananya RaoPGRC_OFFICER · PGRCSign out",
+      "client": 1265,
+      "id": "DEMO-E80508228652",
+      "scroll": 1265,
+      "subject": "Synthetic Pune tuition repayment request",
+      "token": "DEMO-UI-STU-A",
+      "created_through_browser": true
+    },
+    {
+      "actor": "Demo Kabir SenRB_OFFICER · RBSign out",
+      "client": 1265,
+      "id": "DEMO-79D983D2A10B",
+      "scroll": 1265,
+      "subject": "Synthetic DSI cancellation refund still pending",
+      "token": "DEMO-UI-STU-B",
+      "created_through_browser": true
+    },
+    {
+      "actor": "Demo Kabir SenRB_OFFICER · RBSign out",
+      "client": 1265,
+      "id": "DEMO-80AE1D9C9F27",
+      "scroll": 1265,
+      "subject": "Synthetic transfer acceptance practice",
+      "token": "DEMO-UI-TRANSFER-1",
+      "created_through_browser": true
+    },
+    {
+      "actor": "Demo Ananya RaoPGRC_OFFICER · PGRCSign out",
+      "client": 1265,
+      "id": "DEMO-436C0703134C",
+      "scroll": 1265,
+      "subject": "Synthetic independent faculty wage statement",
+      "token": "DEMO-UI-FAC-1",
+      "created_through_browser": true
+    }
+  ],
+  "actions": [
+    {
+      "case_id": "DEMO-E80508228652",
+      "action": "REVIEW",
+      "observed": "Under review"
+    },
+    {
+      "case_id": "DEMO-80AE1D9C9F27",
+      "action": "TRANSFER_REQUESTED",
+      "source_owner_observed": "Demo Kabir Sen",
+      "state": "PENDING"
+    },
+    {
+      "case_id": "DEMO-80AE1D9C9F27",
+      "action": "TRANSFER_ACCEPTED",
+      "receiver_observed": "Demo Ananya Rao"
+    },
+    {
+      "case_id": "DEMO-436C0703134C",
+      "action": "REQUEST_INFORMATION",
+      "observed": "Awaiting information"
+    },
+    {
+      "action": "EXPLICIT_REHEARSAL_SCOPE",
+      "management": "Pune metadata only",
+      "coordinator": "current Pune N/I only; no attachments"
+    },
+    {
+      "action": "SYNTHETIC_AUTHORISED_REVIEW",
+      "label": "RELATED",
+      "cases": [
+        "DEMO-E80508228652",
+        "DEMO-79D983D2A10B"
+      ],
+      "performed_by": "agent exercising fictional coordinator controls; not an independent human evaluation"
+    },
+    {
+      "action": "SYNTHETIC_AUTHORISED_REVIEW",
+      "label": "INDEPENDENT",
+      "cases": [
+        "DEMO-436C0703134C",
+        "DEMO-79D983D2A10B"
+      ],
+      "coordination_retained": true
+    },
+    {
+      "action": "COORDINATION_PLANNED",
+      "lead": "Demo Meera Das",
+      "next_action": "Coordinate separate student and faculty responses; Ananya and Kabir keep responsibility for their own complaints"
+    },
+    {
+      "action": "ISOLATED_CLOCK_ADVANCED",
+      "hours": 120,
+      "performed_through": "keyboard submit of marked admin form"
+    },
+    {
+      "action": "OVERDUE_ACKNOWLEDGED",
+      "record": "#/cases/PGRC-014"
+    },
+    {
+      "action": "MANAGEMENT_CSV_DOWNLOADED",
+      "visible_rows": 7,
+      "download_event": true,
+      "artifact_copied": true
+    },
+    {
+      "action": "ACTUAL_API_UI_WORKER_RESTART",
+      "same_browser_session_resumed": true,
+      "observed": {
+        "persona": "Demo Competent AuthoritySENIOR_MANAGEMENTSign out",
+        "rows": "Report rows · 7",
+        "title": "Reports"
+      }
+    }
+  ]
+}

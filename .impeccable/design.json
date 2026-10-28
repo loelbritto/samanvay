@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T05:44:46.497069+00:00",
+  "title": "Design System: Samanvay",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0109 181.29)",
+          "oklch(27% 0.0241 181.29)",
+          "oklch(39% 0.0350 181.29)",
+          "oklch(51% 0.0437 181.29)",
+          "oklch(63% 0.0437 181.29)",
+          "oklch(75% 0.0328 181.29)",
+          "oklch(87% 0.0175 181.29)",
+          "oklch(95% 0.0066 181.29)"
+        ]
+      },
+      "slate": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0082 175.28)",
+          "oklch(27% 0.0181 175.28)",
+          "oklch(39% 0.0263 175.28)",
+          "oklch(51% 0.0328 175.28)",
+          "oklch(63% 0.0328 175.28)",
+          "oklch(75% 0.0246 175.28)",
+          "oklch(87% 0.0131 175.28)",
+          "oklch(95% 0.0049 175.28)"
+        ]
+      },
+      "muted-slate": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0055 162.31)",
+          "oklch(27% 0.0121 162.31)",
+          "oklch(39% 0.0176 162.31)",
+          "oklch(51% 0.0220 162.31)",
+          "oklch(63% 0.0220 162.31)",
+          "oklch(75% 0.0165 162.31)",
+          "oklch(87% 0.0088 162.31)",
+          "oklch(95% 0.0033 162.31)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Divider",
+        "tonalRamp": [
+          "oklch(15% 0.0037 132.48)",
+          "oklch(27% 0.0082 132.48)",
+          "oklch(39% 0.0119 132.48)",
+          "oklch(51% 0.0149 132.48)",
+          "oklch(63% 0.0149 132.48)",
+          "oklch(75% 0.0112 132.48)",
+          "oklch(87% 0.0060 132.48)",
+          "oklch(95% 0.0022 132.48)"
+        ]
+      },
+      "soft-slate": {
+        "role": "neutral",
+        "displayName": "Soft Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0033 130.78)",
+          "oklch(27% 0.0072 130.78)",
+          "oklch(39% 0.0105 130.78)",
+          "oklch(51% 0.0131 130.78)",
+          "oklch(63% 0.0131 130.78)",
+          "oklch(75% 0.0098 130.78)",
+          "oklch(87% 0.0052 130.78)",
+          "oklch(95% 0.0020 130.78)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "tonalRamp": [
+          "oklch(15% 0.0020 114.22)",
+          "oklch(27% 0.0044 114.22)",
+          "oklch(39% 0.0064 114.22)",
+          "oklch(51% 0.0080 114.22)",
+          "oklch(63% 0.0080 114.22)",
+          "oklch(75% 0.0060 114.22)",
+          "oklch(87% 0.0032 114.22)",
+          "oklch(95% 0.0012 114.22)"
+        ]
+      },
+      "action-teal": {
+        "role": "primary",
+        "displayName": "Action Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0196 171.97)",
+          "oklch(27% 0.0432 171.97)",
+          "oklch(39% 0.0628 171.97)",
+          "oklch(51% 0.0785 171.97)",
+          "oklch(63% 0.0785 171.97)",
+          "oklch(75% 0.0589 171.97)",
+          "oklch(87% 0.0314 171.97)",
+          "oklch(95% 0.0118 171.97)"
+        ]
+      },
+      "selection-mist": {
+        "role": "primary",
+        "displayName": "Selection Mist",
+        "tonalRamp": [
+          "oklch(15% 0.0035 155.59)",
+          "oklch(27% 0.0077 155.59)",
+          "oklch(39% 0.0112 155.59)",
+          "oklch(51% 0.0141 155.59)",
+          "oklch(63% 0.0141 155.59)",
+          "oklch(75% 0.0105 155.59)",
+          "oklch(87% 0.0056 155.59)",
+          "oklch(95% 0.0021 155.59)"
+        ]
+      },
+      "attention-amber": {
+        "role": "tertiary",
+        "displayName": "Attention Amber",
+        "tonalRamp": [
+          "oklch(15% 0.0234 68.67)",
+          "oklch(27% 0.0514 68.67)",
+          "oklch(39% 0.0747 68.67)",
+          "oklch(51% 0.0934 68.67)",
+          "oklch(63% 0.0934 68.67)",
+          "oklch(75% 0.0701 68.67)",
+          "oklch(87% 0.0374 68.67)",
+          "oklch(95% 0.0140 68.67)"
+        ]
+      },
+      "attention-wash": {
+        "role": "tertiary",
+        "displayName": "Attention Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0079 82.77)",
+          "oklch(27% 0.0174 82.77)",
+          "oklch(39% 0.0253 82.77)",
+          "oklch(51% 0.0316 82.77)",
+          "oklch(63% 0.0316 82.77)",
+          "oklch(75% 0.0237 82.77)",
+          "oklch(87% 0.0127 82.77)",
+          "oklch(95% 0.0047 82.77)"
+        ]
+      },
+      "error-red": {
+        "role": "tertiary",
+        "displayName": "Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.0350 19.09)",
+          "oklch(27% 0.0770 19.09)",
+          "oklch(39% 0.1120 19.09)",
+          "oklch(51% 0.1400 19.09)",
+          "oklch(63% 0.1400 19.09)",
+          "oklch(75% 0.1050 19.09)",
+          "oklch(87% 0.0560 19.09)",
+          "oklch(95% 0.0210 19.09)"
+        ]
+      },
+      "error-wash": {
+        "role": "tertiary",
+        "displayName": "Error Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0041 12.78)",
+          "oklch(27% 0.0089 12.78)",
+          "oklch(39% 0.0130 12.78)",
+          "oklch(51% 0.0163 12.78)",
+          "oklch(63% 0.0163 12.78)",
+          "oklch(75% 0.0122 12.78)",
+          "oklch(87% 0.0065 12.78)",
+          "oklch(95% 0.0024 12.78)"
+        ]
+      },
+      "success-green": {
+        "role": "tertiary",
+        "displayName": "Success Green",
+        "tonalRamp": [
+          "oklch(15% 0.0205 158.58)",
+          "oklch(27% 0.0452 158.58)",
+          "oklch(39% 0.0657 158.58)",
+          "oklch(51% 0.0822 158.58)",
+          "oklch(63% 0.0822 158.58)",
+          "oklch(75% 0.0616 158.58)",
+          "oklch(87% 0.0329 158.58)",
+          "oklch(95% 0.0123 158.58)"
+        ]
+      },
+      "success-wash": {
+        "role": "tertiary",
+        "displayName": "Success Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0035 155.59)",
+          "oklch(27% 0.0077 155.59)",
+          "oklch(39% 0.0112 155.59)",
+          "oklch(51% 0.0140 155.59)",
+          "oklch(63% 0.0140 155.59)",
+          "oklch(75% 0.0105 155.59)",
+          "oklch(87% 0.0056 155.59)",
+          "oklch(95% 0.0021 155.59)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "focus-ring": {
+        "role": "primary",
+        "displayName": "Focus Ring",
+        "tonalRamp": [
+          "oklch(15% 0.0217 173.99)",
+          "oklch(27% 0.0477 173.99)",
+          "oklch(39% 0.0694 173.99)",
+          "oklch(51% 0.0867 173.99)",
+          "oklch(63% 0.0867 173.99)",
+          "oklch(75% 0.0650 173.99)",
+          "oklch(87% 0.0347 173.99)",
+          "oklch(95% 0.0130 173.99)"
+        ]
+      },
+      "rail-text": {
+        "role": "neutral",
+        "displayName": "Rail Text",
+        "tonalRamp": [
+          "oklch(15% 0.0082 175.28)",
+          "oklch(27% 0.0181 175.28)",
+          "oklch(39% 0.0263 175.28)",
+          "oklch(51% 0.0328 175.28)",
+          "oklch(63% 0.0328 175.28)",
+          "oklch(75% 0.0246 175.28)",
+          "oklch(87% 0.0131 175.28)",
+          "oklch(95% 0.0049 175.28)"
+        ]
+      },
+      "rail-selected": {
+        "role": "primary",
+        "displayName": "Rail Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0176 170.04)",
+          "oklch(27% 0.0388 170.04)",
+          "oklch(39% 0.0564 170.04)",
+          "oklch(51% 0.0705 170.04)",
+          "oklch(63% 0.0705 170.04)",
+          "oklch(75% 0.0529 170.04)",
+          "oklch(87% 0.0282 170.04)",
+          "oklch(95% 0.0106 170.04)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0159 173.13)",
+          "oklch(27% 0.0351 173.13)",
+          "oklch(39% 0.0510 173.13)",
+          "oklch(51% 0.0637 173.13)",
+          "oklch(63% 0.0637 173.13)",
+          "oklch(75% 0.0478 173.13)",
+          "oklch(87% 0.0255 173.13)",
+          "oklch(95% 0.0096 173.13)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "tonalRamp": [
+          "oklch(15% 0.0064 158.87)",
+          "oklch(27% 0.0142 158.87)",
+          "oklch(39% 0.0206 158.87)",
+          "oklch(51% 0.0258 158.87)",
+          "oklch(63% 0.0258 158.87)",
+          "oklch(75% 0.0193 158.87)",
+          "oklch(87% 0.0103 158.87)",
+          "oklch(95% 0.0039 158.87)"
+        ]
+      },
+      "rail-paper": {
+        "role": "neutral",
+        "displayName": "Rail Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0030 116.81)",
+          "oklch(27% 0.0067 116.81)",
+          "oklch(39% 0.0097 116.81)",
+          "oklch(51% 0.0121 116.81)",
+          "oklch(63% 0.0121 116.81)",
+          "oklch(75% 0.0091 116.81)",
+          "oklch(87% 0.0048 116.81)",
+          "oklch(95% 0.0018 116.81)"
+        ]
+      },
+      "clay-accent": {
+        "role": "secondary",
+        "displayName": "Clay Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0314 57.36)",
+          "oklch(27% 0.0692 57.36)",
+          "oklch(39% 0.1006 57.36)",
+          "oklch(51% 0.1258 57.36)",
+          "oklch(63% 0.1258 57.36)",
+          "oklch(75% 0.0943 57.36)",
+          "oklch(87% 0.0503 57.36)",
+          "oklch(95% 0.0189 57.36)"
+        ]
+      },
+      "focus-surface": {
+        "role": "primary",
+        "displayName": "Focus Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0112 195.17)",
+          "oklch(27% 0.0247 195.17)",
+          "oklch(39% 0.0359 195.17)",
+          "oklch(51% 0.0449 195.17)",
+          "oklch(63% 0.0449 195.17)",
+          "oklch(75% 0.0337 195.17)",
+          "oklch(87% 0.0180 195.17)",
+          "oklch(95% 0.0067 195.17)"
+        ]
+      },
+      "focus-text": {
+        "role": "neutral",
+        "displayName": "Focus Text",
+        "tonalRamp": [
+          "oklch(15% 0.0031 121.70)",
+          "oklch(27% 0.0068 121.70)",
+          "oklch(39% 0.0098 121.70)",
+          "oklch(51% 0.0123 121.70)",
+          "oklch(63% 0.0123 121.70)",
+          "oklch(75% 0.0092 121.70)",
+          "oklch(87% 0.0049 121.70)",
+          "oklch(95% 0.0018 121.70)"
+        ]
+      },
+      "focus-muted": {
+        "role": "neutral",
+        "displayName": "Focus Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0068 159.49)",
+          "oklch(27% 0.0149 159.49)",
+          "oklch(39% 0.0216 159.49)",
+          "oklch(51% 0.0270 159.49)",
+          "oklch(63% 0.0270 159.49)",
+          "oklch(75% 0.0203 159.49)",
+          "oklch(87% 0.0108 159.49)",
+          "oklch(95% 0.0041 159.49)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Main page title; compact source hierarchy rather than a display face."
+      },
+      "headline-compact": {
+        "displayName": "Headline Compact",
+        "purpose": "Sign-in title and page headings at narrow widths."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings."
+      },
+      "title-small": {
+        "displayName": "Title Small",
+        "purpose": "Tertiary headings; record subjects override line height to 1.45."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "General prose and field values."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons and visible field labels."
+      },
+      "supporting": {
+        "displayName": "Supporting",
+        "purpose": "Secondary record detail, descriptions and account context."
+      },
+      "badge": {
+        "displayName": "Badge",
+        "purpose": "Textual state indicators."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Lowercase product identity."
+      },
+      "focus-title": {
+        "displayName": "Focus Title",
+        "purpose": "Featured complaint subject."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "focus-action-arrow",
+        "value": "transform 160ms ease-out",
+        "purpose": "Move the focus-case action arrow 3px on hover only when reduced motion is not requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-records",
+        "value": "1250px"
+      },
+      {
+        "name": "desk-stack",
+        "value": "1180px"
+      },
+      {
+        "name": "detail-stack",
+        "value": "1050px"
+      },
+      {
+        "name": "navigation-stack",
+        "value": "800px"
+      },
+      {
+        "name": "connection-stack",
+        "value": "640px"
+      },
+      {
+        "name": "form-stack",
+        "value": "560px"
+      },
+      {
+        "name": "compact-brand",
+        "value": "400px"
+      },
+      {
+        "name": "narrow-padding",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary form or page action; focus and disabled treatment follow the shared source control. Static component preview; example content is synthetic.",
+      "html": "<button class=\"ds-primary\" type=\"button\">New complaint</button>",
+      "css": ".ds-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 9px 14px; border: 1px solid var(--border, #dce2d8); border-radius: var(--control-radius, 6px); background: var(--surface, #fff); color: var(--ink-800, #354e47); font: 600 .875rem/1.55 var(--font-ui, 'Manrope', 'Segoe UI', sans-serif); cursor: pointer; text-decoration: none; white-space: normal; } .ds-primary:hover { background: var(--ink-100, #e9eee5); } .ds-primary:focus-visible { outline: 3px solid var(--focus, #247a66); outline-offset: 3px; } .ds-primary:disabled { cursor: not-allowed; color: #637263; background: var(--ink-100, #e9eee5); border-color: var(--border, #dce2d8); }.ds-primary { background: var(--action, #176350); border-color: var(--action, #176350); color: #fff; } .ds-primary:hover { background: #104b3d; } .ds-primary:disabled { color: #637263; background: var(--ink-100, #e9eee5); border-color: var(--border, #dce2d8); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Shared neutral button used for supporting actions. Static component preview; example content is synthetic.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Open coordination</button>",
+      "css": ".ds-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 9px 14px; border: 1px solid var(--border, #dce2d8); border-radius: var(--control-radius, 6px); background: var(--surface, #fff); color: var(--ink-800, #354e47); font: 600 .875rem/1.55 var(--font-ui, 'Manrope', 'Segoe UI', sans-serif); cursor: pointer; text-decoration: none; white-space: normal; } .ds-secondary:hover { background: var(--ink-100, #e9eee5); } .ds-secondary:focus-visible { outline: 3px solid var(--focus, #247a66); outline-offset: 3px; } .ds-secondary:disabled { cursor: not-allowed; color: #637263; background: var(--ink-100, #e9eee5); border-color: var(--border, #dce2d8); }"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Low-emphasis actions such as Refresh and Sign out. Static component preview; example content is synthetic.",
+      "html": "<button class=\"ds-text-button\" type=\"button\">Refresh</button>",
+      "css": ".ds-text-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 9px 14px; border: 1px solid var(--border, #dce2d8); border-radius: var(--control-radius, 6px); background: var(--surface, #fff); color: var(--ink-800, #354e47); font: 600 .875rem/1.55 var(--font-ui, 'Manrope', 'Segoe UI', sans-serif); cursor: pointer; text-decoration: none; white-space: normal; } .ds-text-button:hover { background: var(--ink-100, #e9eee5); } .ds-text-button:focus-visible { outline: 3px solid var(--focus, #247a66); outline-offset: 3px; } .ds-text-button:disabled { cursor: not-allowed; color: #637263; background: var(--ink-100, #e9eee5); border-color: var(--border, #dce2d8); }.ds-text-button { background: transparent; border-color: transparent; color: var(--action, #176350); } .ds-text-button:hover { background: var(--ink-100, #e9eee5); } .ds-text-button:disabled { color: #637263; background: var(--ink-100, #e9eee5); border-color: var(--border, #dce2d8); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Visible label, stronger field border and shared keyboard focus. Static component preview; example content is synthetic.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-email\">Email</label><input class=\"ds-field\" id=\"ds-email\" type=\"email\" autocomplete=\"username\"/>",
+      "css": ".ds-field-label { display: block; color: var(--ink-800, #354e47); font: 600 .875rem/1.55 var(--font-ui, 'Manrope', 'Segoe UI', sans-serif); margin: 16px 0 6px; } .ds-field { display: block; width: 100%; min-width: 0; max-width: 100%; min-height: 44px; padding: 9px 11px; border: 1px solid #91a398; border-radius: var(--control-radius, 6px); color: var(--text, #163b35); background: var(--surface, #fff); caret-color: var(--action, #176350); font: 400 .9375rem/1.55 var(--font-ui, 'Manrope', 'Segoe UI', sans-serif); } .ds-field::placeholder { color: var(--text-muted, #5c6b63); opacity: 1; } .ds-field:focus-visible { outline: 3px solid var(--focus, #247a66); outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation Rail",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "Light rail with a dark green selected destination; static preview links.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><a href=\"#preview-queue\" aria-current=\"page\">Work queue</a><a href=\"#preview-complaints\">Complaints</a><a href=\"#preview-coordination\">Coordination</a></nav>",
+      "css": ".ds-nav{font-family:var(--font-ui,'Manrope','Segoe UI',sans-serif);display:grid;gap:4px;background:var(--rail,#f0f2e9);padding:18px;max-width:240px}.ds-nav a{display:flex;align-items:center;min-height:44px;padding:10px 12px;border-radius:6px;font-size:.875rem;font-weight:600;color:var(--rail-text,#354e47);text-decoration:none}.ds-nav a:hover{background:#e1e8dc}.ds-nav a[aria-current]{background:var(--rail-selected,#155543);color:#fff}.ds-nav a:focus-visible{outline:3px solid var(--focus,#247a66);outline-offset:3px;}"
+    },
+    {
+      "name": "Status Badges",
+      "kind": "chip",
+      "refersTo": "badge-neutral",
+      "description": "Noninteractive, text-labelled state indicators; amber is attention rather than a universal overdue flag. Static component preview; example content is synthetic.",
+      "html": "<div class=\"ds-badges\"><span class=\"ds-badge\">Closed</span><span class=\"ds-badge ds-badge-blue\">Open</span><span class=\"ds-badge ds-badge-amber\">Awaiting information</span><span class=\"ds-badge ds-badge-green\">Complete</span></div>",
+      "css": ".ds-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; } .ds-badge { display: inline-flex; align-items: center; width: fit-content; padding: 3px 8px; border-radius: 4px; background: var(--ink-100, #e9eee5); color: var(--ink-800, #354e47); font: 600 .75rem/1.55 var(--font-ui, 'Manrope', 'Segoe UI', sans-serif); } .ds-badge-blue { background: var(--blue-50, #eaf4ed); color: var(--blue-700, #176350); } .ds-badge-amber { background: var(--amber-50, #fff3dd); color: var(--amber-800, #805318); } .ds-badge-green { background: var(--green-50, #edf7f0); color: var(--green-800, #256344); }"
+    },
+    {
+      "name": "Padded Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat shared work surface with a quiet border; no hover elevation. Static component preview; example content is synthetic.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-panel-title\">Complaint details</h2><p class=\"ds-panel-copy\">Review the owner and next step.</p></section>",
+      "css": ".ds-panel { min-width: 0; padding: 24px; background: var(--surface, #fff); border: 1px solid var(--border, #dce2d8); border-radius: var(--panel-radius, 12px); color: var(--text, #163b35); font: 400 .9375rem/1.55 var(--font-ui, 'Manrope', 'Segoe UI', sans-serif); } .ds-panel-title { margin: 0; font-size: 1.125rem; font-weight: 700; line-height: 1.3; letter-spacing: -.015em; text-wrap: balance; overflow-wrap: anywhere; } .ds-panel-copy { margin: 8px 0 16px; overflow-wrap: anywhere; } @media (max-width: 560px) { .ds-panel { padding: 20px 16px; } }"
+    },
+    {
+      "name": "Samanvay identity",
+      "kind": "custom",
+      "refersTo": "brand",
+      "description": "The shipped two-channel S mark and wordmark, including the small clay period.",
+      "html": "<span class=\"ds-brand\"><svg width=\"40\" height=\"40\" viewBox=\"0 0 100 100\" fill=\"none\" aria-hidden=\"true\"><path d=\"M74 17H43C26.4 17 13 30.4 13 47V53H46V41H26.5C29 33.9 35.4 29 43 29H74a6 6 0 0 0 0-12Z\" fill=\"currentColor\"/><path d=\"M26 83H57C73.6 83 87 69.6 87 53V47H54V59H73.5C71 66.1 64.6 71 57 71H26a6 6 0 0 0 0 12Z\" fill=\"currentColor\"/></svg><span>samanvay<span class=\"ds-period\" aria-hidden=\"true\">.</span><small>Clarity. Accountability. Together.</small></span></span>",
+      "css": ".ds-brand{font-family:var(--font-ui,'Manrope','Segoe UI',sans-serif);display:inline-flex;align-items:center;gap:10px;color:var(--text,#163b35);font-size:1.4rem;font-weight:700;line-height:1.1;letter-spacing:-.035em}.ds-brand svg{flex-shrink:0}.ds-period{color:var(--brand-accent,#b86b28)}.ds-brand small{display:block;margin-top:7px;color:var(--text-muted,#5c6b63);font-size:.59375rem;font-weight:500;letter-spacing:.01em}"
+    },
+    {
+      "name": "Next complaint",
+      "kind": "custom",
+      "refersTo": "focus-case",
+      "description": "Synthetic preview of the dark focus-case composition; no real record or deadline is asserted.",
+      "html": "<section class=\"ds-focus\"><p class=\"ds-kicker\">Next in your queue · synthetic preview</p><h3>Review the student’s refund request</h3><p class=\"ds-origin\">Example Institute · DEMO-PREVIEW</p><div class=\"ds-responsibility\"><div><span>Case owner</span><strong>Example officer</strong></div><div><span>Due date</span><strong>Example date</strong></div></div><div class=\"ds-next\"><span>Next step</span><p>Review the submitted receipt.</p></div><a class=\"ds-focus-action\" href=\"#preview-complaint\">Open complaint <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></a></section>",
+      "css": ".ds-focus{font-family:var(--font-ui,'Manrope','Segoe UI',sans-serif);background:var(--focus-surface,#123b3b);color:var(--focus-text,#f4f7ee);padding:24px;border-radius:12px;max-width:560px}.ds-focus p{margin:0}.ds-kicker{font-size:.8125rem;font-weight:500}.ds-focus h3{font-size:1.25rem;line-height:1.4;margin:20px 0 8px;max-width:38ch}.ds-origin{font-size:.8125rem;color:var(--focus-muted,#c2d6ca)}.ds-responsibility{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:24px 0}.ds-responsibility span,.ds-next>span{display:block;color:var(--focus-muted,#c2d6ca);font-size:.6875rem;margin-bottom:3px}.ds-responsibility strong{font-size:.8125rem;font-weight:600}.ds-next{padding-top:18px;border-top:1px solid #44695e}.ds-next p{font-size:.875rem}.ds-focus-action{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:9px 14px;border-radius:6px;font-size:.8125rem;font-weight:600;background:#dfedc8;color:#173d32;text-decoration:none;margin-top:22px}.ds-focus-action:hover{background:#d2e6a7}.ds-focus-action:focus-visible{outline:3px solid #d2e6a7;outline-offset:3px}@media(prefers-reduced-motion:no-preference){.ds-focus-action svg{transition:transform 160ms ease-out}.ds-focus-action:hover svg{transform:translateX(3px)}}"
+    },
+    {
+      "name": "Shared institution plan",
+      "kind": "custom",
+      "refersTo": "connection-plan",
+      "description": "Synthetic static preview; the application populates this pattern from authorised persisted coordination records.",
+      "html": "<section class=\"ds-connection\"><header><h2>Shared institution work</h2><p>One shared plan. Separate case owners.</p></header><div class=\"ds-plan\"><h3>Example Institute, Pune</h3><dl><div><dt>Coordination lead</dt><dd>Example coordinator</dd></div><div><dt>Shared next step</dt><dd>Review responses from both teams.</dd></div></dl><p>Synthetic preview · 2 example open complaints</p></div><div class=\"ds-branches\"><section><h3>Example bureau A</h3><a href=\"#preview-a\">DEMO-PREVIEW-A</a><p>Case owner <strong>Example officer A</strong></p></section><section><h3>Example bureau B</h3><a href=\"#preview-b\">DEMO-PREVIEW-B</a><p>Case owner <strong>Example officer B</strong></p></section></div></section>",
+      "css": ".ds-connection{font-family:var(--font-ui,'Manrope','Segoe UI',sans-serif);color:var(--text,#163b35);max-width:700px}.ds-connection h2{font-size:1.125rem;margin:0 0 6px}.ds-connection header>p{font-size:.875rem;color:var(--text-muted,#5c6b63);margin:0 0 24px}.ds-plan{background:var(--selection,#eaf4ed);padding:22px 24px;border-radius:12px}.ds-plan h3{font-size:1.125rem;line-height:1.4;margin:0}.ds-plan dl{display:grid;grid-template-columns:1fr 1.6fr;gap:24px;margin:20px 0}.ds-plan dt{font-size:.75rem;color:var(--text-muted,#5c6b63);margin-bottom:6px}.ds-plan dd{font-size:.875rem;font-weight:600;line-height:1.5;margin:0}.ds-plan>p{font-size:.75rem;color:var(--text-muted,#5c6b63);margin:0}.ds-branches{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-top:16px}.ds-branches section{border-top:1px solid var(--border,#dce2d8);padding-top:16px}.ds-branches h3{font-size:.8125rem;margin:0 0 12px}.ds-branches a{color:var(--action,#176350);font-size:.8125rem;font-weight:600;text-decoration:none}.ds-branches a:hover{text-decoration:underline}.ds-branches a:focus-visible{outline:3px solid var(--focus,#247a66);outline-offset:3px;}.ds-branches p{font-size:.75rem;color:var(--text-muted,#5c6b63);line-height:1.6;margin:6px 0}.ds-branches strong{color:var(--text,#163b35)}@media(max-width:640px){.ds-plan dl,.ds-branches{grid-template-columns:1fr}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Civic Work Desk",
+    "overview": "Samanvay uses a warm daylight palette, a light navigation rail and compact paper-white work surfaces. Manrope gives headings and controls a shared voice; teal marks actions and selected navigation. A darker teal focus panel makes the next complaint prominent without turning every container into a competing feature.\n\nThe identity consists of two separate channels forming an S, a lowercase wordmark and a small clay period. That geometry echoes the interface: separate complaint records and owners can participate in a shared institution plan. The operational screens retain plain labels, visible next steps and review controls; fictional data and the student-prototype status remain explicit.",
+    "keyCharacteristics": [
+      "Warm ivory canvas with a light navigation rail and white work surfaces.",
+      "Self-hosted Manrope, compact headings and ordinary labelled controls.",
+      "A two-part S mark with a restrained clay accent.",
+      "A dark focus case beside lighter institution coordination context.",
+      "Flat surfaces, thin separators and motion limited to a small action cue."
+    ],
+    "rules": [
+      {
+        "name": "The Action Accent Rule",
+        "body": "Use teal for actionable links, primary controls and selection; keep clay as the identity accent rather than an operational status.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status Has Words Rule",
+        "body": "Pair every status color with a readable state label. Amber attention, red errors and green positive states do not stand alone.",
+        "section": "colors"
+      },
+      {
+        "name": "The Plain Label Rule",
+        "body": "Keep case owner, coordination lead and next step explicit. Type hierarchy must not collapse these responsibilities into an unlabeled diagram.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use borders, spacing and tonal contrast for separation. The implemented workspace does not use decorative drop shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the student-prototype and fictional-data labels visible, and label illustrative diagrams as illustrations.",
+      "Do use the two separate channels of the shipped S mark without joining their paths.",
+      "Do retain explicit complaint IDs and case owners beside the separate coordination lead.",
+      "Do keep actionable elements as links, buttons and labelled native fields with visible keyboard focus.",
+      "Do preserve each complaint record when showing shared institution work or a reviewed relationship.",
+      "Do distinguish implemented source behavior from browser-verified layout, keyboard and zoom evidence."
+    ],
+    "donts": [
+      "Don't describe synthetic records, illustration examples or simulated connections as live institutional integrations.",
+      "Don't treat a suggested connection or a shared institution plan as an automatic duplicate decision or ownership transfer.",
+      "Don't add status meaning to the clay brand period or rely on color alone for operational meaning.",
+      "Don't reinstate the superseded dark navigation rail, blue action palette or system-font-first identity in new live screens.",
+      "Don't claim visual acceptance, human clarity feedback, keyboard results or actual 200% browser zoom from a source inspection."
+    ]
+  }
+}

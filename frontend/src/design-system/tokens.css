@@ -1,0 +1,44 @@
+/* Primitive → semantic → component tokens. Live UI owns this stylesheet. */
+:root {
+  --ink-950: #163b35;
+  --ink-800: #354e47;
+  --ink-600: #5c6b63;
+  --ink-200: #dce2d8;
+  --ink-100: #e9eee5;
+  --ink-50: #f7f8f2;
+  --blue-700: #176350;
+  --blue-50: #eaf4ed;
+  --amber-800: #805318;
+  --amber-50: #fff3dd;
+  --red-800: #9b2936;
+  --red-50: #fff0f1;
+  --green-800: #256344;
+  --green-50: #edf7f0;
+  --surface: #ffffff;
+  --canvas: var(--ink-50);
+  --text: var(--ink-950);
+  --text-muted: var(--ink-600);
+  --border: var(--ink-200);
+  --action: var(--blue-700);
+  --selection: var(--blue-50);
+  --focus: #247a66;
+  --rail: #f0f2e9;
+  --rail-text: #354e47;
+  --rail-selected: #155543;
+  --panel-radius: 12px;
+  --control-radius: 6px;
+  --rail-width: 240px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --font-ui: "Manrope", "Segoe UI", sans-serif;
+  --brand-accent: #b86b28;
+  --action-hover: #104b3d;
+  --control-border: #91a398;
+  --focus-surface: #123b3b;
+  --focus-text: #f4f7ee;
+  --focus-muted: #c2d6ca;
+}

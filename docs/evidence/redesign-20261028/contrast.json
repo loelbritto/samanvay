@@ -1,0 +1,118 @@
+{
+  "method": "Static CSS colour-pair calculation, not computed styles or accessibility certification",
+  "passed": true,
+  "pairs": [
+    {
+      "label": "Body",
+      "foreground": "#243c36",
+      "background": "#f5f7f5",
+      "ratio": 10.991,
+      "meets_4_5": true
+    },
+    {
+      "label": "Muted on white",
+      "foreground": "#596b68",
+      "background": "#ffffff",
+      "ratio": 5.633,
+      "meets_4_5": true
+    },
+    {
+      "label": "Case reference",
+      "foreground": "#586b5d",
+      "background": "#ffffff",
+      "ratio": 5.713,
+      "meets_4_5": true
+    },
+    {
+      "label": "Field caption",
+      "foreground": "#596d60",
+      "background": "#ffffff",
+      "ratio": 5.554,
+      "meets_4_5": true
+    },
+    {
+      "label": "Section note",
+      "foreground": "#596d60",
+      "background": "#ffffff",
+      "ratio": 5.554,
+      "meets_4_5": true
+    },
+    {
+      "label": "Demo strip",
+      "foreground": "#735723",
+      "background": "#f5efdf",
+      "ratio": 5.87,
+      "meets_4_5": true
+    },
+    {
+      "label": "Primary button",
+      "foreground": "#ffffff",
+      "background": "#17685e",
+      "ratio": 6.608,
+      "meets_4_5": true
+    },
+    {
+      "label": "Sidebar caption",
+      "foreground": "#596b60",
+      "background": "#fbfdfb",
+      "ratio": 5.558,
+      "meets_4_5": true
+    },
+    {
+      "label": "Sidebar footer",
+      "foreground": "#5b6e61",
+      "background": "#fbfdfb",
+      "ratio": 5.339,
+      "meets_4_5": true
+    },
+    {
+      "label": "Breadcrumb",
+      "foreground": "#586e60",
+      "background": "#ffffff",
+      "ratio": 5.506,
+      "meets_4_5": true
+    },
+    {
+      "label": "Guide paragraph",
+      "foreground": "#526647",
+      "background": "#eaf0e4",
+      "ratio": 5.397,
+      "meets_4_5": true
+    },
+    {
+      "label": "Active navigation",
+      "foreground": "#165b4a",
+      "background": "#e4f0e8",
+      "ratio": 6.818,
+      "meets_4_5": true
+    },
+    {
+      "label": "Status badge",
+      "foreground": "#126052",
+      "background": "#e8f4ed",
+      "ratio": 6.592,
+      "meets_4_5": true
+    },
+    {
+      "label": "Amber badge",
+      "foreground": "#855216",
+      "background": "#fff0d5",
+      "ratio": 5.808,
+      "meets_4_5": true
+    },
+    {
+      "label": "Eyebrow on guide",
+      "foreground": "#52695e",
+      "background": "#eaf0e4",
+      "ratio": 5.107,
+      "meets_4_5": true
+    },
+    {
+      "label": "Login copy",
+      "foreground": "#61745f",
+      "background": "#f5f7f5",
+      "ratio": 4.676,
+      "meets_4_5": true
+    }
+  ]
+}

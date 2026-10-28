@@ -1,0 +1,1420 @@
+{
+  "scope": "All supplied staged-prompt clauses and every supplied guide body paragraph; missing cited original brief is not covered.",
+  "requirements": [
+    {
+      "id": "P001",
+      "source": "prompt",
+      "line": 1,
+      "original_requirement": "You are implementing Samanvay, a clearly labelled student prototype for institution-related complaint coordination across AICTE bureaus. Its value proposition is: “See connected complaints, responsible officers, and next actions across bureaus in one institution view.” The supplied brief names PS 26264. Verify that identifier, the exact official statement, competition year, and submission requirements when an authoritative source is available. Do not invent confirmation or silently substitute a different statement.",
+      "stages": [
+        0,
+        9
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G0",
+        "G9"
+      ],
+      "status": "partially_verified",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Official identifier/year/text remain unverified."
+    },
+    {
+      "id": "P002",
+      "source": "prompt",
+      "line": 2,
+      "original_requirement": "Treat the supplied requirements as the implementation contract. Use fictional institutions, synthetic complainants, and synthetic identifiers. Do not access restricted AICTE systems, imply deployment or endorsement, incur charges, or send external messages without authorization. Missing official access should produce labelled adapters and documented assumptions, not fake integrations.",
+      "stages": [
+        0,
+        2,
+        9
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G0",
+        "G2 / A01,A02,A11",
+        "G9"
+      ],
+      "status": "verified_stage9",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P003",
+      "source": "prompt",
+      "line": 3,
+      "original_requirement": "Inspect the repository and environment. Prefer existing conventions; otherwise use a conventional modular application, such as React/TypeScript, FastAPI, and PostgreSQL with migrations. Choose compatible versions and record exact setup commands. Use a real database, persistent attachments, backend validation, and background processing. Keep the core demo usable without paid API keys. Do not claim a framework, model, or database is available until inspected.",
+      "stages": [
+        0,
+        2,
+        6
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G0",
+        "G2 / A01,A02,A11",
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P005",
+      "source": "prompt",
+      "line": 5,
+      "original_requirement": "1. Confirmed same institution plus active cases in different bureaus generates a coordination item regardless of complaint similarity.",
+      "stages": [
+        4
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P006",
+      "source": "prompt",
+      "line": 6,
+      "original_requirement": "2. Duplicate submission, related complaint, independent complaint, and UNKNOWN are separate relationship outcomes. Same institution never means automatic duplication.",
+      "stages": [
+        4,
+        5
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14",
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P007",
+      "source": "prompt",
+      "line": 7,
+      "original_requirement": "3. Authorized humans confirm relationships and coordination decisions. AI must not merge, discard, close, transfer, or adjudicate cases.",
+      "stages": [
+        3,
+        4,
+        5
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14",
+        "G4 / A03,A05,A06,A07,A14",
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P008",
+      "source": "prompt",
+      "line": 8,
+      "original_requirement": "4. Original records and evidence remain intact. Preserve case identity during transfer; retain the accountable source owner until the target accepts.",
+      "stages": [
+        2,
+        3
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/workflows.py; backend/tests/test_workflows.py",
+      "acceptance": [
+        "G2 / A01,A02,A11",
+        "G3 / A02,A08,A10,A14"
+      ],
+      "status": "verified_stage3",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P009",
+      "source": "prompt",
+      "line": 9,
+      "original_requirement": "5. Lifecycle state, owner, transfer state, overdue condition, and escalation level are distinct.",
+      "stages": [
+        3,
+        6
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14",
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P010",
+      "source": "prompt",
+      "line": 10,
+      "original_requirement": "6. Authorization applies to APIs, attachment bytes, search, matching evidence, notifications, dashboard counts, and exports. Hidden buttons are insufficient.",
+      "stages": [
+        2,
+        7
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+      "acceptance": [
+        "G2 / A01,A02,A11",
+        "G7 / A11,A12,A13"
+      ],
+      "status": "verified_stage7",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P011",
+      "source": "prompt",
+      "line": 11,
+      "original_requirement": "7. Case changes and audit records commit together. Use version checks and transactions to prevent silent conflicting updates.",
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G2 / A01,A02,A11",
+        "G3 / A02,A08,A10,A14",
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P012",
+      "source": "prompt",
+      "line": 12,
+      "original_requirement": "8. Display only observed results. Label targets, illustrative rules, synthetic data, unavailable services, and proposed policies accurately.",
+      "stages": [
+        0,
+        9
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G0",
+        "G9"
+      ],
+      "status": "verified_stage9",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P013",
+      "source": "prompt",
+      "line": 13,
+      "original_requirement": "Maintain PROJECT_STATE.md with the current stage, completed features, known failures, actual commands and results, decisions, and next actions. Maintain REQUIREMENTS.md with original requirement, implementation location, acceptance test, and evidence. Record policy decisions in DECISIONS.md. Do not repeatedly rewrite working architecture or restart the project because context changed.",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "specified",
+      "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P014",
+      "source": "prompt",
+      "line": 14,
+      "original_requirement": "For every stage, implement and run the relevant checks. Report what changed, what worked, what failed, and the next acceptance gate. A written test is not a passed test; a screenshot is not proof of persistence. Fix material failures before declaring completion. Continue independent work when a missing answer affects only part of the project.",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "specified",
+      "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P016",
+      "source": "prompt",
+      "line": 16,
+      "original_requirement": "Read the complete original brief and inspect the environment. Create a concise implementation plan, requirement traceability table, proposed data model, access matrix, and explicit workflow transitions. Separate confirmed official requirements from team design choices and unresolved questions.",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "partially_verified",
+      "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Separately cited original brief is missing; two supplied sources are completely inventoried."
+    },
+    {
+      "id": "P017",
+      "source": "prompt",
+      "line": 17,
+      "original_requirement": "If I provide an official PS page, round invitation, or slide template, inspect it and record its exact version and constraints. If unavailable, keep the submission outline provisional and continue engineering against the supplied brief. Do not invent online-round judging weights, deadlines, slide limits, or mandatory AICTE disposal periods.",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "partially_verified",
+      "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Official round/template not supplied; outline provisional."
+    },
+    {
+      "id": "P018",
+      "source": "prompt",
+      "line": 18,
+      "original_requirement": "Compare three differentiators: institution timeline, evidence comparison workspace, and proposed-action overlap warnings. Select the timeline plus comparison workspace as the initial demonstration unless repository constraints justify a different choice. Treat action-overlap detection as an extension requiring structured action evidence.",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "specified",
+      "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P019",
+      "source": "prompt",
+      "line": 19,
+      "original_requirement": "Define proposed roles: RB officer, PGRC officer, regional officer, bureau supervisor/coordinator, senior management/competent authority, and system administrator. Distinguish coordination metadata from narratives, identities, and attachments. Administration privileges must not automatically imply unrestricted complaint access. Document this matrix as a prototype proposal requiring stakeholder approval.",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "specified",
+      "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P020",
+      "source": "prompt",
+      "line": 20,
+      "original_requirement": "Acceptance: every original requirement has an owner/stage; permissions and transitions are explicit; uncertain policies are listed; the next implementation slice is small enough to run end to end.",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "specified",
+      "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P022",
+      "source": "prompt",
+      "line": 22,
+      "original_requirement": "Design and implement Samanvay as a calm, readable administrative workspace. A first-time judge should understand the problem and the next action within one screen. Every page must answer: What needs attention? Why? Who owns it? What can happen next?",
+      "stages": [
+        1
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md",
+      "acceptance": [
+        "G1"
+      ],
+      "status": "partially_verified",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Agent technical inspection passed; first-time human comprehension is not measured."
+    },
+    {
+      "id": "P023",
+      "source": "prompt",
+      "line": 23,
+      "original_requirement": "Use a light background, dark readable typography, restrained blue navigation, amber attention indicators, and red only for urgent conditions or errors. Pair colors with meaningful text and icons. Avoid decorative charts, animated backgrounds, oversized hero sections, unexplained AI scores, and a chatbot that dominates the workflow. Use consistent spacing, labelled controls, visible keyboard focus, useful validation, and accessible status messages. Aim for WCAG 2.2 AA design practices; do not claim certified compliance.",
+      "stages": [
+        1
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md",
+      "acceptance": [
+        "G1"
+      ],
+      "status": "verified_stage1",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P024",
+      "source": "prompt",
+      "line": 24,
+      "original_requirement": "Build the navigation around Overview, Cases, Institutions, Coordination, Reports, Notifications, and permitted Settings. Prioritize four demonstration screens: officer overview, institution profile, side-by-side evidence comparison, and case timeline. Also provide usable case intake/detail, report filters, notification history, and administrative settings. Desktop is primary; inspect narrower screens and zoomed layouts.",
+      "stages": [
+        1
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md",
+      "acceptance": [
+        "G1"
+      ],
+      "status": "verified_stage1",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P025",
+      "source": "prompt",
+      "line": 25,
+      "original_requirement": "On the overview, show a short attention queue above workload charts. Each item states the issue, institution, owner, deadline, and primary action. Tables show case ID, institution, issue, bureau/officer, lifecycle, due date, and next action. Counts and charts must drill into the same filtered database records.",
+      "stages": [
+        1,
+        2,
+        6
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G1",
+        "G2 / A01,A02,A11",
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P026",
+      "source": "prompt",
+      "line": 26,
+      "original_requirement": "Use Demo Suryavan Institute, Pune, DEMO-INST-017, and the separate Demo Suryavan Institute, Nagpur, DEMO-INST-044. Identify every example as fictional. A fee-refund pair can be related while an independent faculty complaint remains separate at the Pune institution. Make the city/identifier distinction visible.",
+      "stages": [
+        1
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md",
+      "acceptance": [
+        "G1"
+      ],
+      "status": "verified_stage1",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P027",
+      "source": "prompt",
+      "line": 27,
+      "original_requirement": "Place evidence, conflicting facts, and Confirm/Reject/Defer controls together. Label any temporary UI fixtures as illustrative. Replace them with real backend reads before claiming working functionality. Include loading, empty, error, permission-denied, stale-data, and retry states. No decorative clickable controls.",
+      "stages": [
+        1,
+        2,
+        4
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G1",
+        "G2 / A01,A02,A11",
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P028",
+      "source": "prompt",
+      "line": 28,
+      "original_requirement": "Acceptance: capture and inspect practical browser sizes; navigate the main path with keyboard; verify legibility, focus, labels, and overflow; document every control still awaiting backend integration.",
+      "stages": [
+        1
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md",
+      "acceptance": [
+        "G1"
+      ],
+      "status": "verified_stage1",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P030",
+      "source": "prompt",
+      "line": 30,
+      "original_requirement": "Implement authentication, user scope, institution selection, complaint creation, assignment, and chronological history. Use migrations, seed commands, a secrets-free environment template, and documented startup commands.",
+      "stages": [
+        2
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+      "acceptance": [
+        "G2 / A01,A02,A11"
+      ],
+      "status": "verified_stage2",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P031",
+      "source": "prompt",
+      "line": 31,
+      "original_requirement": "Persist institutions and aliases; bureaus, regions, officers and roles; cases and sensitive complainant records; attachment metadata; assignment history; workflow events; and entity versions. Preserve original submitted institution text alongside its resolved identity. Case fields must include received date, subject, description, category, institution, lifecycle, owner, last action/date, next action, expected disposal date, and supporting evidence.",
+      "stages": [
+        2
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+      "acceptance": [
+        "G2 / A01,A02,A11"
+      ],
+      "status": "verified_stage2",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P032",
+      "source": "prompt",
+      "line": 32,
+      "original_requirement": "Use secure password hashing and appropriate session protection. Do not use a frontend role dropdown as authentication. If a demonstration persona switch exists, constrain it to an explicitly enabled development environment with synthetic accounts.",
+      "stages": [
+        2
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+      "acceptance": [
+        "G2 / A01,A02,A11"
+      ],
+      "status": "verified_stage2",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P033",
+      "source": "prompt",
+      "line": 33,
+      "original_requirement": "Implement an authenticated create-case API and detail API, validation errors, and an intake page that reports success only after the transaction succeeds. An uploaded file must become a real stored object, not just a filename in component state.",
+      "stages": [
+        2
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+      "acceptance": [
+        "G2 / A01,A02,A11"
+      ],
+      "status": "verified_stage2",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P034",
+      "source": "prompt",
+      "line": 34,
+      "original_requirement": "Acceptance: create a unique case through the UI, refresh, stop and restart the application, then retrieve the same case and history through the authenticated API and UI. Confirm the database row exists, unauthorized access fails, and overview counts change from actual records. Record the commands and observed evidence.",
+      "stages": [
+        2
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+      "acceptance": [
+        "G2 / A01,A02,A11"
+      ],
+      "status": "verified_stage2",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P036",
+      "source": "prompt",
+      "line": 36,
+      "original_requirement": "Implement creation/import, assignment, review, information requests, transfer, escalation, disposal, and authorized reopening. Each transition requires permitted source states, appropriate authority, required reason/evidence, and an audit event. Disposal needs a resolution record; reopening retains the earlier disposal history. A rejected validation must leave state unchanged.",
+      "stages": [
+        3
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14"
+      ],
+      "status": "verified_stage3",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P037",
+      "source": "prompt",
+      "line": 37,
+      "original_requirement": "Keep pending/active definitions explicit. Under-process may be a subset of pending. Historical transfer counts must not be added to mutually exclusive lifecycle totals. Derive overdue from due date, lifecycle, and the configured clock. Define missing-date behavior.",
+      "stages": [
+        3
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14"
+      ],
+      "status": "verified_stage3",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P038",
+      "source": "prompt",
+      "line": 38,
+      "original_requirement": "Implement transfer initiation, acceptance, rejection, cancellation where permitted, and expiry handling. Source ownership remains until acceptance; target ownership and acceptance history update atomically. Only the authorized receiving role can accept. A coordinator role does not silently replace individual case ownership. Transfer must not automatically restart a disposal deadline.",
+      "stages": [
+        3
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14"
+      ],
+      "status": "verified_stage3",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P039",
+      "source": "prompt",
+      "line": 39,
+      "original_requirement": "Use optimistic version checks for edits and decisions. Return a clear conflict response when another user changed the record; provide reload/compare recovery. Use transactions and appropriate locking or constraints for acceptance and other coupled changes. Audit entries are append-only through application APIs; do not describe this as absolute tamper-proofing.",
+      "stages": [
+        3
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14"
+      ],
+      "status": "verified_stage3",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P040",
+      "source": "prompt",
+      "line": 40,
+      "original_requirement": "Acceptance: exercise valid/invalid transitions, rejected and accepted transfers, disposal/reopening, and simultaneous conflicting decisions. Verify one accountable owner, preserved case ID, unchanged state on failure, and complete history.",
+      "stages": [
+        3
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14"
+      ],
+      "status": "verified_stage3",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P042",
+      "source": "prompt",
+      "line": 42,
+      "original_requirement": "Implement exact institution-ID lookup first, followed by normalized names, aliases, and address/location evidence. Require human confirmation for ambiguous identity. Similar names in Pune and Nagpur must not silently resolve to one institution. Keep provenance for confirmed aliases and identity decisions.",
+      "stages": [
+        4
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P043",
+      "source": "prompt",
+      "line": 43,
+      "original_requirement": "Create a deterministic coordination item whenever one confirmed institution has active cases in at least two distinct bureaus. The rule must work when the complaints are unrelated and when semantic services are unavailable. Display “Shared institution — coordination required”; reserve duplicate wording for individual relationship suggestions.",
+      "stages": [
+        4
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P044",
+      "source": "prompt",
+      "line": 44,
+      "original_requirement": "Persist coordination groups, participating cases, coordinating bureau/officer, notes, next actions, and review history. Keep original ownership and evidence. Show an institution timeline with concurrent bureau activity, deadlines, movements, and decisions.",
+      "stages": [
+        4
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P045",
+      "source": "prompt",
+      "line": 45,
+      "original_requirement": "Provide Confirm, Reject, and Defer decisions for suggested links. A rejected suggestion stays rejected for the same case versions and evidence fingerprint, including after refresh, scheduled processing, or restart. Materially changed evidence may create a new review item that references the earlier rejection; it must not erase that decision.",
+      "stages": [
+        4
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P046",
+      "source": "prompt",
+      "line": 46,
+      "original_requirement": "Acceptance: two unrelated active cross-bureau cases trigger institutional coordination without a duplicate label; one-bureau cases do not satisfy that rule; evidence decisions persist; similar-name institutions remain separate; all displayed information respects viewer permissions.",
+      "stages": [
+        4
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "verified_stage4",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P048",
+      "source": "prompt",
+      "line": 48,
+      "original_requirement": "Implement a transparent lexical/rule baseline using confirmed institution, normalized text, category, incident period, explicit references, relevant entities, and contradictory fields. Search a bounded eligible candidate set rather than repeatedly comparing every pair. Include relevant disposed cases in historical relationship search; active status is specific to the concurrent-bureau rule.",
+      "stages": [
+        5
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P049",
+      "source": "prompt",
+      "line": 49,
+      "original_requirement": "Define DUPLICATE, RELATED, INDEPENDENT, and UNKNOWN with examples. Different complainants or remedies concerning one event normally require separate related cases under our proposed annotation policy. Missing evidence should produce UNKNOWN or human review, not fabricated agreement.",
+      "stages": [
+        5
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P050",
+      "source": "prompt",
+      "line": 50,
+      "original_requirement": "Add cached local embeddings only after the baseline works. Record model/version, input construction, supported language assumptions, truncation/chunking behavior, and source versions. Optionally rerank retrieved candidates. Explain scores as ranking/evidence signals, not calibrated probabilities. Keep the enhanced method only if a measured comparison supports its value.",
+      "stages": [
+        5
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P051",
+      "source": "prompt",
+      "line": 51,
+      "original_requirement": "Validate any LLM response against a strict schema. Require source case IDs, exact excerpts or structured-field references, supporting and conflicting evidence, missing information, and proposed relationship. Verify citations against authorized supplied records. Treat complaints and documents as untrusted data; embedded instructions cannot invoke tools, alter permissions, or execute actions. Consequential controls remain in backend code.",
+      "stages": [
+        5
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P052",
+      "source": "prompt",
+      "line": 52,
+      "original_requirement": "When the model is unavailable, display “Semantic matching unavailable — rule-based checks active,” continue supported workflows, and do not fabricate semantic results. Recompute or mark stale suggestions after source changes.",
+      "stages": [
+        5
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P053",
+      "source": "prompt",
+      "line": 53,
+      "original_requirement": "Acceptance: demonstrate paraphrase retrieval, independent same-institution complaints, contradictory dates, ambiguous short descriptions, model outage, stale evidence, and prompt-injection text. Human approval remains necessary in every consequential path.",
+      "stages": [
+        5
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "verified_stage5",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P055",
+      "source": "prompt",
+      "line": 55,
+      "original_requirement": "Implement persisted in-app notifications for coordination, potential relationships, pending actions, approaching deadlines, overdue conditions, escalation, and transfer events. Use deduplication keys, acknowledgement, and recorded delivery state. Retries and worker restarts must not create alert floods. External email may use a clearly labelled local test inbox.",
+      "stages": [
+        6
+      ],
+      "owner": "Backend/reporting",
+      "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P056",
+      "source": "prompt",
+      "line": 56,
+      "original_requirement": "Use configurable administrative rules, not invented official AICTE deadlines. Persist jobs or use a reliable database-backed equivalent. The same underlying scheduling logic must serve normal operation and tests. A demonstration clock belongs to an isolated synthetic demo context; advancing it must not alter host time or other users' deadlines. Guard clock/reset endpoints outside development/demo mode.",
+      "stages": [
+        6
+      ],
+      "owner": "Backend/reporting",
+      "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P057",
+      "source": "prompt",
+      "line": 57,
+      "original_requirement": "Implement search/filtering by institution name/ID, case ID, bureau, region, category, status, and date range. Apply scope before results, counts, snippets, and autocomplete are returned.",
+      "stages": [
+        6
+      ],
+      "owner": "Backend/reporting",
+      "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P058",
+      "source": "prompt",
+      "line": 58,
+      "original_requirement": "Provide bureau-, region-, institution-, and status-wise reports; ageing; disposal measures; relationship summaries; and monthly/quarterly views. Define calculations and denominators explicitly. Distinguish cohort disposal rates from disposals divided by new receipts, which can exceed 100% when clearing backlog. Specify date boundaries and time zone. Provide scoped CSV export and a readable printable report.",
+      "stages": [
+        6
+      ],
+      "owner": "Backend/reporting",
+      "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P059",
+      "source": "prompt",
+      "line": 59,
+      "original_requirement": "Acceptance: test just-before/at/after deadline boundaries, repeated scheduler runs, acknowledgement, worker restart, and isolated clock behavior. Confirm drill-down totals and exports agree with authorized underlying cases and documented formulas.",
+      "stages": [
+        6
+      ],
+      "owner": "Backend/reporting",
+      "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "verified_stage6",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P061",
+      "source": "prompt",
+      "line": 61,
+      "original_requirement": "Implement the proposed matrix in centralized backend policies combining role, bureau/region, case relationship, and explicit grants. Separate coordination metadata from full narrative, identity, and evidence. Management and system-administrator roles must follow their defined scopes rather than receiving accidental universal access.",
+      "stages": [
+        7
+      ],
+      "owner": "Security/integration testing",
+      "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+      "acceptance": [
+        "G7 / A11,A12,A13"
+      ],
+      "status": "verified_stage7",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P062",
+      "source": "prompt",
+      "line": 62,
+      "original_requirement": "Apply policies consistently to object reads/writes, list APIs, aggregate counts, matching candidate displays, source excerpts, notifications, search suggestions, reports, and exports. An internal matching service's broader processing permission does not authorize disclosure to every viewer. Return minimum authorized information and a clear route to request review by an appropriate coordinator.",
+      "stages": [
+        7
+      ],
+      "owner": "Security/integration testing",
+      "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+      "acceptance": [
+        "G7 / A11,A12,A13"
+      ],
+      "status": "verified_stage7",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P063",
+      "source": "prompt",
+      "line": 63,
+      "original_requirement": "Store attachments privately with generated storage keys. Validate allowed type, extension/signature, size, and authorization. Do not trust browser MIME declarations or expose storage directories publicly. Protect downloads separately from uploads. Keep secrets in environment configuration and sensitive narratives out of ordinary logs. Validate inputs and handle errors without exposing stack traces or credentials.",
+      "stages": [
+        7
+      ],
+      "owner": "Security/integration testing",
+      "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+      "acceptance": [
+        "G7 / A11,A12,A13"
+      ],
+      "status": "verified_stage7",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P064",
+      "source": "prompt",
+      "line": 64,
+      "original_requirement": "If adding database row-level security, verify with the actual application database role and document bypass behavior. Do not claim security from configuration alone. Record significant access and administrative actions without logging unnecessary personal data.",
+      "stages": [
+        7
+      ],
+      "owner": "Security/integration testing",
+      "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+      "acceptance": [
+        "G7 / A11,A12,A13"
+      ],
+      "status": "verified_stage7",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P065",
+      "source": "prompt",
+      "line": 65,
+      "original_requirement": "Acceptance: attempt direct API access using another case ID and attachment ID; test every role across search, matching evidence, notifications, counts, and exports. Test malformed uploads, forbidden transitions, session expiry, and unsafe model output. Record actual negative-test results and unresolved gaps.",
+      "stages": [
+        7
+      ],
+      "owner": "Security/integration testing",
+      "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+      "acceptance": [
+        "G7 / A11,A12,A13"
+      ],
+      "status": "verified_stage7",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P067",
+      "source": "prompt",
+      "line": 67,
+      "original_requirement": "Generate approximately 30–50 fictional institutions and 200–300 synthetic cases covering the original brief's edge cases. Include exact/paraphrased duplicates, related incidents, independent same-institution issues, name collisions, missing IDs, misspellings, incomplete text, conflicting dates, and all required workflow states. Keep explicit ground-truth labels outside model-visible case content.",
+      "stages": [
+        8
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G8 / A01-A14"
+      ],
+      "status": "partially_verified",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Frozen split audit passed; independent difficult-label review is unperformed."
+    },
+    {
+      "id": "P068",
+      "source": "prompt",
+      "line": 68,
+      "original_requirement": "Split development, validation, and held-out evaluation by incident families and near-duplicate generation templates. Do not randomly split pairs that share the same complaint or incident. Add an unseen-institution stress set. A held-out retrieval query needs a matching historical record in its held-out gallery; those incidents must remain unavailable for tuning. Ask humans to review difficult labels independently where possible and record disagreements.",
+      "stages": [
+        8
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G8 / A01-A14"
+      ],
+      "status": "verified_stage8",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P069",
+      "source": "prompt",
+      "line": 69,
+      "original_requirement": "Compare baseline and enhanced methods on the same held-out data. Measure institution matching, candidate recall at a stated k, per-class precision/recall/F1, class support, confusion matrix, UNKNOWN/abstention coverage, and end-to-end errors. Report latency with sample size, hardware, and cold/warm conditions. Do not turn synthetic accuracy into a claim about real AICTE complaints.",
+      "stages": [
+        8
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G8 / A01-A14"
+      ],
+      "status": "partially_verified",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; All fourteen bounded technical scenarios exercised; semantic evidence uses validated baseline/disabled-adapter tests, not a live semantic model. Formal exhaustive usability is not established."
+    },
+    {
+      "id": "P070",
+      "source": "prompt",
+      "line": 70,
+      "original_requirement": "Run all fourteen acceptance scenarios in the original brief, including persistence after restart, real counts, cross-bureau alerts, semantic evidence, independent cases, institution collisions, decisions, transfers, reminders, escalation, unauthorized API/attachment access, export scope, AI outage, and concurrent updates. Inspect every meaningful UI control, keyboard flow, loading/error state, and practical screen size.",
+      "stages": [
+        8
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G8 / A01-A14"
+      ],
+      "status": "verified_stage8",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P071",
+      "source": "prompt",
+      "line": 71,
+      "original_requirement": "Acceptance: produce reproducible commands, raw results, labelled false positives/negatives, requirement-to-test evidence, limitations, and a clear distinction between measured outcomes and future targets. Fix material failures; report any remaining unfinished requirements explicitly.",
+      "stages": [
+        8
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G8 / A01-A14"
+      ],
+      "status": "verified_stage8",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P073",
+      "source": "prompt",
+      "line": 73,
+      "original_requirement": "Prepare exact setup/startup instructions, migrations, seed commands, environment template, architecture/data-flow explanation, role matrix, matching explanation, baseline comparison, test evidence, limitations, and team module guide. Provide seeded synthetic credentials without production secrets. Implement an idempotent reset procedure gated to development/demo data; it must never delete an arbitrary configured production database.",
+      "stages": [
+        9
+      ],
+      "owner": "Demo operations/product",
+      "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G9"
+      ],
+      "status": "verified_stage9",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P074",
+      "source": "prompt",
+      "line": 74,
+      "original_requirement": "Create an approximately three-minute rehearsal: PGRC receives a Pune fee-refund case; RB receives a paraphrase using an abbreviation; institution resolution and relationship evidence appear; an unrelated faculty case stays independent; an officer records coordination and next actions; the timeline shows accountability; an isolated demo clock triggers an alert; management exports the permitted institution report. Briefly demonstrate that the Nagpur institution is separate. Keep each claimed capability observable.",
+      "stages": [
+        9
+      ],
+      "owner": "Demo operations/product",
+      "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G9"
+      ],
+      "status": "partially_verified",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Observable browser and automated rehearsal passed; approximately three-minute narration is a target, not measured runtime."
+    },
+    {
+      "id": "P075",
+      "source": "prompt",
+      "line": 75,
+      "original_requirement": "Prepare backup screenshots or a recording from the actual working build, labelled with its capture date/version. Verify all demo links, login credentials, reset commands, and model-cache availability. An official submission template overrides the provisional pitch outline when supplied; do not assume the panel will open external links or watch a long video.",
+      "stages": [
+        9
+      ],
+      "owner": "Demo operations/product",
+      "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G9"
+      ],
+      "status": "verified_stage9",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    },
+    {
+      "id": "P076",
+      "source": "prompt",
+      "line": 76,
+      "original_requirement": "Rehearse answers about differentiation, wrong matches, ownership, evidence, privacy, offline behavior, measured results, and simulated integrations. Ask a teammate unfamiliar with the build to explain the problem and next action from each key screen. Record confusion and repair the interface or narration.",
+      "stages": [
+        9
+      ],
+      "owner": "Demo operations/product",
+      "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G9"
+      ],
+      "status": "partially_verified",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Q&A prepared; unfamiliar teammate comprehension requested but user delegated choices, so human study is unperformed."
+    },
+    {
+      "id": "P077",
+      "source": "prompt",
+      "line": 77,
+      "original_requirement": "Acceptance: run the complete demo from a clean reset, restart and repeat it, document observed results, and list unresolved limitations. Never promise selection or describe a planned feature, generated test, or mock integration as complete",
+      "stages": [
+        9
+      ],
+      "owner": "Demo operations/product",
+      "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G9"
+      ],
+      "status": "verified_stage9",
+      "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+    }
+  ],
+  "guide_sections": [
+    {
+      "id": "G01",
+      "source": "guide",
+      "paragraph_start": 1,
+      "paragraph_end": 17,
+      "topic": "Recommendation and source boundaries",
+      "stages": [
+        0,
+        9
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G0",
+        "G9"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G02",
+      "source": "guide",
+      "paragraph_start": 18,
+      "paragraph_end": 43,
+      "topic": "Official requirements and unresolved submission constraints",
+      "stages": [
+        0,
+        9
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G0",
+        "G9"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G03",
+      "source": "guide",
+      "paragraph_start": 44,
+      "paragraph_end": 58,
+      "topic": "Differentiator comparison",
+      "stages": [
+        0,
+        4,
+        5
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G0",
+        "G4 / A03,A05,A06,A07,A14",
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G04",
+      "source": "guide",
+      "paragraph_start": 59,
+      "paragraph_end": 79,
+      "topic": "Contract refinements and first persistent slice",
+      "stages": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G0",
+        "G2 / A01,A02,A11",
+        "G3 / A02,A08,A10,A14",
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G05",
+      "source": "guide",
+      "paragraph_start": 80,
+      "paragraph_end": 120,
+      "topic": "Relationship definitions and fictional demonstration",
+      "stages": [
+        4,
+        5,
+        8
+      ],
+      "owner": "Backend/coordination",
+      "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/; evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G4 / A03,A05,A06,A07,A14",
+        "G5 / A04,A05,A07,A13",
+        "G8 / A01-A14"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G06",
+      "source": "guide",
+      "paragraph_start": 121,
+      "paragraph_end": 182,
+      "topic": "Interface and signature evidence workspace",
+      "stages": [
+        1,
+        4
+      ],
+      "owner": "Frontend/accessibility",
+      "implementation_location": "frontend/; docs/STAGE1_UI.md; backend/app/coordination.py; backend/tests/test_coordination.py",
+      "acceptance": [
+        "G1",
+        "G4 / A03,A05,A06,A07,A14"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G07",
+      "source": "guide",
+      "paragraph_start": 183,
+      "paragraph_end": 211,
+      "topic": "Architecture, records and integration boundaries",
+      "stages": [
+        2,
+        4,
+        6
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G2 / A01,A02,A11",
+        "G4 / A03,A05,A06,A07,A14",
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G08",
+      "source": "guide",
+      "paragraph_start": 212,
+      "paragraph_end": 238,
+      "topic": "Workflow, report calculations and reminders",
+      "stages": [
+        3,
+        6
+      ],
+      "owner": "Backend/workflow",
+      "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/reporting.py; scheduling.py; worker.py",
+      "acceptance": [
+        "G3 / A02,A08,A10,A14",
+        "G6 / A02,A09,A10,A12"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G09",
+      "source": "guide",
+      "paragraph_start": 239,
+      "paragraph_end": 253,
+      "topic": "Baseline and constrained optional AI",
+      "stages": [
+        5
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+      "acceptance": [
+        "G5 / A04,A05,A07,A13"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G10",
+      "source": "guide",
+      "paragraph_start": 254,
+      "paragraph_end": 288,
+      "topic": "Proposed access and attachment security",
+      "stages": [
+        2,
+        7
+      ],
+      "owner": "Backend/persistence",
+      "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+      "acceptance": [
+        "G2 / A01,A02,A11",
+        "G7 / A11,A12,A13"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G11",
+      "source": "guide",
+      "paragraph_start": 289,
+      "paragraph_end": 314,
+      "topic": "Synthetic data and evaluation",
+      "stages": [
+        8
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G8 / A01-A14"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G12",
+      "source": "guide",
+      "paragraph_start": 315,
+      "paragraph_end": 351,
+      "topic": "Fourteen acceptance scenarios and browser inspection",
+      "stages": [
+        8
+      ],
+      "owner": "Matching/evaluation",
+      "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+      "acceptance": [
+        "G8 / A01-A14"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G13",
+      "source": "guide",
+      "paragraph_start": 352,
+      "paragraph_end": 380,
+      "topic": "Phased handoffs and suggested human ownership",
+      "stages": [
+        0,
+        9
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G0",
+        "G9"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G14",
+      "source": "guide",
+      "paragraph_start": 381,
+      "paragraph_end": 411,
+      "topic": "Proposed rehearsal and backup",
+      "stages": [
+        9
+      ],
+      "owner": "Demo operations/product",
+      "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G9"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G15",
+      "source": "guide",
+      "paragraph_start": 412,
+      "paragraph_end": 446,
+      "topic": "Provisional submission narrative and judge questions",
+      "stages": [
+        9
+      ],
+      "owner": "Demo operations/product",
+      "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G9"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G16",
+      "source": "guide",
+      "paragraph_start": 447,
+      "paragraph_end": 477,
+      "topic": "Required inputs and production questions",
+      "stages": [
+        0,
+        9
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+      "acceptance": [
+        "G0",
+        "G9"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    },
+    {
+      "id": "G17",
+      "source": "guide",
+      "paragraph_start": 478,
+      "paragraph_end": 532,
+      "topic": "Research citations and verification caveats",
+      "stages": [
+        0
+      ],
+      "owner": "Product/contracts",
+      "implementation_location": "PLAN.md",
+      "acceptance": [
+        "G0"
+      ],
+      "status": "reference_mapped",
+      "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+    }
+  ]
+}

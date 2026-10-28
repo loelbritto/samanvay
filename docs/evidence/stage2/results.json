@@ -1,0 +1,26 @@
+{
+  "observed_at_utc": "2026-10-27T13:53:42.148867+00:00",
+  "stage1_ready": true,
+  "stage2_ready": true,
+  "scope": "Local synthetic G1/G2 gates only; saved browser evidence plus executed API/DB/file checks and pytest. No later-stage/security certification.",
+  "tests": 16,
+  "test_failures": 0,
+  "test_warnings": 1,
+  "stage1_zoom_screens": 14,
+  "stage2_layout_observations": 20,
+  "ui_case": "DEMO-20BF09829C05",
+  "restart_matches": true,
+  "sha256": "d2403f506e0bb0c5342f1b3eae55d70965d680bca827f3cfa993b8d13fae4832",
+  "evidence": [
+    "../stage2-tests.xml",
+    "../stage1-zoom/results.json",
+    "ui-intake.json",
+    "ui-after-restart.json",
+    "final-ui.json",
+    "before-restart-api.json",
+    "after-restart-api.json",
+    "layout-results.json",
+    "database-audit.json",
+    "../stage2-commands.md"
+  ]
+}

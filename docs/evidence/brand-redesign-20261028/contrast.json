@@ -1,0 +1,146 @@
+{
+  "method": "Static CSS colour-pair calculation, not computed styles or accessibility certification",
+  "passed": true,
+  "pairs": [
+    {
+      "label": "Body on canvas",
+      "foreground": "#163b35",
+      "background": "#f7f8f2",
+      "ratio": 11.492,
+      "meets_4_5": true
+    },
+    {
+      "label": "Body on white",
+      "foreground": "#163b35",
+      "background": "#ffffff",
+      "ratio": 12.273,
+      "meets_4_5": true
+    },
+    {
+      "label": "Muted and placeholder",
+      "foreground": "#5c6b63",
+      "background": "#ffffff",
+      "ratio": 5.618,
+      "meets_4_5": true
+    },
+    {
+      "label": "Muted on canvas",
+      "foreground": "#5c6b63",
+      "background": "#f7f8f2",
+      "ratio": 5.26,
+      "meets_4_5": true
+    },
+    {
+      "label": "Primary control",
+      "foreground": "#ffffff",
+      "background": "#176350",
+      "ratio": 7.15,
+      "meets_4_5": true
+    },
+    {
+      "label": "Information status",
+      "foreground": "#176350",
+      "background": "#eaf4ed",
+      "ratio": 6.354,
+      "meets_4_5": true
+    },
+    {
+      "label": "Amber status",
+      "foreground": "#805318",
+      "background": "#fff3dd",
+      "ratio": 6.034,
+      "meets_4_5": true
+    },
+    {
+      "label": "Error",
+      "foreground": "#9b2936",
+      "background": "#fff0f1",
+      "ratio": 6.869,
+      "meets_4_5": true
+    },
+    {
+      "label": "Success status",
+      "foreground": "#256344",
+      "background": "#edf7f0",
+      "ratio": 6.503,
+      "meets_4_5": true
+    },
+    {
+      "label": "Navigation",
+      "foreground": "#354e47",
+      "background": "#f0f2e9",
+      "ratio": 7.968,
+      "meets_4_5": true
+    },
+    {
+      "label": "Active navigation",
+      "foreground": "#ffffff",
+      "background": "#155543",
+      "ratio": 8.705,
+      "meets_4_5": true
+    },
+    {
+      "label": "Navigation hover",
+      "foreground": "#354e47",
+      "background": "#e1e8dc",
+      "ratio": 7.194,
+      "meets_4_5": true
+    },
+    {
+      "label": "Rail subtitle",
+      "foreground": "#5c6b63",
+      "background": "#f0f2e9",
+      "ratio": 4.971,
+      "meets_4_5": true
+    },
+    {
+      "label": "Prototype strip",
+      "foreground": "#52634f",
+      "background": "#ecefe5",
+      "ratio": 5.541,
+      "meets_4_5": true
+    },
+    {
+      "label": "Count label",
+      "foreground": "#5c6b63",
+      "background": "#e9eee5",
+      "ratio": 4.768,
+      "meets_4_5": true
+    },
+    {
+      "label": "Focus title",
+      "foreground": "#f4f7ee",
+      "background": "#123b3b",
+      "ratio": 11.307,
+      "meets_4_5": true
+    },
+    {
+      "label": "Focus supporting copy",
+      "foreground": "#c2d6ca",
+      "background": "#123b3b",
+      "ratio": 8.029,
+      "meets_4_5": true
+    },
+    {
+      "label": "Focus due label",
+      "foreground": "#f5d28c",
+      "background": "#123b3b",
+      "ratio": 8.446,
+      "meets_4_5": true
+    },
+    {
+      "label": "Focus button",
+      "foreground": "#173d32",
+      "background": "#dfedc8",
+      "ratio": 9.763,
+      "meets_4_5": true
+    },
+    {
+      "label": "Focus button hover",
+      "foreground": "#173d32",
+      "background": "#d2e6a7",
+      "ratio": 8.924,
+      "meets_4_5": true
+    }
+  ]
+}

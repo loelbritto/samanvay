@@ -1,0 +1,135 @@
+{
+  "stage": 1,
+  "date": "2026-10-27",
+  "timezone": "Asia/Kolkata",
+  "status": "partially_verified",
+  "record_type": "Summary transcribed from observed browser-tool outputs; not a raw exported test-run result",
+  "browser": "ChatGPT in-app Chromium; separate Chrome tab opened only for attempted native zoom",
+  "url": "http://127.0.0.1:5173/",
+  "route_screens": [
+    "overview",
+    "cases",
+    "intake",
+    "institutions",
+    "institution",
+    "nagpur",
+    "coordination",
+    "comparison",
+    "detail",
+    "timeline",
+    "reports",
+    "notifications",
+    "settings",
+    "states"
+  ],
+  "layout_observations": {
+    "count": 28,
+    "desktop": {
+      "viewport_width": 1440,
+      "viewport_height": 900,
+      "client_width_values": [
+        1425,
+        1440
+      ],
+      "page_overflow_failures": 0,
+      "unlabelled_form_controls": 0
+    },
+    "narrow": {
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "client_width": 375,
+      "page_overflow_failures": 0,
+      "unlabelled_form_controls": 0
+    },
+    "note": "All fourteen screens were measured/captured at each size. Case tables intentionally have local horizontal scrolling. These measurements are not a full accessibility assessment."
+  },
+  "keyboard_route": [
+    {
+      "from": "Overview heading",
+      "keys": [
+        "Tab",
+        "Tab",
+        "Enter"
+      ],
+      "focus_observed": [
+        "Preview case intake",
+        "Open institution"
+      ],
+      "outline_observed": "solid",
+      "result_heading": "Demo Suryavan Institute, Pune"
+    },
+    {
+      "from": "Pune profile heading",
+      "keys": [
+        "Tab",
+        "Tab",
+        "Enter"
+      ],
+      "focus_observed": [
+        "Inspect the other institution",
+        "Compare evidence"
+      ],
+      "outline_observed": "solid",
+      "result_heading": "Connected incident. Separate complaints."
+    },
+    {
+      "from": "Comparison heading",
+      "keys": [
+        "Tab",
+        "Tab",
+        "Enter"
+      ],
+      "focus_observed": [
+        "PGRC-014",
+        "View PGRC-014 timeline"
+      ],
+      "result_heading": "Case timeline"
+    }
+  ],
+  "functional_observations": [
+    "Searching RB-031 displayed 1 of 4 fictional records",
+    "PGRC bureau filter displayed 2 of 4 fictional records",
+    "Nonexistent search displayed No fixture cases match",
+    "Empty intake displayed six required-field messages",
+    "Valid fictional intake displayed No case was created or saved",
+    "Create, file input, relationship and coordination assignment controls were disabled",
+    "RB plus Nagpur report displayed one case, pending 1, under review 0, disposed 0",
+    "Report drill-down displayed 1 of 4 and RB-031",
+    "Loading, empty, error, denied and stale examples rendered explicitly as simulations",
+    "Retry said no server request was made; reload said no database conflict or mutation occurred",
+    "Nagpur displayed DEMO-INST-044 and the one-bureau counterexample with no Compare evidence action"
+  ],
+  "zoom": {
+    "status": "unverified",
+    "attempt": "In-app Ctrl+0 followed by four Ctrl+plus shortcuts",
+    "before": {
+      "width": 1440,
+      "height": 900,
+      "device_pixel_ratio": 1.0000000149011612
+    },
+    "after": {
+      "width": 1440,
+      "height": 900,
+      "device_pixel_ratio": 1.0000000149011612
+    },
+    "chrome": "Preview tab opened; no native zoom input occurred because Windows Computer Use stopped on inability to determine current browser URL reliably for policy enforcement",
+    "no_further_browser_input": true
+  },
+  "not_claimed": [
+    "database persistence",
+    "backend authorization",
+    "AI evaluation",
+    "WCAG conformance",
+    "console audit",
+    "screen-reader verification",
+    "actual 200 percent zoom"
+  ],
+  "follow_up": {
+    "evidence": "docs/evidence/stage1-completion/",
+    "supporting_review": "complete",
+    "layout_observations_repeated": 28,
+    "zoom": "unverified; physical Escape stopped native tab selection before zoom changed",
+    "stage1_ready_to_close": false,
+    "next_gate": "actual 200 percent browser zoom"
+  }
+}

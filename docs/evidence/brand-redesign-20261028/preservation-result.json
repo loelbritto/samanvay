@@ -1,0 +1,24 @@
+{
+  "records_and_private_bytes_unchanged": true,
+  "changed_sources": [
+    "frontend/src/App.tsx",
+    "frontend/src/LiveApp.tsx",
+    "frontend/src/app/Login.tsx",
+    "frontend/src/app/RouteView.tsx",
+    "frontend/src/app/WorkspaceBoundary.tsx",
+    "frontend/src/app/WorkspaceShell.tsx",
+    "frontend/src/design-system/connections.css",
+    "frontend/src/design-system/desk.css",
+    "frontend/src/design-system/tokens.css",
+    "frontend/src/design-system/workspace.css",
+    "frontend/src/screens/CoordinationScreens.tsx",
+    "frontend/src/shared/Brand.tsx",
+    "frontend/src/features/cases/CaseList.tsx",
+    "frontend/src/features/workspace/connection-model.ts",
+    "frontend/src/features/workspace/FocusCase.tsx",
+    "frontend/src/features/workspace/InstitutionConnections.tsx",
+    "frontend/src/features/workspace/queue-model.ts",
+    "frontend/src/features/workspace/WorkQueue.tsx"
+  ],
+  "removed_sources": []
+}

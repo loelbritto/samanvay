@@ -1,0 +1,16 @@
+src/shared/Brand.tsx 59ms
+src/app/Login.tsx 67ms
+src/app/WorkspaceShell.tsx 47ms
+src/app/RouteView.tsx 15ms
+src/LiveApp.tsx 12ms
+src/features/workspace/connection-model.ts 17ms (unchanged)
+src/features/workspace/FocusCase.tsx 11ms
+src/features/workspace/InstitutionConnections.tsx 43ms
+src/features/workspace/queue-model.ts 6ms
+src/features/workspace/WorkQueue.tsx 24ms
+src/features/cases/CaseList.tsx 10ms
+src/screens/CoordinationScreens.tsx 139ms
+src/design-system/tokens.css 46ms
+src/design-system/workspace.css 180ms
+src/design-system/desk.css 60ms
+tests/queue-model.test.ts 9ms

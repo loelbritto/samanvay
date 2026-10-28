@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Assembly — separate participants around a common centre</title>
+  <g fill="currentColor">
+    <path d="M50 12a10 10 0 0 1 10 10v13H40V22a10 10 0 0 1 10-10Z"/>
+    <path d="M88 50a10 10 0 0 1-10 10H65V40h13a10 10 0 0 1 10 10Z"/>
+    <path d="M50 88a10 10 0 0 1-10-10V65h20v13a10 10 0 0 1-10 10Z"/>
+    <path d="M12 50a10 10 0 0 1 10-10h13v20H22a10 10 0 0 1-10-10Z"/>
+    <rect x="42" y="42" width="16" height="16" rx="5"/>
+  </g>
+</svg>

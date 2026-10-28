@@ -1,0 +1,110 @@
+[
+  {
+    "account": "rb@demo.test",
+    "direct_case": 200,
+    "private_bytes": 200,
+    "secret_search_count": 1,
+    "autocomplete_count": 1,
+    "authorised_total": 2,
+    "csv_rows": 2,
+    "matching_status": 403,
+    "other_recipient_ack_status": 409,
+    "passed": true
+  },
+  {
+    "account": "rb.backup@demo.test",
+    "direct_case": 404,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 1,
+    "csv_rows": 1,
+    "matching_status": 404,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  },
+  {
+    "account": "pgrc@demo.test",
+    "direct_case": 404,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 2,
+    "csv_rows": 2,
+    "matching_status": 404,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  },
+  {
+    "account": "supervisor@demo.test",
+    "direct_case": 200,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 3,
+    "csv_rows": 3,
+    "matching_status": 403,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  },
+  {
+    "account": "pgrc.supervisor@demo.test",
+    "direct_case": 404,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 2,
+    "csv_rows": 2,
+    "matching_status": 404,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  },
+  {
+    "account": "regional@demo.test",
+    "direct_case": 404,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 0,
+    "csv_rows": 0,
+    "matching_status": 404,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  },
+  {
+    "account": "coordinator@demo.test",
+    "direct_case": 200,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 5,
+    "csv_rows": 5,
+    "matching_status": 403,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  },
+  {
+    "account": "management@demo.test",
+    "direct_case": 404,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 0,
+    "csv_rows": 0,
+    "matching_status": 404,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  },
+  {
+    "account": "admin@demo.test",
+    "direct_case": 404,
+    "private_bytes": 404,
+    "secret_search_count": 0,
+    "autocomplete_count": 0,
+    "authorised_total": 0,
+    "csv_rows": 0,
+    "matching_status": 404,
+    "other_recipient_ack_status": 404,
+    "passed": true
+  }
+]

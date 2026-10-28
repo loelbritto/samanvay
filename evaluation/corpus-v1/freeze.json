@@ -1,0 +1,19 @@
+{
+  "version": "corpus-v1",
+  "synthetic": true,
+  "seed": 26264,
+  "institutions": 32,
+  "cases": 240,
+  "labelled_pairs": 528,
+  "identity_queries": 98,
+  "sha256": {
+    "institutions.json": "9c5e47bcc47979d79507bc3bcc85d0f7d85a2aaaa1d96ea292122b7d6752e036",
+    "cases.json": "8a884cfc6743c72a0daf1cbcc7f7f0136f5d70afaa8ee040e243fd96a63d516e",
+    "labels.json": "ba5bc4642bb50b000660c76796ccd06be5db422b10b95c681ae4ef83085966ea",
+    "splits.json": "be2e3360473e83a752d90d359cae5da29fc2090e9c67ac07d717452ac8742df7",
+    "identity-queries.json": "93c3b52b65860cc50e64bfac55feb09d20d3a247de3d275d5f36e2804732d120",
+    "identity-labels.json": "0c9a7316a0e197102984a1532ddf8605bf9b01d953a44182b4998f1e66a4b5ba"
+  },
+  "human_annotation": "Generated from explicit synthetic policy; no independent human label review yet",
+  "leakage_boundary": "cases.json contains no gold relationship/split/template fields. Labels and split groups are separate evaluator-only files."
+}

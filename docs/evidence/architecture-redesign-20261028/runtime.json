@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-28T10:40:19.9217787+05:30",
+  "health": {
+    "status": "ok",
+    "synthetic": true,
+    "database": "persistent SQLite",
+    "integrations": "none"
+  },
+  "workspace_route_registered": true,
+  "unauthenticated_workspace_status": 401,
+  "listeners": [
+    {
+      "LocalPort": 8001,
+      "OwningProcess": 18244
+    },
+    {
+      "LocalPort": 5174,
+      "OwningProcess": 2752
+    }
+  ],
+  "browser_observed": false
+}

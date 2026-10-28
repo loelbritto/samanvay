@@ -1,0 +1,59 @@
+{
+  "read_only": true,
+  "passed": true,
+  "preserved_case_count": 5,
+  "cases": [
+    {
+      "id": "DEMO-20BF09829C05",
+      "version": 1,
+      "owner": "Demo Kabir Sen",
+      "original_rows": 1,
+      "current_assignments": 1,
+      "assignment_rows": 1,
+      "event_rows": 3
+    },
+    {
+      "id": "PGRC-014",
+      "version": 1,
+      "owner": "Demo Ananya Rao",
+      "original_rows": 1,
+      "current_assignments": 1,
+      "assignment_rows": 1,
+      "event_rows": 1
+    },
+    {
+      "id": "PGRC-019",
+      "version": 1,
+      "owner": "Demo Ananya Rao",
+      "original_rows": 1,
+      "current_assignments": 1,
+      "assignment_rows": 1,
+      "event_rows": 1
+    },
+    {
+      "id": "RB-023",
+      "version": 3,
+      "owner": "Demo Kabir Sen",
+      "original_rows": 1,
+      "current_assignments": 1,
+      "assignment_rows": 3,
+      "event_rows": 3
+    },
+    {
+      "id": "RB-031",
+      "version": 1,
+      "owner": "Demo Meera Das",
+      "original_rows": 1,
+      "current_assignments": 1,
+      "assignment_rows": 1,
+      "event_rows": 1
+    }
+  ],
+  "rb023_assignment_reasons": [
+    "Synthetic Stage 2 UI assignment verification",
+    "Synthetic verification complete; restore original accountable officer with retained history"
+  ],
+  "job_states": {
+    "DONE": 1
+  }
+}

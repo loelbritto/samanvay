@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-28T11:13:22.5615874+05:30",
+  "api_health": {
+    "status": "ok",
+    "synthetic": true,
+    "database": "persistent SQLite",
+    "integrations": "none"
+  },
+  "listeners": [
+    {
+      "LocalPort": 8001,
+      "OwningProcess": 18244
+    },
+    {
+      "LocalPort": 5174,
+      "OwningProcess": 27496
+    }
+  ],
+  "frontend_restart": "Vite ready; dependencies re-optimized after lockfile change",
+  "browser_verified": false
+}

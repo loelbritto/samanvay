@@ -1,0 +1,158 @@
+{
+  "phase": 0,
+  "scope": "Planning/source coverage audit only; no application acceptance tests",
+  "run_at_utc": "2026-10-27T12:19:01.576961+00:00",
+  "originals_rechecked": true,
+  "checks": [
+    {
+      "name": "document:README.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:PLAN.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:DECISIONS.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:PROJECT_STATE.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:REQUIREMENTS.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/DATA_MODEL.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/ACCESS_MATRIX.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/WORKFLOWS.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/ACCEPTANCE.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "document:docs/evidence/phase0-commands.md",
+      "passed": true,
+      "detail": "Required planning artifact exists and is nonempty"
+    },
+    {
+      "name": "complete_prompt_coverage",
+      "passed": true,
+      "detail": {
+        "expected_clauses": 66,
+        "mapped_clauses": 66,
+        "missing": []
+      }
+    },
+    {
+      "name": "verbatim_requirement_text",
+      "passed": true,
+      "detail": "Every mapped original clause equals its source snapshot line"
+    },
+    {
+      "name": "owner_stage_location_acceptance_evidence",
+      "passed": true,
+      "detail": "Every clause/guide section has traceability fields"
+    },
+    {
+      "name": "honest_maturity_statuses",
+      "passed": true,
+      "detail": "Requirements distinguish planning and limited preview evidence; no persistent application pass is claimed"
+    },
+    {
+      "name": "complete_guide_context_coverage",
+      "passed": true,
+      "detail": {
+        "body_paragraphs": 532,
+        "covered_once": 532
+      }
+    },
+    {
+      "name": "generated_markdown_current",
+      "passed": true,
+      "detail": "Readable requirement table matches machine-readable map"
+    },
+    {
+      "name": "separate_concepts_documented",
+      "passed": true,
+      "detail": "Four distinct proposed persistence concepts are documented"
+    },
+    {
+      "name": "lifecycle_and_transfer_documented",
+      "passed": true,
+      "detail": "Lifecycle and transfer states have distinct documented command tables"
+    },
+    {
+      "name": "role_matrix_documented",
+      "passed": true,
+      "detail": "All proposed roles and separate service authority are included"
+    },
+    {
+      "name": "fourteen_scenarios_documented",
+      "passed": true,
+      "detail": "Fourteen scenario definitions are present; none is claimed executed"
+    },
+    {
+      "name": "uncertainty_and_next_slice_documented",
+      "passed": true,
+      "detail": "Official uncertainty, missing source and next UI slice are explicit"
+    },
+    {
+      "name": "original_files_available",
+      "passed": true,
+      "detail": "Original files are available for this audit"
+    },
+    {
+      "name": "original_hashes_and_extraction",
+      "passed": true,
+      "detail": "Original SHA-256 hashes and full extracted text/links equal captured snapshot"
+    },
+    {
+      "name": "reproducible_mapping",
+      "passed": true,
+      "detail": "Regenerating source classification yields identical traceability data"
+    }
+  ],
+  "passed": true,
+  "check_count": 24,
+  "failure_count": 0,
+  "prompt_clause_count": 66,
+  "guide_paragraph_count": 532,
+  "artifact_sha256": {
+    "README.md": "6450a7013c9ae2c5e789462e4a8572183a0d0343774e94bae66a979bb2eb6275",
+    "PLAN.md": "d0498f88e967531b25fba50b69474a36b69edea056c005e9d5be59344a154457",
+    "DECISIONS.md": "c3b134d2d4f03144a17e6b9844284dc039233269adba3a897349a0e916c2f917",
+    "PROJECT_STATE.md": "9f55c277d3e246ccca4a0a9ea3b69faef755f14833fe6b4220a09fa39e4a607e",
+    "REQUIREMENTS.md": "2c88ca2d81769ecc6c4aa013e4c1145d895d62e5897b0f8ab7e4af389103b88e",
+    "docs/DATA_MODEL.md": "89938d9b3cdbca69075158df259ec53cc13339bb09b176e8a280c68151ccabd1",
+    "docs/ACCESS_MATRIX.md": "9665a93616ca6680e5f48acc379d80c2ceac268174dfe7f3e02b85b63bf6f042",
+    "docs/WORKFLOWS.md": "ccfbd4e404c6841ba8901496c5da5faee6599b5a24d831fb0e935a8f1d22fd35",
+    "docs/ACCEPTANCE.md": "cbe17cac43e161cbbfc4dc7f7b643d823688f20de800ef89191233b9e2dc9324",
+    "docs/evidence/phase0-commands.md": "50b1b31bb563fc2201fbcf995d9a4101ae600782399832b892490355a6064574",
+    ".gitignore": "0b78aa792a3bc259ae8bb32dfabe0171b254f670a79847f7a29c80fdcee231d7",
+    "scripts/capture_requirements.py": "3acafecc5addb7e6627da17c543b29c71243b43cbf6c128012566f32f640c19f",
+    "scripts/verify_phase0.py": "88a0337462f2e55baf698343f907502ab1080d787b47be28abc0c4dca0aa202e",
+    "docs/source-snapshot.json": "1c8cda7a08bdbd675e6d3d1db5e1f5adc4a5cb5335c544cc8b634ecdc0b49d1d",
+    "docs/requirement-map.json": "8a0847ff385df7ff887b176e2c2d531cd173b930c199e4f3864b1a1182ef69b3",
+    "docs/requirement-progress.json": "47707f3ec3b6b607973f9d7c04bd49578cae5a5644e3c8122fb3a9faa46dc184"
+  }
+}

@@ -1,0 +1,22 @@
+
+> samanvay-ui-preview@0.1.0 test
+> node --test tests/presentation.test.ts
+
+✔ an officer sees tasks appropriate to the current state (2.9674ms)
+✔ metadata-only supervision does not expose narrative commands (0.2486ms)
+✔ viewing another officer case does not grant actions (0.2421ms)
+✔ pending transfer suppresses closure and closed cases expose reopening only when delegated (0.6767ms)
+✔ requesting information includes both the question and the next step (0.8884ms)
+✔ closure requires a resolution and no irrelevant deadline or next-step fields (0.1938ms)
+✔ deadline and reopening forms request different inputs (0.2009ms)
+✔ attention uses the supplied demo date, retains input, excludes closed cases, orders by deadline (2.0243ms)
+✔ intake availability respects account role, not broad administration (0.344ms)
+✔ India dates preserve date-only inputs and cross-midnight timestamps (56.9091ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 300.7403

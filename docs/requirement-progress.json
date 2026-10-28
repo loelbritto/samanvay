@@ -1,0 +1,417 @@
+{
+  "P001": {
+    "status": "partially_verified",
+    "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Official identifier/year/text remain unverified."
+  },
+  "P002": {
+    "status": "verified_stage9",
+    "implementation_location": "PLAN.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P003": {
+    "status": "verified_stage6",
+    "implementation_location": "PLAN.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P005": {
+    "status": "verified_stage4",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P006": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P007": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P008": {
+    "status": "verified_stage3",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/workflows.py; backend/tests/test_workflows.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P009": {
+    "status": "verified_stage6",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P010": {
+    "status": "verified_stage7",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P011": {
+    "status": "verified_stage4",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P012": {
+    "status": "verified_stage9",
+    "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P013": {
+    "status": "specified",
+    "implementation_location": "PLAN.md",
+    "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P014": {
+    "status": "specified",
+    "implementation_location": "PLAN.md",
+    "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P016": {
+    "status": "partially_verified",
+    "implementation_location": "PLAN.md",
+    "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Separately cited original brief is missing; two supplied sources are completely inventoried."
+  },
+  "P017": {
+    "status": "partially_verified",
+    "implementation_location": "PLAN.md",
+    "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Official round/template not supplied; outline provisional."
+  },
+  "P018": {
+    "status": "specified",
+    "implementation_location": "PLAN.md",
+    "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P019": {
+    "status": "specified",
+    "implementation_location": "PLAN.md",
+    "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P020": {
+    "status": "specified",
+    "implementation_location": "PLAN.md",
+    "evidence": "PLAN.md; DECISIONS.md; docs/source-snapshot.json; source-coverage audit; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P022": {
+    "status": "partially_verified",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Agent technical inspection passed; first-time human comprehension is not measured."
+  },
+  "P023": {
+    "status": "verified_stage1",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P024": {
+    "status": "verified_stage1",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P025": {
+    "status": "verified_stage6",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P026": {
+    "status": "verified_stage1",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P027": {
+    "status": "verified_stage4",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P028": {
+    "status": "verified_stage1",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P030": {
+    "status": "verified_stage2",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P031": {
+    "status": "verified_stage2",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P032": {
+    "status": "verified_stage2",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P033": {
+    "status": "verified_stage2",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P034": {
+    "status": "verified_stage2",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P036": {
+    "status": "verified_stage3",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P037": {
+    "status": "verified_stage3",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P038": {
+    "status": "verified_stage3",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P039": {
+    "status": "verified_stage3",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P040": {
+    "status": "verified_stage3",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P042": {
+    "status": "verified_stage4",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P043": {
+    "status": "verified_stage4",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P044": {
+    "status": "verified_stage4",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P045": {
+    "status": "verified_stage4",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P046": {
+    "status": "verified_stage4",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P048": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P049": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P050": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P051": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P052": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P053": {
+    "status": "verified_stage5",
+    "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P055": {
+    "status": "verified_stage6",
+    "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P056": {
+    "status": "verified_stage6",
+    "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P057": {
+    "status": "verified_stage6",
+    "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P058": {
+    "status": "verified_stage6",
+    "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P059": {
+    "status": "verified_stage6",
+    "implementation_location": "backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P061": {
+    "status": "verified_stage7",
+    "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P062": {
+    "status": "verified_stage7",
+    "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P063": {
+    "status": "verified_stage7",
+    "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P064": {
+    "status": "verified_stage7",
+    "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P065": {
+    "status": "verified_stage7",
+    "implementation_location": "backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P067": {
+    "status": "partially_verified",
+    "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Frozen split audit passed; independent difficult-label review is unperformed."
+  },
+  "P068": {
+    "status": "verified_stage8",
+    "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P069": {
+    "status": "partially_verified",
+    "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; All fourteen bounded technical scenarios exercised; semantic evidence uses validated baseline/disabled-adapter tests, not a live semantic model. Formal exhaustive usability is not established."
+  },
+  "P070": {
+    "status": "verified_stage8",
+    "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P071": {
+    "status": "verified_stage8",
+    "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P073": {
+    "status": "verified_stage9",
+    "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P074": {
+    "status": "partially_verified",
+    "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Observable browser and automated rehearsal passed; approximately three-minute narration is a target, not measured runtime."
+  },
+  "P075": {
+    "status": "verified_stage9",
+    "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "P076": {
+    "status": "partially_verified",
+    "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Q&A prepared; unfamiliar teammate comprehension requested but user delegated choices, so human study is unperformed."
+  },
+  "P077": {
+    "status": "verified_stage9",
+    "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "docs/ACCEPTANCE.md; docs/PHASES_3_TO_9.md; docs/evidence/stage9/release-summary.json; Local technical scope only. External/human/production limits: PROJECT_STATE.md."
+  },
+  "G01": {
+    "status": "reference_mapped",
+    "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G02": {
+    "status": "reference_mapped",
+    "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G03": {
+    "status": "reference_mapped",
+    "implementation_location": "PLAN.md; backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G04": {
+    "status": "reference_mapped",
+    "implementation_location": "PLAN.md; backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G05": {
+    "status": "reference_mapped",
+    "implementation_location": "backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/matching.py; backend/tests/test_matching.py; evaluation/; evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G06": {
+    "status": "reference_mapped",
+    "implementation_location": "frontend/; docs/STAGE1_UI.md; backend/app/coordination.py; backend/tests/test_coordination.py",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G07": {
+    "status": "reference_mapped",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/coordination.py; backend/tests/test_coordination.py; backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G08": {
+    "status": "reference_mapped",
+    "implementation_location": "backend/app/workflows.py; backend/tests/test_workflows.py; backend/app/reporting.py; scheduling.py; worker.py",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G09": {
+    "status": "reference_mapped",
+    "implementation_location": "backend/app/matching.py; backend/tests/test_matching.py; evaluation/",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G10": {
+    "status": "reference_mapped",
+    "implementation_location": "backend/app/; backend/migrations/; docs/STAGE2_PERSISTENCE.md; backend/app/policies.py; request_limits.py; tests/test_security_matrix.py",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G11": {
+    "status": "reference_mapped",
+    "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G12": {
+    "status": "reference_mapped",
+    "implementation_location": "evaluation/; backend/tests/test_evaluation.py; docs/ACCEPTANCE.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G13": {
+    "status": "reference_mapped",
+    "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G14": {
+    "status": "reference_mapped",
+    "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G15": {
+    "status": "reference_mapped",
+    "implementation_location": "backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G16": {
+    "status": "reference_mapped",
+    "implementation_location": "PLAN.md; backend/app/demo.py; scripts/; docs/DEMO_RUNBOOK.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  },
+  "G17": {
+    "status": "reference_mapped",
+    "implementation_location": "PLAN.md",
+    "evidence": "Exact source paragraphs retained in docs/source-snapshot.json; implemented proposals/evidence: docs/ACCEPTANCE.md, MODULE_GUIDE.md, DEMO_RUNBOOK.md; official/human/production limits in PROJECT_STATE.md. Reference mapping is not a claim that contextual prose is a completed mandatory feature."
+  }
+}

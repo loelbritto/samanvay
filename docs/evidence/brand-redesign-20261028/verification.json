@@ -1,0 +1,65 @@
+{
+  "records_and_private_bytes_unchanged": true,
+  "backend_source_unchanged": true,
+  "frontend_tests": {
+    "passed": 18,
+    "failed": 0,
+    "evidence": "frontend-tests.txt"
+  },
+  "static_colour_pairs_passed": 20,
+  "build_evidence": "build.txt",
+  "browser": {
+    "verified": false,
+    "reason": "Previously observed saved origin policy remains unresolved; no workaround or unchanged-state retry."
+  },
+  "source_review": "No outstanding P1/P2 after institution-selection and focus fixes; not visual acceptance.",
+  "logo_validation": {
+    "date": "2026-10-28",
+    "svg_files_valid_xml": 11,
+    "concept_count": 6,
+    "no_external_gallery_dependencies": true,
+    "wordmark_outlined": true,
+    "wordmark_font": "Manrope 700 from @fontsource/manrope 5.3.0",
+    "wordmark_font_dependencies": false,
+    "wordmark_label": "samanvay.",
+    "period_colour": "#b86b28",
+    "png_exports": {
+      "samanvay-mark-1024.png": {
+        "width": 1024,
+        "height": 1024,
+        "transparent": true
+      },
+      "samanvay-mark-128.png": {
+        "width": 128,
+        "height": 128,
+        "transparent": true
+      },
+      "samanvay-mark-16.png": {
+        "width": 16,
+        "height": 16,
+        "transparent": true
+      },
+      "samanvay-mark-32.png": {
+        "width": 32,
+        "height": 32,
+        "transparent": true
+      },
+      "samanvay-wordmark-dark.png": {
+        "width": 1323,
+        "height": 300,
+        "transparent": true
+      },
+      "samanvay-wordmark-light.png": {
+        "width": 1323,
+        "height": 300,
+        "transparent": true
+      }
+    },
+    "browser_exercised": false,
+    "standalone_graphic_inspection": [
+      "samanvay-mark-128.png",
+      "samanvay-mark-16.png",
+      "samanvay-wordmark-dark.png"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "captured_at_utc": "2026-10-28T04:30:55.289632+00:00",
+  "revision": "samanvay-ui-redesign-20261028",
+  "scope": "Local synthetic prototype interface redesign",
+  "status": "implemented; automated checks passed; browser acceptance open",
+  "source_context": {
+    "path": "C:\\Users\\loelb\\.codex\\attachments\\67d544ca-859a-48f4-9bb5-4cb54f6a4740\\Pasted text.txt",
+    "sha256": "b43740f699f478f6f2360a39f5e78b91308e4f526dba8325bcdbef0b4d248ace",
+    "authority": "Design reference; direct user feedback governs redesign"
+  },
+  "build": {
+    "passed": true,
+    "evidence": "build.txt",
+    "modules": 34,
+    "css_kb": 43.56,
+    "js_kb": 356.13
+  },
+  "frontend_logic_tests": {
+    "passed": 10,
+    "failed": 0,
+    "evidence": "frontend-tests.txt",
+    "browser_tests": false
+  },
+  "backend_tests": {
+    "tests": 72,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "warning": "Existing Starlette/httpx TestClient deprecation",
+    "evidence": "backend-tests.xml"
+  },
+  "static_contrast": {
+    "pairs": 16,
+    "passed": true,
+    "evidence": "contrast.json",
+    "rendered_style_check": false
+  },
+  "record_preservation": {
+    "passed": true,
+    "complaint_counts": {
+      ".local-data": 5,
+      ".demo-contexts/demo-5f5a439bfd2ea5ede367507b": 8
+    },
+    "evidence": "preservation-result.json"
+  },
+  "browser": {
+    "status": "blocked",
+    "reason": "Saved permission denies http://127.0.0.1:5174 despite user approval. CUA getTab rejected; no workaround attempted.",
+    "desktop_verified": false,
+    "mobile_verified": false,
+    "keyboard_verified": false,
+    "actual_200_percent_verified": false,
+    "ui_mutation_rehearsal_verified": false,
+    "new_screenshots": []
+  },
+  "backend_changed": false,
+  "files": {
+    "frontend/src/LiveApp.tsx": {
+      "sha256": "997a3913c15f6f101ee6855f10a83f21e9039413d1cf54715c534a681fd34034",
+      "bytes": 9777
+    },
+    "frontend/src/presentation.ts": {
+      "sha256": "6b02737cfd9d820b672256a1a2543b2082a7319eb72d10ceaf51550fbfbfd983",
+      "bytes": 4043
+    },
+    "frontend/src/redesign.css": {
+      "sha256": "fe1b882e1376bd7f6d17cca9ce08b920fcbe028cd5cbb2e87d3f5c3e6ff253ff",
+      "bytes": 21338
+    },
+    "frontend/src/ui.tsx": {
+      "sha256": "d5b6b226f3d867c9aaa5eba55f5dff461cc5468571ede0528fc75499fea6c1e1",
+      "bytes": 6291
+    },
+    "frontend/src/screens/CoordinationScreens.tsx": {
+      "sha256": "53f9a88e7a8d1b0f08cdb5a5e0adf9115d5ab6c4d107d4ef7062b25f3f24f9a7",
+      "bytes": 21067
+    },
+    "frontend/src/screens/LiveScreens.tsx": {
+      "sha256": "1c340dd7c254db0ec1b66cdce7a058ea654ab59cbe360a9dc11be276557fb2aa",
+      "bytes": 20196
+    },
+    "frontend/src/screens/MatchingScreens.tsx": {
+      "sha256": "8ce75c3ed3366b2f29f5f26d50f0a11d9ac5bcb62225d9e37a4c1c9d71b0eafb",
+      "bytes": 2305
+    },
+    "frontend/src/screens/OperationsScreens.tsx": {
+      "sha256": "09a4b6a4c5fde7c5091885e3e00d2af1b7dd422dfd3f65bb3e264d730b994d49",
+      "bytes": 17206
+    },
+    "frontend/src/screens/WorkflowScreens.tsx": {
+      "sha256": "b3821e8443036b86880466b17f7a7f02d70b31b7cf67f883647a8d1bc4498e29",
+      "bytes": 9674
+    },
+    "frontend/package.json": {
+      "sha256": "5f09f0ffc30972d59567242e6e4633e2210e5ccdb84017469f36b2216dd12a95",
+      "bytes": 659
+    },
+    "frontend/tests/presentation.test.ts": {
+      "sha256": "e1c9e26bed128ac131f81c2ae7675f963956d9933a76a8396c9af2f1018c8871",
+      "bytes": 4215
+    },
+    "scripts/check-redesign-preservation.py": {
+      "sha256": "70fd67c03431f22efea31e5883cafb90b0a07f890c34f3d16d875bf8f416a923",
+      "bytes": 2680
+    },
+    "scripts/check-redesign-contrast.py": {
+      "sha256": "8242281dd938b0d414d12788d49d906f6642afc0965314060d7ddea7a308d05d",
+      "bytes": 2049
+    },
+    "PROJECT_STATE.md": {
+      "sha256": "f61f1f6fc16f5c83232c69082f7299c01edffa79a762d6ccdcee559285fdc733",
+      "bytes": 6591
+    },
+    "PLAN.md": {
+      "sha256": "df38c36a4e82f42a0204051b34f8edb992836a2b36be6fd93631c1913f3937f7",
+      "bytes": 8793
+    },
+    "README.md": {
+      "sha256": "156029a28d7ab8ed2eddc36a1c2bd903cbfd2e3e1e68edbf71ebc994c20d8db0",
+      "bytes": 2753
+    },
+    "docs/ACCEPTANCE.md": {
+      "sha256": "80b7acbc6fcef9f1436d13e3a22c2199d0c0eb7c44a9e16bebcc0eee38d18b7f",
+      "bytes": 12234
+    },
+    "docs/CHANGES_AND_COMMANDS.md": {
+      "sha256": "42d11a6ff0699569f439d6f1c7f93f16848a92def32baa45a91a02c9b29239d0",
+      "bytes": 8876
+    },
+    "docs/REDESIGN_20261028.md": {
+      "sha256": "cc942d47ac44fffefa0bf09db464c1f1ff36ae7c81cfb0fbc021a6a28d666e93",
+      "bytes": 10337
+    }
+  },
+  "next_phase": "Unblock authorised browser access, verify layouts/keyboard/actual zoom and UI write rehearsal in a separate context; obtain user clarity feedback."
+}

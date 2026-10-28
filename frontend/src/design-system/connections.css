@@ -1,0 +1,259 @@
+.institution-connections {
+  min-width: 0;
+  color: var(--text);
+}
+.institution-connections .connection-heading {
+  display: flex;
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 24px;
+}
+.institution-connections .connection-heading > svg {
+  color: var(--action);
+  margin-top: 2px;
+}
+.institution-connections .connection-heading p {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin: 6px 0 0;
+}
+.institution-connections .connection-selector {
+  margin-bottom: 20px;
+}
+.institution-connections .connection-selector label {
+  margin-top: 0;
+}
+.institution-connections .connection-plan {
+  position: relative;
+  background: var(--selection);
+  padding: 22px 24px;
+  border-radius: 12px;
+}
+.institution-connections .connection-plan-title {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+  justify-content: space-between;
+}
+.institution-connections .connection-plan-title h3 {
+  max-width: 48ch;
+  font-size: 1.125rem;
+}
+.institution-connections .connection-plan-title h3 a {
+  color: var(--text);
+}
+.institution-connections .connection-plan-title > .badge {
+  flex-shrink: 0;
+}
+.institution-connections .connection-plan-details {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr);
+  gap: 24px;
+  margin: 20px 0 16px;
+}
+.institution-connections .connection-plan-details dt {
+  font-size: 0.75rem;
+  margin-bottom: 5px;
+}
+.institution-connections .connection-plan-details dd {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.institution-connections .connection-plan-details small {
+  margin-top: 5px;
+  font-weight: 400;
+}
+.institution-connections .connection-plan-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+.institution-connections .connection-branches {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  padding-top: 32px;
+  position: relative;
+}
+.institution-connections .connection-branches::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background: var(--border);
+  height: 16px;
+  top: 0;
+  left: 50%;
+}
+.institution-connections .connection-branches.has-many {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.institution-connections .connection-branches.has-many::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background: var(--border);
+  top: 16px;
+  left: 25%;
+  right: 25%;
+}
+.institution-connections .connection-bureau {
+  min-width: 0;
+  position: relative;
+}
+.institution-connections .connection-bureau::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  height: 16px;
+  width: 1px;
+  background: var(--border);
+}
+.institution-connections .connection-bureau h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.8125rem;
+  font-weight: 650;
+}
+.institution-connections .connection-bureau h4 span {
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+.institution-connections ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.institution-connections .connection-case {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.institution-connections .connection-case:last-child {
+  border-bottom: 0;
+}
+.institution-connections .connection-case-title {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 7px 12px;
+}
+.institution-connections .connection-case-title > a {
+  font-size: 0.8125rem;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+.institution-connections .connection-case-title .badge {
+  font-size: 0.6875rem;
+}
+.institution-connections .connection-case p {
+  margin: 6px 0 0;
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+}
+.institution-connections .connection-case strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.institution-connections .connection-case small {
+  margin-top: 5px;
+  font-size: 0.75rem;
+}
+.institution-connections .connection-boundary {
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  margin: 20px 0 0;
+  max-width: 68ch;
+}
+.institution-connections .connection-history {
+  margin-top: 16px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+.institution-connections .connection-history h4 {
+  font-size: 0.875rem;
+  margin: 16px 0 6px;
+}
+.institution-connections .connection-history section > p {
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  margin: 0;
+}
+.institution-connections .connection-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.institution-connections .connection-footer > span {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+.institution-connections .connection-message {
+  color: var(--text-muted);
+  padding-block: 12px;
+  font-size: 0.875rem;
+}
+.institution-connections .connection-message h3 {
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.institution-connections .connection-expand {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 16px;
+  background: transparent;
+}
+.institution-connections.is-compact .connection-plan {
+  padding: 18px;
+}
+.institution-connections.is-compact .connection-plan-title,
+.institution-connections.is-compact .connection-plan-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+.institution-connections.is-compact .connection-plan-title h3 {
+  font-size: 1rem;
+}
+.institution-connections.is-compact .connection-branches.has-many {
+  grid-template-columns: 1fr;
+}
+.institution-connections.is-compact .connection-branches.has-many::after {
+  display: none;
+}
+.institution-connections.is-compact
+  .connection-bureau
+  + .connection-bureau::before {
+  display: none;
+}
+@media (max-width: 640px) {
+  .institution-connections .connection-plan {
+    padding: 20px 16px;
+  }
+  .institution-connections .connection-plan-title,
+  .institution-connections .connection-plan-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .institution-connections .connection-branches.has-many {
+    grid-template-columns: 1fr;
+  }
+  .institution-connections .connection-branches.has-many::after,
+  .institution-connections .connection-bureau + .connection-bureau::before {
+    display: none;
+  }
+}
